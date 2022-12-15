@@ -1,0 +1,11 @@
+{
+  "name": "codingcatdev-firebase",
+  "version": "2.0.0",
+  "description": "Firebase for CodingCat.dev",
+  "scripts": {
+    "lint": "eslint .",
+    "emulate": "firebase emulators:start",
+    "serve": "firebase emulators:start --only functions"
+  },
+  "private": true
+}

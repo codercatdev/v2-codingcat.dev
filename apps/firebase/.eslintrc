@@ -1,0 +1,13 @@
+{
+    "rules":{
+        "indent": [2, "tab"],
+        "no-tabs": 0
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+
+    "env": {
+        "es6": true
+    }
+}

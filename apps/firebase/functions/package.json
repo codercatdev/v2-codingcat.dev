@@ -1,7 +1,7 @@
 {
   "name": "codingcatdev-functions",
   "version": "2.0.0",
-  "description": "Cloud Functions for Firebase",
+  "description": "Cloud Functions for CodingCat.dev",
   "scripts": {
     "lint": "eslint .",
     "serve": "firebase emulators:start --only functions",
