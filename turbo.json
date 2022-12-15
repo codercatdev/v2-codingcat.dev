@@ -6,7 +6,7 @@
       "dev": {
         "cache": false
       },
-      "emulate": {
+      "serve": {
         "cache": false
       }
     }

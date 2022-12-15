@@ -1,1 +1,1 @@
-exports.metrics = require('./github');
+exports.github = require("./github");
