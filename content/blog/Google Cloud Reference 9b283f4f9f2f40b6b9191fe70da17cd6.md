@@ -1,5 +1,4 @@
-# Google Cloud Reference
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600704421/ccd-cloudinary/9b45cb61e60e9c6c7ca6dcfaf2fff458ca26bcc2-5400x3600-1.png
 devto: https://dev.to/codingcatdev/google-cloud-reference-lhm
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: google-cloud-reference
 start: September 16, 2020
-
+title: Google Cloud Reference
+---
 This is all from [https://github.com/gregsramblings/google-cloud-4-words/blob/master/README.md](https://github.com/gregsramblings/google-cloud-4-words/blob/master/README.md) please check it out! 
 
 This is mainly for me to remember where this great list is located [@gregsramblings](https://twitter.com/gregsramblings). 

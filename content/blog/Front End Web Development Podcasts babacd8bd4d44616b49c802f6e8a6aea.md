@@ -1,5 +1,4 @@
-# Front End Web Development Podcasts
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1656421568/main-codingcatdev-photo/Front-End-Web-Development-Podcasts.png
 devto: https://dev.to/codingcatdev/front-end-web-development-podcasts-42gg
@@ -9,6 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: front-end-web-development-podcasts
 start: June 8, 2022
+title: Front End Web Development Podcasts
+---
 
 Have you ever wondered about getting started in web development? Want to know how those of us who have been doing it for years learn more?
 

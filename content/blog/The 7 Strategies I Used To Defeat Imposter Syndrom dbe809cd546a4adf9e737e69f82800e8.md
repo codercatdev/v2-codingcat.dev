@@ -1,16 +1,15 @@
-# The 7 Strategies I Used To Defeat Imposter Syndrome
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1631468682/main-codingcatdev-photo/q8rrgfgfg5qguvm24xl7.png
 devto: https://dev.to/codingcatdev/the-7-strategies-i-used-to-defeat-imposter-syndrome-2h0l
-excerpt: Imposter Syndrome is a term that was coined in 1978. It means someone who is insecure about their skills and accomplishments, worried that they are not qualified enough to succeed.
-
-This feeling of self-doubt can affect anyone at any time. But what's so interesting is how it disproportionately affects women, minorities, and people who are the first to do something in their field.
+excerpt: How to beat Imposter syndrome in 7 steps
 hashnode: https://hashnode.codingcat.dev/post-the-7-strategies-i-used-to-defeat-imposter-syndrome
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=post&selectionSlug=the-7-strategies-i-used-to-defeat-imposter-syndrome&_id=dbe809cd546a4adf9e737e69f82800e8
 published: published
 slug: the-7-strategies-i-used-to-defeat-imposter-syndrome
 start: September 12, 2021
+title: The 7 Strategies I Used To Defeat Imposter Syndrome
+---
 
 Imposter Syndrome is a term that was coined in 1978. It means someone who is insecure about their skills and accomplishments, worried that they are not qualified enough to succeed.
 

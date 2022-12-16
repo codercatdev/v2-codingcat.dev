@@ -1,5 +1,4 @@
-# CodingCatDev is joining the Learn Build Teach Community
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1648676439/main-codingcatdev-photo/CodingCat.dev_joins_Learn_Build_Teach.png
 devto: https://dev.to/codingcatdev/codingcatdev-is-joining-the-learn-build-teach-community-3l25
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: codingcatdev-is-joining-the-learn-build-teach-community
 start: April 10, 2022
-
+title: CodingCatDev is joining the Learn Build Teach Community
+---
 ## A new home for CodingCat.dev's Discord
 
 After a long chat with Brittney about how hard it is to maintain our Discord and how I don't like breaking up communities, she agreed that we could make a move. I wanted to make sure we stick with our goal of creating great communities and developing in the open, the first thing that came to mind was [Learn Build Teach](https://discord.gg/xSRsCfvVEB) (LBT). Brittney agreed that if that community was up for letting us join it would make the most sense.

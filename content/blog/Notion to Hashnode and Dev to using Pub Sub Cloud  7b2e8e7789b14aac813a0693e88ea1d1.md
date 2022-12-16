@@ -1,5 +1,4 @@
-# Notion to Hashnode and Dev.to using Pub/Sub Cloud Functions
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1662067996/main-codingcatdev-photo/Notion_to_Dev.to_and_Hashnode.jpg
 devto: https://dev.to/codingcatdev/notion-to-hashnode-and-devto-using-pubsub-cloud-functions-3ka
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: notion-to-hashnode-and-devto-using-pubsub-cloud-functions
 start: September 1, 2022
-
+title: Notion to Hashnode and Dev.to using Pub/Sub Cloud Functions
+---
 A goal at [CodingCat.dev](http://CodingCat.dev) is to reach the most students possible. In order to do that we use [Dev.to](http://Dev.to) and Hashnode to cross post our articles and leverage canonical urls to point those articles back the the original. For us it allows more eyeballs to get to the content and videos.
 
 ## Searching for the Notion Data

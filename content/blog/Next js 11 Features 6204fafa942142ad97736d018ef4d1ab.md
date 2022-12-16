@@ -1,5 +1,4 @@
-# Next.js 11 Features
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1626309301/main-codingcatdev-photo/pmjyfh1yllkhhyb3emcg.png
 devto: https://dev.to/codingcatdev/nextjs-11-features-1e6f
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: nextjs-11-features
 start: July 14, 2021
-
+title: Next.js 11 Features
+---
 > Please take note the above video is not codingcat.dev's. I thought it was important to see the announcement in its full context.
 > 
 

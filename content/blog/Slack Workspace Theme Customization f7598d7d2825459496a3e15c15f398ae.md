@@ -1,5 +1,4 @@
-# Slack Workspace Theme Customization
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1633604046/main-codingcatdev-photo/rbjubpuetc0xhsiburfk.png
 devto: https://dev.to/codingcatdev/slack-workspace-theme-customization-24o
@@ -8,7 +7,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: slack-workspace-theme-customization
 start: August 1, 2019
-
+title: Slack Workspace Theme Customization
+---
 ## How to customize your slack theme
 
 ## SlackThemes.net

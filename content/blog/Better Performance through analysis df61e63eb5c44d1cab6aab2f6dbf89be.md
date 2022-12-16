@@ -1,5 +1,4 @@
-# Better Performance through analysis
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1633601534/main-codingcatdev-photo/sknntx1srr4tpzvhwr6a.png
 devto: https://dev.to/codingcatdev/better-performance-through-analysis-35b8
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: better-performance-through-analysis
 start: August 17, 2019
-
+title: Better Performance through analysis
+---
 > Please note I wrote this on my phone driving 6 hours, so I hope to update in more detail. Fun fact I now know how to do git remote recursive from Android ????
 > 
 

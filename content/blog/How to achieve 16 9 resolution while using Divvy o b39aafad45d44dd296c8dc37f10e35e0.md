@@ -1,5 +1,4 @@
-# How to achieve 16:9 resolution while using Divvy on a Mac
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1644851521/main-codingcatdev-photo/Divvy.jpg
 devto: https://dev.to/codingcatdev/how-to-achieve-169-resolution-while-using-divvy-on-a-mac-1iog
@@ -9,6 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: how-to-achieve-16-9-resolution-while-using-divvy-on-a-mac
 start: March 19, 2022
+title: How to achieve 16:9 resolution while using Divvy on a Mac
+---
 
 Have you ever tried to record a video and notice that it is a few pixels off? Lets fix that so you can produce good quality videos!
 

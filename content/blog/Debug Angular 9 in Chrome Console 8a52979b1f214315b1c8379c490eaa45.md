@@ -1,5 +1,4 @@
-# Debug Angular 9 in Chrome Console
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600704486/ccd-cloudinary/debug_angular_9.png
 devto: https://dev.to/codingcatdev/debug-angular-9-in-chrome-console-5c4b
@@ -8,6 +7,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: debug-angular-9-in-chrome-console
 start: April 20, 2020
+title: Debug Angular 9 in Chrome Console
+---
 
 > These functions are exposed via the global `ng` "namespace" variable automatically when you import from `@angular/core` and run your application in development mode. These functions are not exposed when the application runs in a production mode.
 > 

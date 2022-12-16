@@ -1,5 +1,4 @@
-# Cloudinary in Jamstack using Webp
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600704486/ccd-cloudinary/cloudinary_webp.png
 devto: https://dev.to/codingcatdev/cloudinary-in-jamstack-using-webp-38p2
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: cloudinary-in-jamstacks-using-webp
 start: July 31, 2019
-
+title: Cloudinary in Jamstack using Webp
+---
 # Cloudinary and Jamstacks
 
 The awesome part about hosting on Cloudinary is that it provides a very extensive API for developers. However for content creators they often don't care that much about the technical aspects that are required to show images on the Web. We have been told repeatedly that storage is cheap and it doesn't matter if we just throw these images on an unmanaged server, or a CMS like Adobe AEM or Wordpress. However as we start moving more items to the "Cloud" pricing and functionality do start to matter, for both the producer and consumer of this content.

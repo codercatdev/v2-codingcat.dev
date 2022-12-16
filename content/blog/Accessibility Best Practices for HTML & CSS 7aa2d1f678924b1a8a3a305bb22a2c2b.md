@@ -1,5 +1,4 @@
-# Accessibility Best Practices for HTML & CSS
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1629384711/main-codingcatdev-photo/n299y699xo7tjwlctlav.png
 devto: https://dev.to/brittneypostma/accessibility-best-practices-for-html-css-d51
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: accessibility-best-practices-for-html-and-css
 start: August 19, 2021
-
+title: Accessibility Best Practices for HTML & CSS
+---
 ## Accessibility Best Practices for HTML & CSS
 
 Great accessibility is not always an easy task and goes much more in depth than what is listed here. I still recommend having experienced screen readers and accessibility experts test your site and run your site through the [WebAIM Web Accessibility Evaluation Tool](https://wave.webaim.org/), WAVE. If you see anything that should be added, updated, or removed, please get in touch with me either in the comments or [@brittneypostma on Twitter](https://twitter.com/BrittneyPostma). This article is here to serve as a starting point to summarize and guide your way to better accessibility. Having better accessibility isn't only the right thing to do, it also increases your Search Engine Optimization, SEO, which can rank you higher in Google's algorithm. Here are some links to provide more information on web accessibility.

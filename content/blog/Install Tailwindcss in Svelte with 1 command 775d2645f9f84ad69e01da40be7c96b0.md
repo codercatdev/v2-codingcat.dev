@@ -1,5 +1,4 @@
-# Install Tailwindcss in Svelte with 1 command
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1669730327/main-codingcatdev-photo/Install_Tailwind_in_Svelte.png
 devto: https://dev.to/codingcatdev/install-tailwindcss-in-svelte-with-1-command-2gnm
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: install-tailwindcss-in-svelte-with-1-command
 start: November 28, 2022
-
+title: Install Tailwindcss in Svelte with 1 command
+---
 Here is how to install Tailwindcss in Svelte
 
 ```bash

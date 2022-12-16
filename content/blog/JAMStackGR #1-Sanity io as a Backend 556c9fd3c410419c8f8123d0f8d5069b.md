@@ -1,5 +1,13 @@
-# JAMStackGR #1-Sanity.io as a Backend
-
+---
+cloudinary_convert: No
+cover: http://media.codingcat.dev/image/upload/v1633601768/main-codingcatdev-photo/cveur4s1pl4zbvmelqq7.png
+excerpt: Talking through Sanity.io as a backend to multiple Static Site Generators. A slightly deeper dive into Gatsbyjs.
+preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=post&selectionSlug=jamstackgr-1-sanity-io-as-a-backend&_id=0a1d16e351be424898d678dff9e51fb5
+published: archived
+slug: jamstackgr-1-sanity-io-as-a-backend
+start: October 25, 2019
+title: JAMStackGR #1-Sanity.io as a Backend
+---
 [https://codingcat.dev/post/jamstackgr-1-sanity-io-as-a-backend](https://codingcat.dev/post/jamstackgr-1-sanity-io-as-a-backend)
 
 ![cveur4s1pl4zbvmelqq7](https://media.codingcat.dev/image/upload/v1657636768/main-codingcatdev-photo/5eea17b9-5fdb-4194-b650-5d72c50efdc2.jpg)

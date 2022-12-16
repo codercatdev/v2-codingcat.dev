@@ -1,5 +1,4 @@
-# Cloud Function GitHub Update
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1634645175/main-codingcatdev-photo/vnj9aqzpv5rxx3yvwzek.png
 devto: https://dev.to/codingcatdev/cloud-function-github-update-1ln4
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: cloud-function-github-update
 start: December 26, 2018
-
+title: Cloud Function GitHub Update
+---
 ## Authentication using Nodegit
 
 [nodegit](https://github.com/nodegit/nodegit)

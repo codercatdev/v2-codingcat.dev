@@ -1,5 +1,4 @@
-# The Basics of Big Data for Web Developers
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1644457297/main-codingcatdev-photo/The_Basics_of_Big_Data_for_Web_Developers.jpg
 devto: https://dev.to/codingcatdev/the-basics-of-big-data-for-web-developers-cl7
@@ -9,6 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: the-basics-of-big-data-for-web-developers
 start: March 18, 2022
+title: The Basics of Big Data for Web Developers
+---
 
 Pursuing a career in web development can be exciting and incredibly lucrative. In fact, The modern world is more reliant on technology than ever before, to the point that tech defines much of our day-to-day lifestyle. It should come as no surprise then that we created nearly [65 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/) of data in 2020 alone — with each zettabyte equivalent to a trillion gigabytes.
 

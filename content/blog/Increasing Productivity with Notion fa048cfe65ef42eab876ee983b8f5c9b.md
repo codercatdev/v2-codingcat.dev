@@ -1,5 +1,4 @@
-# Increasing Productivity with Notion
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600706370/ccd-cloudinary/3fe0647160d8eafb9d6075a91389b87dde1daa68-1920x1080-1.png
 devto: https://dev.to/codingcatdev/increasing-productivity-with-notion-12p5
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: increasing-productivity-with-notion
 start: October 28, 2019
-
+title: Increasing Productivity with Notion
+---
 # Productivity Weekend
 
 While my wife was off to a Yoga retreat, my parents offered to take my son camping with a Halloween type of theme. So I thought "Wow I have a full day of uninterrupted focus!". I had lofty plans of finishing all the slides for our new [JAMStack Meetup](https://link.ajonp.com/jamstackgr), but then I started to realize that I wanted to instead jump back and focus on a couple of productivity things that I have been wishing I could handle instead.

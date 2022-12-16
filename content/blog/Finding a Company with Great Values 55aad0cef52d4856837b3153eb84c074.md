@@ -1,5 +1,4 @@
-# Finding a Company with Great Values
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1626716377/main-codingcatdev-photo/bcovugngp8i1oayazxai.png
 devto: https://dev.to/codingcatdev/finding-a-company-with-great-values-3927
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: finding-a-company-with-great-values
 start: July 19, 2021
-
+title: Finding a Company with Great Values
+---
 ## Why Company Values Are Important
 
 There are many companies out there that have values, that often are just placed there by Human Resources because they felt they “should” have values. Then there are other companies that build their entire way of working around their values. For instance lets take a look at [Google’s Mission, Vision and Values](https://www.comparably.com/companies/google/mission).

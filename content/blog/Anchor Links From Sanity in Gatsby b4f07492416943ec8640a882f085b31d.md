@@ -1,5 +1,4 @@
-# Anchor Links From Sanity in Gatsby
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1633601188/main-codingcatdev-photo/lxr4hrhmfxa3rb4bilsf.png
 devto: https://dev.to/codingcatdev/anchor-links-from-sanity-in-gatsby-320n
@@ -9,6 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: anchor-links-from-sanity-in-gatsby
 start: October 14, 2019
+title: Anchor Links From Sanity in Gatsby
+---
 
 > TL;DR version is make sure you implement **`onRouteUpdate`** and **`shouldUpdateScroll`** in **`gatsby-browser.js`**.
 > 

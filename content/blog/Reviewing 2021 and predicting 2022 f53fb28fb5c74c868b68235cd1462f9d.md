@@ -1,5 +1,4 @@
-# Reviewing 2021 and predicting 2022
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1643693991/main-codingcatdev-photo/2022_Updates_from_2021.png
 devto: https://dev.to/codingcatdev/reviewing-2021-and-predicting-2022-2i9p
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: reviewing-2021-and-predicting-2022
 start: January 1, 2022
-
+title: Reviewing 2021 and predicting 2022
+---
 ## What technology we see coming for 2022
 
 - Svelte will grow by 10,000%, Brittney says SvelteKit 1.0 will come out 😉

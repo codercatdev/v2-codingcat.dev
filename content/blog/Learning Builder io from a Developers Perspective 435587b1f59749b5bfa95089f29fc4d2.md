@@ -1,5 +1,4 @@
-# Learning Builder.io from a Developers Perspective
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1649933071/main-codingcatdev-photo/lb.jpg
 devto: https://dev.to/codingcatdev/learning-builderio-from-a-developers-perspective-c69
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: learning-builder-io-from-a-developers-perspective
 start: April 13, 2022
-
+title: Learning Builder.io from a Developers Perspective
+---
 I sat down with Tim Benniks, who is a professional developer advocate, to introduce him to Builder.io. It was great to hear what questions a developer might have when being first introduced to the tool. I know Tim is well versed in all things Jamstack, so he wasn't coming into the conversation completely blind.
 
 ## Key Takeaways

@@ -1,5 +1,4 @@
-# Adding Web Component for Ionic Modals
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1633601665/main-codingcatdev-photo/dy9rc4i1i6klybu27tmm.png
 devto: https://dev.to/codingcatdev/adding-web-component-for-ionic-modals-33jh
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: adding-web-component-for-ionic-modals
 start: September 11, 2019
-
+title: Adding Web Component for Ionic Modals
+---
 So for this Web Component we are going to code a [Custom Element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) from scratch, not using Stencil, Polymer, or Angular.This just builds a simple search modal that allows for Algolia search searchResults:
 
 ![https://media.codingcat.dev/image/upload/v1657636768/main-codingcatdev-photo/a703bdcc-84a1-4e33-a4b0-31865abe91c6.png](https://media.codingcat.dev/image/upload/v1657636768/main-codingcatdev-photo/a703bdcc-84a1-4e33-a4b0-31865abe91c6.png)

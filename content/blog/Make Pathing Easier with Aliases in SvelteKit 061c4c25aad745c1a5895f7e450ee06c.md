@@ -1,5 +1,4 @@
-# Make Pathing Easier with Aliases in SvelteKit
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1636202538/main-codingcatdev-photo/make_pathing_easier_with_aliases_in_sveltekit.png
 devto: https://dev.to/brittneypostma/make-pathing-easier-with-aliases-in-sveltekit-37l0
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: make-pathing-easier-with-aliases-in-sveltekit
 start: November 5, 2021
-
+title: Make Pathing Easier with Aliases in SvelteKit
+---
 If you haven't heard about SvelteKit yet, go checkout the beautiful site over at [kit.svelte.dev](https://codingcat.dev/post/kit.svelte.dev). SvelteKit is a component framework similar to React and Vue with one key difference, there is no virtual DOM. Svelte is a compiler that builds itself away into a sleek and fast end user experience. If you haven't tried Svelte or SvelteKit before, you can check out my quick intro [tutorial](https://www.youtube.com/watch?v=fOD_3iSiwTQ) where we build a blog in 30 minutes 🤯
 
 Links:

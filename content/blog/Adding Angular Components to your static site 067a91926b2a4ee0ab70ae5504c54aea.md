@@ -1,5 +1,4 @@
-# Adding Angular Components to your static site
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1633601646/main-codingcatdev-photo/czh38omkhxq4qe2v766h.png
 devto: https://dev.to/codingcatdev/adding-angular-components-to-your-static-site-1g6k
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: adding-angular-components-to-your-static-site
 start: September 12, 2019
-
+title: Adding Angular Components to your static site
+---
 ## Why Angular Components
 
 Because the people want it!

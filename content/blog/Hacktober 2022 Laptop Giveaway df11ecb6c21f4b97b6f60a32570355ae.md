@@ -1,5 +1,4 @@
-# Hacktober 2022 Laptop Giveaway
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1665516793/main-codingcatdev-photo/Hacktober_2022_Laptop_Giveaway_1.jpg
 devto: https://dev.to/codingcatdev/hacktober-2022-laptop-giveaway-39ki
@@ -10,6 +9,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: archived
 slug: hacktober-2022-contest
 start: October 1, 2022
+title: Hacktober 2022 Laptop Giveaway
+---
 
 That is right you could win a brand new [Samsung Chromebook Pro](https://www.samsung.com/us/computing/chromebooks/12-14/samsung-chromebook-pro-xe510c24-k01us/), just for becoming a [CodingCat.dev](http://CodingCat.dev) member during the Hacktober month of October 2022. Use Coupon code HACKTOBER2022 register on the [main page.](https://codingcat.dev)
 

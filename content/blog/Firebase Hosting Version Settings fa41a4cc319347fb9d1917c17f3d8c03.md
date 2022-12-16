@@ -1,5 +1,4 @@
-# Firebase Hosting Version Settings
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1618945474/main-codingcatdev-photo/ymyolk5dyd9jppvuqcx0.png
 devto: https://dev.to/codingcatdev/firebase-hosting-version-settings-4e4c
@@ -9,6 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: firebase-hosting-version-settings
 start: August 22, 2019
+title: Firebase Hosting Version Settings
+---
 
 If you start to get that feeling like "Why am I getting billed for this tiny app" from Firebase, then this blog is for you!
 

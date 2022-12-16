@@ -1,5 +1,4 @@
-# Scully - Angular Static Site Generator
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616547249/main-codingcatdev-photo/bht5m2y90wvuo9a3ziop.png
 devto: https://dev.to/codingcatdev/scully-angular-static-site-generator-5ech
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: scully-io-angular-static-site-generator
 start: December 17, 2019
-
+title: Scully - Angular Static Site Generator
+---
 ## JAMStack with SSG
 
 2019 has been another amazing year building up JAMStack (Javascript APIs and Markup) sites. AJonP joined this trend by moving over to Gatsby a React based Static Site generator. Growing up as an Angular developer I missed the fact that Angular didn't have an option that existed. For AJonP it came down to Hugo and Gatsby (writing and then rewriting).
