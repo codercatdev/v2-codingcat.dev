@@ -35,59 +35,15 @@ service cloud.firestore {
         allow write: if belongsTo(userId);
       }
 
-      match /followers/{userId} {
-        allow read, write: if userId == request.auth.uid;
-      }
-
       //Data Level
-      match /posts/{id} {
-        allow create: if postsCanCreate();
-        allow read: if postsCanRead();
-        allow update: if postsCanUpdate();
-        allow delete: if postsCanDelete();
-
-        match /history/{id} {
-          allow create: if hasAnyRole(['author', 'editor', 'admin'])
-          allow read: if postsCanRead();
-          allow update: if postsCanUpdate();
-          allow delete: if postsCanDelete();
-
-          match /media/{id} {
-            allow create: if hasAnyRole(['author', 'editor', 'admin'])
-            allow read: if hasAnyRole(['author', 'editor', 'admin'])
-            allow update: if hasAnyRole(['author', 'editor', 'admin'])
-            allow delete: if hasAnyRole(['author', 'editor', 'admin'])
-          }
-
-          match /customers/{id} {
-            allow create: if hasAnyRole(['admin'])
-            allow read: if hasAnyRole(['admin'])
-            allow update: if hasAnyRole(['admin'])
-            allow delete: if hasAnyRole(['admin'])
-          }
-        }
-      }
-      //Admin Only for Site
-      match /site/{id} {
-        allow create: if hasAnyRole(['admin'])
-        allow read: if hasAnyRole(['admin'])
-        allow update: if hasAnyRole(['admin'])
-        allow delete: if hasAnyRole(['admin'])
-      }
-
-      match /tags/{id} {
+      match /page/{id} {
         allow read: if true;
-        allow write: if isAlex();
       }
-
-      match /categories/{id} {
+      match /post/{id} {
         allow read: if true;
-        allow write: if isAlex();
       }
-
-      match /community/{id} {
+      match /tutorial/{id} {
         allow read: if true;
-        allow write: if isAlex();
       }
 
       //Stripe Specific
@@ -144,7 +100,7 @@ service cloud.firestore {
               && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.groups.hasAny(groups)
     }
 
-    // POSTS
+    // Content
     function postsIsValidNew() {
       let post = request.resource.data;
       let isNow = request.time == request.resource.data.createdAt;
