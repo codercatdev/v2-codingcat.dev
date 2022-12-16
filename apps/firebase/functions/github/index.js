@@ -35,18 +35,20 @@ exports.addContent = functions.https.onRequest(async (request, response) => {
 	}
 
 	// Find all the content to send to firestore
-	const { data, headers } = await octokit.rest.repos.getContent({
-		owner,
-		repo,
-		path: "content/blog",
-	});
-	functions.logger.info(`Found ${data?.length} blogs to check.`);
-	functions.logger.debug(headers["x-ratelimit-remaining"]);
+	for (const type of ["page", "post", "tutorial"]) {
+		const { data, headers } = await octokit.rest.repos.getContent({
+			owner,
+			repo,
+			path: `content/${type}`,
+		});
+		functions.logger.info(`Found ${data?.length} ${type} to check.`);
+		functions.logger.debug(headers["x-ratelimit-remaining"]);
 
-	// trigger pubsub to scale this update all at once
-	// TODO: recursive for directories
-	for (const d of data) {
-		await sendTopic(topic, { type: "post", content: d });
+		// trigger pubsub to scale this update all at once
+		// TODO: recursive for directories
+		for (const d of data) {
+			await sendTopic(topic, { type, content: d });
+		}
 	}
 	response.status(200).send(`Successfully added content to pubsub`);
 });

@@ -1,10 +1,10 @@
-# Privacy Policy
-
+---
 cloudinary_convert: No
 published: published
 slug: /privacy-policy
 start: June 20, 2022
-
+title: Privacy Policy
+---
 # CodingCatDev, LLC Privacy Policy
 
 ## **Last updated January 2, 2022**

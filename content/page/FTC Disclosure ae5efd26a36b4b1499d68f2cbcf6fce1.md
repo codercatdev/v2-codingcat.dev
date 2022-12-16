@@ -1,10 +1,10 @@
-# FTC Disclosure
-
+---
 cloudinary_convert: No
 published: published
 slug: /ftc-disclosure
 start: June 20, 2022
-
+title: FTC Disclosure
+---
 ## Sponsorships
 
 ### Podcast
