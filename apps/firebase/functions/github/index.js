@@ -25,29 +25,45 @@ exports.health = functions.https.onRequest(async (request, response) => {
 
 exports.addContent = functions
 	.runWith({ secrets: ["GH_TOKEN"] })
-	.https.onRequest(async (request, response) => {
+	.https.onCall(async (data, context) => {
 		if (!process.env.GH_TOKEN) {
-			response.status(401).send("Missing GitHub Personal Token");
-			return false;
+			throw new functions.https.HttpsError(
+				"failed-precondition",
+				"Missing GitHub Personal Token"
+			);
 		}
-		// Find all the content to send to firestore
-		for (const type of ["page", "post", "tutorial"]) {
-			const octokit = createOctokit();
-			const { data, headers } = await octokit.rest.repos.getContent({
-				owner,
-				repo,
-				path: `content/${type}`,
-			});
-			functions.logger.info(`Found ${data?.length} ${type} to check.`);
-			functions.logger.debug(headers["x-ratelimit-remaining"]);
+		// Checking that the user is authenticated.
+		if (!context.auth) {
+			// Throwing an HttpsError so that the client gets the error details.
+			throw new functions.https.HttpsError(
+				"failed-precondition",
+				"The function must be called while authenticated."
+			);
+		}
+		try {
+			await updateContentFromGitHub();
+			functions.logger.info(`Successfully added content for pubsub`);
+		} catch (error) {
+			functions.logger.error(`Failed to load cron data`);
+		}
+	});
 
-			// trigger pubsub to scale this update all at once
-			// TODO: recursive for directories
-			for (const d of data) {
-				await sendTopic(topic, { type, content: d });
-			}
+exports.addContentNightly = functions
+	.runWith({ secrets: ["GH_TOKEN"] })
+	.pubsub.schedule("0 0 * * *")
+	.timeZone("America/New_York")
+	.onRun(async (context) => {
+		if (!process.env.GH_TOKEN) {
+			throw new functions.https.HttpsError(
+				"failed-precondition",
+				"Missing GitHub Personal Token"
+			);
 		}
-		response.status(200).send(`Successfully added content to pubsub`);
+		try {
+			await updateContentFromGitHub();
+		} catch (error) {
+			throw new functions.https.HttpsError("unknown");
+		}
 	});
 
 /*
@@ -169,4 +185,28 @@ const getGitHubCommit = async (path) => {
 		headers["x-ratelimit-remaining"]
 	);
 	return data;
+};
+
+/**
+ * Triggers the lookup of content from GitHub
+ * and updates Firestore based on latest content
+ */
+const updateContentFromGitHub = async () => {
+	// Find all the content to send to firestore
+	for (const type of ["page", "post", "tutorial"]) {
+		const octokit = createOctokit();
+		const { data, headers } = await octokit.rest.repos.getContent({
+			owner,
+			repo,
+			path: `content/${type}`,
+		});
+		functions.logger.info(`Found ${data?.length} ${type} to check.`);
+		functions.logger.debug(headers["x-ratelimit-remaining"]);
+
+		// trigger pubsub to scale this update all at once
+		// TODO: recursive for directories
+		for (const d of data) {
+			await sendTopic(topic, { type, content: d });
+		}
+	}
 };
