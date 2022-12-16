@@ -1,45 +1,65 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
+const { Timestamp } = require("firebase-admin/firestore");
 const { Octokit } = require("octokit");
 const { sendTopic } = require("../utils/pubsub");
 const slugify = require("slugify");
+const matter = require("gray-matter");
 
 const topic = "GitHubUpdateFirestore";
+const owner = "codingcatdev";
+const repo = "v2-codingcat.dev";
 
+// Initialize Firebase admin
 admin.initializeApp();
 
-exports.helloWorld = functions.https.onRequest((request, response) => {
-	functions.logger.info("Hello logs!", { structuredData: true });
-	response.send("Hello from Firebase!");
+// Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
+const octokit = new Octokit({
+	auth: process.env.GH_TOKEN,
 });
 
-exports.addBlog = functions.https.onRequest(async (request, response) => {
-	// Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
-	const octokit = new Octokit({
-		auth: process.env.SECRET_NAME,
-	});
+exports.health = functions.https.onRequest(async (request, response) => {
+	response
+		.status(200)
+		.send(
+			`<div>Timestamp: ${JSON.stringify(
+				Timestamp.now()
+			)}</div><div>Date: ${Timestamp.now().toDate()}</div>`
+		);
+});
+
+exports.addContent = functions.https.onRequest(async (request, response) => {
+	if (!process.env.GH_TOKEN) {
+		response.status(401).send("Missing GitHub Personal Token");
+		return false;
+	}
 
 	// Find all the content to send to firestore
-	const { data } = await octokit.rest.repos.getContent({
-		owner: "codingcatdev",
-		repo: "v2-codingcat.dev",
+	const { data, headers } = await octokit.rest.repos.getContent({
+		owner,
+		repo,
 		path: "content/blog",
 	});
 	functions.logger.info(`Found ${data?.length} blogs to check.`);
+	functions.logger.debug(headers["x-ratelimit-remaining"]);
 
 	// trigger pubsub to scale this update all at once
+	// TODO: recursive for directories
 	for (const d of data) {
 		await sendTopic(topic, { type: "post", content: d });
 	}
-	response.status(200).send("Successfully added blog");
+	response.status(200).send(`Successfully added content to pubsub`);
 });
 
+/*
+ * Adds file data to firestore from GitHub content
+ */
 exports.addItemToFirestore = functions.pubsub
 	.topic(topic)
 	.onPublish(async (message, context) => {
-		functions.logger.info("Checking if content exists for payload.");
+		/** @type {{type: string, content: Object}} payload */
 		const payload = JSON.parse(JSON.stringify(message.json));
-		functions.logger.info(payload);
+		functions.logger.debug(payload);
 
 		if (!payload?.type) {
 			functions.logger.error(`Missing Type for content update.`);
@@ -51,20 +71,88 @@ exports.addItemToFirestore = functions.pubsub
 		// Check if this file already exists
 		const doc = await ref.get();
 
-		let update = false;
-
 		if (doc.exists) {
-			functions.logger.info(`Document already exists, checking sha...`);
+			functions.logger.info(
+				`Document ${fileSlug} already exists, checking sha...`
+			);
 			if (doc.data()?.sha == payload?.content?.sha) {
 				functions.logger.info(`sha matches no need to continue`);
+				return false;
 			}
-			update = true;
-		} else {
-			update = true;
-		}
-		if (!update) {
-			return false;
 		}
 
-		ref.set(payload.content, { merge: true });
+		// Get raw file
+		const gitHubContent = await getGitHubContent(payload.content.path);
+		functions.logger.info(
+			`${payload.content.path} github file content`,
+			gitHubContent
+		);
+
+		// Get commit
+		const gitHubCommit = await getGitHubCommit(payload.content.path);
+
+		// Convert encoded file
+		const bufferObj = Buffer.from(
+			gitHubContent.content,
+			gitHubContent.encoding
+		);
+		const decodedFile = bufferObj.toString();
+		// Decode markdown and get frontmatter
+		const mdObject = matter(decodedFile);
+
+		/**
+		 * Update Firestore with the github data, frontmatter, and markdown.
+		 * Flatten the Author data for easier searches
+		 */
+		ref.set(
+			{
+				github: {
+					content: gitHubContent,
+					commit: gitHubCommit,
+				},
+				content: mdObject.content,
+				...mdObject.data,
+				start: mdObject?.data?.start
+					? Timestamp.fromDate(new Date(mdObject?.data?.start))
+					: null,
+				end: mdObject?.data?.end
+					? Timestamp.fromDate(new Date(mdObject?.data?.end))
+					: null,
+			},
+			{ merge: true }
+		);
 	});
+
+/**
+ * Returns GitHub's version of content, including encoded file
+ * @param {string} path */
+const getGitHubContent = async (path) => {
+	const { data, headers } = await octokit.rest.repos.getContent({
+		owner,
+		repo,
+		path,
+	});
+	functions.logger.debug(data);
+	functions.logger.debug(
+		"x-ratelimit-remaining",
+		headers["x-ratelimit-remaining"]
+	);
+	return data;
+};
+
+/**
+ * Returns GitHub's version of content, including encoded file
+ * @param {string} path */
+const getGitHubCommit = async (path) => {
+	const { data, headers } = await octokit.rest.repos.listCommits({
+		owner,
+		repo,
+		path,
+	});
+	functions.logger.debug(data);
+	functions.logger.debug(
+		"x-ratelimit-remaining",
+		headers["x-ratelimit-remaining"]
+	);
+	return data;
+};

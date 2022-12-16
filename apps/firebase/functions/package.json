@@ -18,6 +18,7 @@
     "@google-cloud/pubsub": "^3.2.1",
     "firebase-admin": "^11.3.0",
     "firebase-functions": "^4.1.1",
+    "gray-matter": "^4.0.3",
     "octokit": "^2.0.10",
     "slugify": "^1.6.5"
   },
