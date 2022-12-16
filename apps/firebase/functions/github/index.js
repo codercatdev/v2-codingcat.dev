@@ -13,11 +13,6 @@ const repo = "v2-codingcat.dev";
 // Initialize Firebase admin
 admin.initializeApp();
 
-// Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
-const octokit = new Octokit({
-	auth: process.env.GH_TOKEN,
-});
-
 exports.health = functions.https.onRequest(async (request, response) => {
 	response
 		.status(200)
@@ -28,37 +23,44 @@ exports.health = functions.https.onRequest(async (request, response) => {
 		);
 });
 
-exports.addContent = functions.https.onRequest(async (request, response) => {
-	if (!process.env.GH_TOKEN) {
-		response.status(401).send("Missing GitHub Personal Token");
-		return false;
-	}
-
-	// Find all the content to send to firestore
-	for (const type of ["page", "post", "tutorial"]) {
-		const { data, headers } = await octokit.rest.repos.getContent({
-			owner,
-			repo,
-			path: `content/${type}`,
-		});
-		functions.logger.info(`Found ${data?.length} ${type} to check.`);
-		functions.logger.debug(headers["x-ratelimit-remaining"]);
-
-		// trigger pubsub to scale this update all at once
-		// TODO: recursive for directories
-		for (const d of data) {
-			await sendTopic(topic, { type, content: d });
+exports.addContent = functions
+	.runWith({ secrets: ["GH_TOKEN"] })
+	.https.onRequest(async (request, response) => {
+		if (!process.env.GH_TOKEN) {
+			response.status(401).send("Missing GitHub Personal Token");
+			return false;
 		}
-	}
-	response.status(200).send(`Successfully added content to pubsub`);
-});
+		// Find all the content to send to firestore
+		for (const type of ["page", "post", "tutorial"]) {
+			const octokit = createOctokit();
+			const { data, headers } = await octokit.rest.repos.getContent({
+				owner,
+				repo,
+				path: `content/${type}`,
+			});
+			functions.logger.info(`Found ${data?.length} ${type} to check.`);
+			functions.logger.debug(headers["x-ratelimit-remaining"]);
+
+			// trigger pubsub to scale this update all at once
+			// TODO: recursive for directories
+			for (const d of data) {
+				await sendTopic(topic, { type, content: d });
+			}
+		}
+		response.status(200).send(`Successfully added content to pubsub`);
+	});
 
 /*
  * Adds file data to firestore from GitHub content
  */
-exports.addItemToFirestore = functions.pubsub
-	.topic(topic)
+exports.addItemToFirestore = functions
+	.runWith({ secrets: ["GH_TOKEN"] })
+	.pubsub.topic(topic)
 	.onPublish(async (message, context) => {
+		if (!process.env.GH_TOKEN) {
+			response.status(401).send("Missing GitHub Personal Token");
+			return false;
+		}
 		/** @type {{type: string, content: Object}} payload */
 		const payload = JSON.parse(JSON.stringify(message.json));
 		functions.logger.debug(payload);
@@ -126,9 +128,18 @@ exports.addItemToFirestore = functions.pubsub
 	});
 
 /**
+ * Set Octokit instance and return  */
+const createOctokit = () => {
+	// Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
+	return new Octokit({
+		auth: process.env.GH_TOKEN,
+	});
+};
+/**
  * Returns GitHub's version of content, including encoded file
  * @param {string} path */
 const getGitHubContent = async (path) => {
+	const octokit = createOctokit();
 	const { data, headers } = await octokit.rest.repos.getContent({
 		owner,
 		repo,
@@ -146,6 +157,7 @@ const getGitHubContent = async (path) => {
  * Returns GitHub's version of content, including encoded file
  * @param {string} path */
 const getGitHubCommit = async (path) => {
+	const octokit = createOctokit();
 	const { data, headers } = await octokit.rest.repos.listCommits({
 		owner,
 		repo,
