@@ -1,5 +1,4 @@
-# VSCode Extension Peacock
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600704493/ccd-cloudinary/peacock.png
 devto: https://dev.to/codingcatdev/vscode-extension-peacock-4hhb
@@ -9,7 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: vscode-extension-peacock
 start: May 10, 2019
-
+title: VSCode Extension Peacock
+---
 > Please note the video was from version 2.
 > 
 
