@@ -1,5 +1,4 @@
-# RxFire in ReactJS using Firebase Firestore and Authentication
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616429614/main-codingcatdev-photo/q6a6amtmdfsobeguruak.png
 devto: https://dev.to/codingcatdev/rxfire-in-reactjs-using-firebase-firestore-and-authentication-3ao
@@ -9,7 +8,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: rxfire-in-reactjs-using-firebase-firestore-and-authentication
 start: May 23, 2022
+title: RxFire in ReactJS using Firebase Firestore and Authentication
 youtube: https://youtu.be/hTzcRCAm5e0
+---
 
 [RxFire](https://github.com/firebase/firebase-js-sdk/tree/master/packages/rxfire) was created by [David East](https://twitter.com/_davideast), who is a Firebase Developer Advocate. Although [Firebase Blog](https://firebase.googleblog.com/2018/09/introducing-rxfire-easy-async-firebase.html) introduced RxFire in September, 2018 I thought it would be a good point of reference for beginners starting out with both [ReactJs](https://reactjs.org/) and [Firebase](https://www.firebase.com/).For those coming from an Angular background you might be familiar with [RxJS](https://github.com/ReactiveX/rxjs) and the [Angularfire2](https://github.com/angular/angularfire2) package. I know from my experience you *MUST* learn RxJS if you are going to use Angular on any size application. It can be one of the hardest parts to learn but there are several fantastic tutorials and sites dedicated to how RxJS works.Some of my favorites
 

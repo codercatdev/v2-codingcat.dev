@@ -1,5 +1,4 @@
-# Slap Someone with Slack Commands
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1618943875/main-codingcatdev-photo/ui1ekh1x8djmp8jyehbg.png
 excerpt: Deploying Firebase Cloud Function to use with Slack slash commands. Sending someone a /slap!
@@ -8,8 +7,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: slap-someone-with-slack-commands
 start: May 26, 2022
+title: Slap Someone with Slack Commands
 youtube: https://youtu.be/3A4iucpZiwo
-
+---
 ## Slappy Slack
 
 So one of the Purr-fect Peeps on the channel wanted a fun `/slap` command added to our Slack channel. I basically said, challange accepted! A quick Google search led me down the right path and found [Spicefactory Slapbot](https://spicefactory.co/blog/2015/12/09/slapbot-for-slack-good-old-slap-available-again/). I cloned this and then started making some tweaks!
@@ -18,11 +18,8 @@ So one of the Purr-fect Peeps on the channel wanted a fun `/slap` command added 
 
 ## Installation
 
-> 
-> 
-> 
 > Note you could run this as a stand alone node server, but I chose to utilize Firebase Cloud Functions since the plan is to add some Machine Learning later.
-> 
+
 
 Before continuing I am committing the files `.firebaserc` and `firebase.json`, mainly so I can keep making changes. For your project you will want to delete these files before you begin with the project setup and Firebase initialization.
 

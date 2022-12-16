@@ -1,5 +1,4 @@
-# Supabase, Next.js and Builder.io
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/q_auto,f_auto/main-codingcatdev-photo/0.0.png
 excerpt: We will walk through how to get up and running on Next.js with Supabase. Then we will build UI using http://builder.io/.
@@ -8,7 +7,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: supabase-nextjs-and-builderio
 start: June 12, 2022
+title: Supabase, Next.js and Builder.io
 youtube: https://youtu.be/yPohaXjNqxU
+---
 
 ## What are similar tools to Supabase that you may have used?
 

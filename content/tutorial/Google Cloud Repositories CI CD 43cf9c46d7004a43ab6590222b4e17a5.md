@@ -1,5 +1,4 @@
-# Google Cloud Repositories CI/CD
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600989114/ccd-cloudinary/Google-Cloud-Repositories-CICD-.png
 devto: https://dev.to/codingcatdev/google-cloud-repositories-cicd-4i56
@@ -9,7 +8,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: google-cloud-repositories-ci-cd
 start: May 16, 2022
+title: Google Cloud Repositories CI/CD
 youtube: https://youtu.be/MijHRE5h6Gg
+---
 
 We will continue our hello world example from [Firebase Project Hosting](https://codingcat.dev/courses/angularmaterial/lessons/firebase-project-hosting/) and extend this into publishing our site to firebase using CI/CD. The final hosting example will create the site in the initial project folder (in my case ajonp-lesson-1)
 

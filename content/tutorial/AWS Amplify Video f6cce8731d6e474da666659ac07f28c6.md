@@ -1,5 +1,4 @@
-# AWS Amplify Video
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1610334436/ccd-cloudinary/nepnvay0yphf0dgg8ci6.png
 excerpt: How to easily add Video for Livestreaming or Video on Demand to your next Amplify project.
@@ -8,7 +7,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: aws-amplify-video
 start: May 31, 2022
+title: AWS Amplify Video
 youtube: https://youtu.be/vM_YoZbLQQ0
+---
 
 > AWS Account is required for this lesson. You may (and probably will) incur fees associated with these activities. Livestreaming is VERY expensive so be careful!
 > 

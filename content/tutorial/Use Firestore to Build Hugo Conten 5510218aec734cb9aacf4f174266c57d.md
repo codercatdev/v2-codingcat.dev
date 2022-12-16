@@ -1,5 +1,4 @@
-# Use Firestore to Build Hugo Conten
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616547727/main-codingcatdev-photo/jstxkremimdttdzmghhe.png
 devto: https://dev.to/codingcatdev/use-firestore-to-build-hugo-conten-1o99
@@ -9,6 +8,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: use-firestore-to-build-hugo-content
 start: May 21, 2022
+title: Use Firestore to Build Hugo Content
+---
 
 This tutorial will explore some fairly complex triggers and Git practices.
 

@@ -1,5 +1,4 @@
-# NPM Tips and Tricks
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616547566/main-codingcatdev-photo/wsuyn79owuntcukcwtkg.jpg
 devto: https://dev.to/codingcatdev/npm-tips-and-tricks-2n18
@@ -9,8 +8,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: npm-tips-and-tricks
 start: May 17, 2022
+title:  NPM Tips and Tricks
 youtube: https://youtu.be/eWc0bg9KMQQ
-
+---
 ## NPM Global install fail
 
 Ever get the dreaded EACCES error after running npm install -g? You're not alone!

@@ -1,5 +1,4 @@
-# Angular PWA to Google Play store, using Trusted Web Activity
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616546840/main-codingcatdev-photo/hmhr4khpcbyynnmisr5y.jpg
 devto: https://dev.to/codingcatdev/angular-pwa-to-google-play-store-using-trusted-web-activity-5en4
@@ -9,7 +8,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: angular-pwa-to-google-play-store-using-trusted-web-activity
 start: May 22, 2022
+title: Angular PWA to Google Play store, using Trusted Web Activity
 youtube: https://youtu.be/db9Y5jyparA
+---
 
 > PWA’s are still changing rapidly. This tutorial may not be as up to date, so I have removed the content and left the video for history
 >

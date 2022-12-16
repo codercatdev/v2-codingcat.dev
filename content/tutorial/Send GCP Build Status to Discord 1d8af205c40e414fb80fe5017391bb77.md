@@ -1,5 +1,4 @@
-# Send GCP Build Status to Discord
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616540053/main-codingcatdev-photo/krny5cr60ahjh7qo9sow.png
 excerpt: If you use Google Cloud Build and find yourself in Discord all day, it might be handy to receive a messge about your builds. Or just any webhook message in Discord.
@@ -8,7 +7,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: send-gcp-build-status-to-discord
 start: May 30, 2022
+title: Send GCP Build Status to Discord
 youtube: https://youtu.be/J4ImOB5etB4
+---
 
 ## Creating a new project
 

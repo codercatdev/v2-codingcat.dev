@@ -1,5 +1,4 @@
-# Firebase Multisite Hosting
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1623783708/main-codingcatdev-photo/dhoffzsdzo9fld1xxpgj.jpg
 devto: https://dev.to/codingcatdev/firebase-multisite-hosting-37d
@@ -9,7 +8,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: firebase-multisite-hosting
 start: May 20, 2022
+title: Firebase Multisite Hosting
 youtube: https://youtu.be/bLrZxoC0VlQ
+---
 
 This tutorial will focus on a very easy solution to having multiple web projects hosted under the same domain.
 

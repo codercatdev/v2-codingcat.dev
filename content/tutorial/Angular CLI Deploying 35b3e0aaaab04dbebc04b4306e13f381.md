@@ -1,5 +1,4 @@
-# Angular CLI Deploying
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600872811/ccd-cloudinary/angular-cli-deploy.png
 excerpt: Demonstrating how to quickly deploy using Angular CLI to 6 places. Then how to setup CI/CD in Azure, AWS, and Google Cloud Platform.
@@ -8,7 +7,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: angular-cli-deploying
 start: May 27, 2022
-
+title: Angular CLI Deploying
+---
 ## Deploying Fast
 
 So you have a conference or perhaps a JAMStackGR meeting that you created an Angular app for and need to show it to the world. How do you deploy this out to a CDN (Content Delivery Network) so that the world can access your new app? There are many ways that you can deploy your site, but one of note is the Angular CLI, it allows you to deploy to 6 different platforms.

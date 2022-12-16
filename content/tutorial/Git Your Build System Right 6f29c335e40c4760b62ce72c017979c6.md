@@ -1,5 +1,4 @@
-# Git Your Build System Right
-
+---
 cloudinary_convert: No
 cover: https://media.codingcat.dev/image/upload/v1600790430/ccd-cloudinary/bc57a00e2e58c92195ddb038051c23045256cc9d-1920x1080-1.png
 excerpt: Demonstrating how to quickly deploy using Angular CLI to 6 places. Then how to setup CI/CD in Azure, AWS, and Google Cloud Platform.
@@ -8,6 +7,8 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: git-your-build-system-right
 start: May 28, 2022
+title: Git Your Build System Right
+---
 
 This lesson is on setting up CI (Continuous Integration) and CD (Continuous Delivery) across four of the most popular systems today Google Cloud Platform Cloud Build, Azure Pipelines, AWS Code Pipelines, and GitHub Actions. We will be using a simple Angular application (although you could replace this with almost any app) and using GitHub as a source repository. We will then create triggers from git branch commits to launch the processes.
 

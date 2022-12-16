@@ -1,5 +1,4 @@
-# AJonP Hugo Ionic Template
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1616547475/main-codingcatdev-photo/y4jh5dhqaopucs7dkohj.jpg
 devto: https://dev.to/codingcatdev/ajonp-hugo-ionic-template-agg
@@ -9,7 +8,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: ajonp-hugo-ionic-template
 start: May 18, 2022
+title: AJonP Hugo Ionic Template
 youtube: https://youtu.be/CZmEZ62yMFA
+---
 
 > Just a little donation reminder as Hugo says "Hugo stands on the shoulder of many great open source libraries", as does many of my tutorials. [Brew](https://github.com/Homebrew/brew#donations) [Hugo](https://github.com/gohugoio/hugo#dependencies)
 > 

@@ -1,5 +1,4 @@
-# Integrating Storybook with SvelteKit
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/f_auto,q_auto/main-codingcatdev-photo/Storybook.jpg
 excerpt: Brittney walks through how to get Storybook working in a new SvelteKit project.
@@ -8,8 +7,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: integrating-storybook-with-sveltekit
 start: June 4, 2022
+title: Integrating Storybook with SvelteKit
 youtube: https://youtu.be/Kc1ULlfyUcw
-
+---
 ## Intro
 
 This is the new [Svelte Sirens](https://codingcat.dev/tutorial/sveltesirens.dev), Sirens Streams, a live stream every 2 weeks featuring a new technology with SvelteKit. On January 19th, we have [Shadid Haque](https://twitter.com/HaqueShadid) coming to teach us how to ingrate a GraphQL Database with FaunaDB.

@@ -1,5 +1,4 @@
-# Let's Learn Svelte
-
+---
 cloudinary_convert: No
 cover: http://media.codingcat.dev/image/upload/v1635950500/main-codingcatdev-photo/let_s_learn_svelte.png
 excerpt: Embrace the hype. Give Svelte and SvelteKit a try!  Learn how to build modern web applications with SvelteKit, a quickly growing framework for generating static web pages (SSG) as well as Server Side Rendered content (SSR). In this crash course, you'll learn all the basics including file-based routing, API routes, dynamic routes, global and scoped CSS, and much more!
@@ -8,8 +7,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 published: published
 slug: lets-learn-svelte
 start: June 1, 2022
+title: Let's Learn Svelte
 youtube: https://youtu.be/fOD_3iSiwTQ
-
+---
 Learn how to build modern web applications with SvelteKit, a quickly growing framework for generating static web pages (SSG) as well as Server Side Rendered content (SSR). In this crash course, you'll learn all the basics including file-based routing, API routes, dynamic routes, global and scoped CSS, and much more!
 
 ## Source Code
