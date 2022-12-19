@@ -2,6 +2,7 @@ import PrismJS from 'prismjs';
 import 'prismjs/components/prism-bash.js';
 import 'prismjs/components/prism-diff.js';
 import 'prismjs/components/prism-typescript.js';
+import 'prismjs/components/prism-jsx';
 import 'prism-svelte';
 import { marked } from 'marked';
 
@@ -14,6 +15,7 @@ const languages = {
 	css: 'css',
 	diff: 'diff',
 	ts: 'typescript',
+	jsx: 'jsx',
 	'': ''
 };
 
@@ -49,6 +51,7 @@ function highlight_spans(content, classname) {
 /** @type {Partial<import('marked').Renderer>} */
 const default_renderer = {
 	code: (source, language = '') => {
+		console.log('lang', language);
 		/** @type {Record<string, string>} */
 		const options = {};
 

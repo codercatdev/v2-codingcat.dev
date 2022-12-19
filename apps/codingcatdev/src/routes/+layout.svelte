@@ -1,7 +1,7 @@
 <script>
 	import '../app.postcss';
-	import Footer from '$lib/components/Footer.svelte'
-	import { PUBLIC_NAME } from '$env/static/public'
+	import Footer from '$lib/components/Footer.svelte';
+	import { PUBLIC_NAME } from '$env/static/public';
 </script>
 
 <div class="drawer">
@@ -52,7 +52,7 @@
 							</ul>
 						</div>
 					{:else} -->
-						<!-- <a class="btn btn-primary" on:click|once={createSession}> Login </a> -->
+					<!-- <a class="btn btn-primary" on:click|once={createSession}> Login </a> -->
 					<!-- {/if} -->
 				</div>
 			</div>
@@ -63,13 +63,13 @@
 		<Footer />
 	</div>
 	<div class="drawer-side">
-		<label htmlFor="my-drawer-3" class="drawer-overlay" />
+		<label for="my-drawer-3" class="drawer-overlay" />
 		<ul class="p-4 overflow-y-auto menu w-80 bg-base-100">
 			<li>
-				<a>Sidebar Item 1</a>
+				<a href="/">Sidebar Item 1</a>
 			</li>
 			<li>
-				<a>Sidebar Item 2</a>
+				<a href="/">Sidebar Item 2</a>
 			</li>
 		</ul>
 	</div>

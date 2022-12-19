@@ -1,5 +1,7 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
+const app = initializeApp();
+
 const { Timestamp } = require("firebase-admin/firestore");
 const { Octokit } = require("octokit");
 const { sendTopic } = require("../utils/pubsub");
