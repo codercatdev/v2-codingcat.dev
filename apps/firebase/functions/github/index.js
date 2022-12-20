@@ -174,15 +174,49 @@ const updateContentFromGitHub = async () => {
 		const { data, headers } = await octokit.rest.repos.getContent({
 			owner,
 			repo,
-			path: `content/${type}`,
+			path: `content/course`,
 		});
-		functions.logger.info(`Found ${data?.length} ${type} to check.`);
-		functions.logger.debug(headers["x-ratelimit-remaining"]);
+	functions.logger.info(`Found ${courseDirs?.length} courses to check.`);
+	functions.logger.debug(courseDirHeaders["x-ratelimit-remaining"]);
 
-		// trigger pubsub to scale this update all at once
-		// TODO: recursive for directories
-		for (const d of data) {
-			await sendTopic(topic, { type, content: d });
+	// Loop each Course
+	for (const course of courseDirs) {
+		// Get Course detail from index
+		const { data: indexFile, headers: indexFileHeaders } =
+			await octokit.rest.repos.getContent({
+				owner,
+				repo,
+				path: `${course.path}/index.md`,
+			});
+		functions.logger.debug(`Found index for course to check.`);
+		functions.logger.debug(indexFileHeaders["x-ratelimit-remaining"]);
+
+		// If there is no course, just bail
+		if (!indexFile?.name) {
+			continue;
+		}
+
+		// Get Course lessons
+		const { data: lessonFiles, headers: lessonFilesHeaders } =
+			await octokit.rest.repos.getContent({
+				owner,
+				repo,
+				path: `${course.path}/lesson`,
+			});
+		functions.logger.debug(
+			`Found ${lessonFiles?.length} lessons for ${indexFile?.name} to check.`
+		);
+		functions.logger.debug(lessonFilesHeaders["x-ratelimit-remaining"]);
+
+		for (const lesson of lessonFiles) {
+			// Send the details for course with each lesson
+			await sendTopic(topic, {
+				type: "course",
+				content: {
+					...indexFile,
+					lesson,
+				},
+			});
 		}
 	}
 
@@ -238,6 +272,64 @@ const updateContentFromGitHub = async () => {
 			});
 		}
 	}
+};
+
+/**
+ * Gets raw markdown file and updates Firestore
+ * @param {admin.firestore.DocumentReference<admin.firestore.DocumentData>} ref
+ * @param {any} payload
+ * @returns Promise<void>
+ */
+const updateDocumentFromGitHub = async (ref, payload) => {
+	// Check if this file already exists
+	const doc = await ref.get();
+
+	if (doc.exists) {
+		functions.logger.info(`Document already exists, checking sha...`);
+		if (doc.data()?.sha == payload?.content?.sha) {
+			functions.logger.info(`sha matches no need to continue`);
+			return false;
+		}
+	}
+
+	// Get raw file
+	const gitHubContent = await getGitHubContent(payload.content.path);
+	functions.logger.info(
+		`${payload.content.path} github file content`,
+		gitHubContent
+	);
+
+	// Get commit
+	const gitHubCommit = await getGitHubCommit(payload.content.path);
+
+	// Convert encoded file
+	const bufferObj = Buffer.from(gitHubContent.content, gitHubContent.encoding);
+	const decodedFile = bufferObj.toString();
+	// Decode markdown and get frontmatter
+	const mdObject = matter(decodedFile);
+
+	/**
+	 * Update Firestore with the github data, frontmatter, and markdown.
+	 * Flatten the Author data for easier searches
+	 */
+	await ref.set(
+		{
+			github: {
+				content: gitHubContent,
+				commit: gitHubCommit,
+			},
+			content: mdObject.content,
+			...mdObject.data,
+			weight: mdObject?.data?.weight ? mdObject?.data?.weight : 0,
+			start: mdObject?.data?.start
+				? Timestamp.fromDate(new Date(mdObject?.data?.start))
+				: null,
+			end: mdObject?.data?.end
+				? Timestamp.fromDate(new Date(mdObject?.data?.end))
+				: null,
+		},
+		{ merge: true }
+	);
 };
 
 /**
