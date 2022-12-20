@@ -6,10 +6,12 @@
  * @property {string=} excerpt
  * @property {string=} preview
  * @property {typeof ContentPublished= } published
+ * @property {string=} section
  * @property {string=} slug
  * @property {typeof import("firebase-admin/firestore").Timestamp | null } start
  * @property {typeof import("firebase-admin/firestore").Timestamp | null } end
  * @property {string=} title
+ * @property {string=} weight
  */
 
 /**

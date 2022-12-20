@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1600879025/ccd-cloudinary/stencil-design-system.png
 excerpt: How Stencil can build Web Components for any Design System. This is a developers view into how a design system will work in any size organization.
 hashnode: https://hashnode.codingcat.dev/tutorial-design-systems-with-web-components

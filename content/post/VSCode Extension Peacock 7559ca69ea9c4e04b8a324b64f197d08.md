@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1600704493/ccd-cloudinary/peacock.png
 devto: https://dev.to/codingcatdev/vscode-extension-peacock-4hhb
 excerpt: Subtly change the color of your Visual Studio Code workspace. Ideal when you have multiple VS Code instances, use VS Live Share, or use VS Code's Remote features, and you want to quickly identify your editor.

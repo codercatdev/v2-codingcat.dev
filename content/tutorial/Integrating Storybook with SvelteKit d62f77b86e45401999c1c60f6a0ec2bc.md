@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/f_auto,q_auto/main-codingcatdev-photo/Storybook.jpg
 excerpt: Brittney walks through how to get Storybook working in a new SvelteKit project.
 hashnode: https://hashnode.codingcat.dev/tutorial-integrating-storybook-with-sveltekit

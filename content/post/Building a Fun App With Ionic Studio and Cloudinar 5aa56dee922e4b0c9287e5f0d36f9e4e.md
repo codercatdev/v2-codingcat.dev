@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1634645694/main-codingcatdev-photo/az3sscx0cmabt0qerzdq.png
 devto: https://dev.to/codingcatdev/building-a-fun-app-with-ionic-studio-and-cloudinary-4fbg
 excerpt: This post describes the procedure of uploading images to Cloudinary as a prelude for building a fun app called Face Smash with Ionic Studio.

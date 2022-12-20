@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1600706370/ccd-cloudinary/3fe0647160d8eafb9d6075a91389b87dde1daa68-1920x1080-1.png
 devto: https://dev.to/codingcatdev/increasing-productivity-with-notion-12p5
 excerpt: Have you ever wanted to take a minute and fix all the disparate lists that you have in so many places, and really start to focus on what is important? Notion is helping me solve this and I want to tell you how!

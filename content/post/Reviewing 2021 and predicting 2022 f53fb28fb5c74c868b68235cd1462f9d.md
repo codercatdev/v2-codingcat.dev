@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1643693991/main-codingcatdev-photo/2022_Updates_from_2021.png
 devto: https://dev.to/codingcatdev/reviewing-2021-and-predicting-2022-2i9p
 excerpt: Wow there is a lot to comb through during the year after the year that didn't happen. I do my best to find some good frontend updates.

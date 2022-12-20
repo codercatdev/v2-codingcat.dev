@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1616547566/main-codingcatdev-photo/wsuyn79owuntcukcwtkg.jpg
 devto: https://dev.to/codingcatdev/npm-tips-and-tricks-2n18
 excerpt: Adding NPM Globally, setting default values for packages, and stopping the dreaded sudo calls.

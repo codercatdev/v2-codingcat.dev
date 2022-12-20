@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1600899469/ccd-cloudinary/RxFire-in-Svelte-3-using-Firebase-Firestore-and-Authentication.png
 devto: https://dev.to/codingcatdev/rxfire-in-svelte-3-using-firebase-firestore-and-authentication-2clk
 excerpt: Introduction to Svelte3, Firebase, and RxFire. RxFire provides a set of observable creation methods. You simply call a function with some parameters to receive an RxJS observable. With that observable in hand you can use any operators provided by RxJS to transform the stream as you like.

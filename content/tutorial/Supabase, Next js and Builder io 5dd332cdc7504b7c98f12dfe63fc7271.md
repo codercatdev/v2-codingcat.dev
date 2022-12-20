@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/q_auto,f_auto/main-codingcatdev-photo/0.0.png
 excerpt: We will walk through how to get up and running on Next.js with Supabase. Then we will build UI using http://builder.io/.
 hashnode: https://hashnode.codingcat.dev/tutorial-supabase-nextjs-and-builderio

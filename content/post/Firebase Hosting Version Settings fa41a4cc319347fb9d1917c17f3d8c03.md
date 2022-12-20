@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1618945474/main-codingcatdev-photo/ymyolk5dyd9jppvuqcx0.png
 devto: https://dev.to/codingcatdev/firebase-hosting-version-settings-4e4c
 excerpt: Set your version history for firebase hosting, to avoid storage costs.

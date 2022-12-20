@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1636118631/main-codingcatdev-photo/Firebase_Summit_2021_-_Building_a_web_application_with_Next.js_and_Firebase_1.png
 excerpt: In this 20 minute demo I quickly show you how to get up and running with Next.js and Firebase.
 hashnode: https://hashnode.codingcat.dev/tutorial-building-a-web-application-with-next-js-and-firebase-firebase-summit-2021

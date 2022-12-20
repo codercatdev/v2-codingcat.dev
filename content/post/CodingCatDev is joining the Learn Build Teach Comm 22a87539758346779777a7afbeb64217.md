@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1648676439/main-codingcatdev-photo/CodingCat.dev_joins_Learn_Build_Teach.png
 devto: https://dev.to/codingcatdev/codingcatdev-is-joining-the-learn-build-teach-community-3l25
 excerpt: Maintaining a Discord community is hard work, so why not work with great people to host one together!

@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1631468682/main-codingcatdev-photo/q8rrgfgfg5qguvm24xl7.png
 devto: https://dev.to/codingcatdev/the-7-strategies-i-used-to-defeat-imposter-syndrome-2h0l
 excerpt: How to beat Imposter syndrome in 7 steps

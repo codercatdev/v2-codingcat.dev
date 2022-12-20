@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1616546840/main-codingcatdev-photo/hmhr4khpcbyynnmisr5y.jpg
 devto: https://dev.to/codingcatdev/angular-pwa-to-google-play-store-using-trusted-web-activity-5en4
 excerpt: Add your PWA to Google Play Store today!

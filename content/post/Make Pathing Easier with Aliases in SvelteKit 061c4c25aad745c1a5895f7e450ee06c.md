@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1636202538/main-codingcatdev-photo/make_pathing_easier_with_aliases_in_sveltekit.png
 devto: https://dev.to/brittneypostma/make-pathing-easier-with-aliases-in-sveltekit-37l0
 excerpt: Pathing can be a pain, make it easier by using aliases!

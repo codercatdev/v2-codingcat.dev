@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1616547249/main-codingcatdev-photo/bht5m2y90wvuo9a3ziop.png
 devto: https://dev.to/codingcatdev/scully-angular-static-site-generator-5ech
 excerpt: In the Static Site Generator (SSG) space, ReactJs has Gatsby and VueJs has Vuepress/Gridsome. This left for a space to be filled for Angular, introducing Scully the Angular solution for SSG.

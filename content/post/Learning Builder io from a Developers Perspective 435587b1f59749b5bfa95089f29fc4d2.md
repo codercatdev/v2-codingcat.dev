@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1649933071/main-codingcatdev-photo/lb.jpg
 devto: https://dev.to/codingcatdev/learning-builderio-from-a-developers-perspective-c69
 excerpt: I sat down with Tim Benniks who is a developer advocate, for his first time ever checking out Builder.io.

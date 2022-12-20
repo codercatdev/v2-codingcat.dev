@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1610334436/ccd-cloudinary/nepnvay0yphf0dgg8ci6.png
 excerpt: How to easily add Video for Livestreaming or Video on Demand to your next Amplify project.
 hashnode: https://hashnode.codingcat.dev/tutorial-aws-amplify-video

@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 published: published
 slug: /privacy-policy
 start: June 20, 2022

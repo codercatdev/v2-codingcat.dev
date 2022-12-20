@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1600989114/ccd-cloudinary/Google-Cloud-Repositories-CICD-.png
 devto: https://dev.to/codingcatdev/google-cloud-repositories-cicd-4i56
 excerpt: Google Cloud Continuous Integration and Delivery (CI/CD)

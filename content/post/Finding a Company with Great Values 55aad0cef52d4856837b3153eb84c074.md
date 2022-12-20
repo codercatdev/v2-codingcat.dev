@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1626716377/main-codingcatdev-photo/bcovugngp8i1oayazxai.png
 devto: https://dev.to/codingcatdev/finding-a-company-with-great-values-3927
 excerpt: When looking for your next company, make sure that their values align with you.

@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1618943875/main-codingcatdev-photo/ui1ekh1x8djmp8jyehbg.png
 excerpt: Deploying Firebase Cloud Function to use with Slack slash commands. Sending someone a /slap!
 hashnode: https://hashnode.codingcat.dev/tutorial-slap-someone-with-slack-commands

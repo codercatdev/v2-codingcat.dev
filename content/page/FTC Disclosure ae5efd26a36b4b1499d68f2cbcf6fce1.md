@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 published: published
 slug: /ftc-disclosure
 start: June 20, 2022

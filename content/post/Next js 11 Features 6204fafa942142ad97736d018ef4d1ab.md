@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1626309301/main-codingcatdev-photo/pmjyfh1yllkhhyb3emcg.png
 devto: https://dev.to/codingcatdev/nextjs-11-features-1e6f
 excerpt: Learning about all of the amazing Next.js 11 features.

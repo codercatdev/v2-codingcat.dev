@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1633601768/main-codingcatdev-photo/cveur4s1pl4zbvmelqq7.png
 excerpt: Talking through Sanity.io as a backend to multiple Static Site Generators. A slightly deeper dive into Gatsbyjs.
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=post&selectionSlug=jamstackgr-1-sanity-io-as-a-backend&_id=0a1d16e351be424898d678dff9e51fb5

@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1616547727/main-codingcatdev-photo/jstxkremimdttdzmghhe.png
 devto: https://dev.to/codingcatdev/use-firestore-to-build-hugo-conten-1o99
 excerpt: Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site.

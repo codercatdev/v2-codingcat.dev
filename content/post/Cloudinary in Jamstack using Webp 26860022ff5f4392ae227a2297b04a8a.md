@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1600704486/ccd-cloudinary/cloudinary_webp.png
 devto: https://dev.to/codingcatdev/cloudinary-in-jamstack-using-webp-38p2
 excerpt: Create a single source for all of your posting needs, using the best format for the browser!

@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1616547475/main-codingcatdev-photo/y4jh5dhqaopucs7dkohj.jpg
 devto: https://dev.to/codingcatdev/ajonp-hugo-ionic-template-agg
 excerpt: How to use AJonP's Hugo Ionic Template
