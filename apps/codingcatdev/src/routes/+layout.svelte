@@ -32,10 +32,13 @@
 				<div class="flex-1 hidden lg:block">
 					<ul class="p-0 menu menu-horizontal">
 						<li class="hidden lg:block">
-							<a href="/blog" class="text-xl normal-case">Blog</a>
+							<a href="/courses" class="text-xl normal-case">Courses</a>
 						</li>
 						<li class="hidden lg:block">
 							<a href="/tutorials" class="text-xl normal-case">Tutorials</a>
+						</li>
+						<li class="hidden lg:block">
+							<a href="/blog" class="text-xl normal-case">Blog</a>
 						</li>
 					</ul>
 				</div>

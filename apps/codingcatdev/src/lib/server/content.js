@@ -2,7 +2,7 @@ import { PUBLIC_FB_PROJECT_ID } from '$env/static/public';
 import { PRIVATE_FB_PRIVATE_KEY, PRIVATE_FB_CLIENT_EMAIL } from '$env/static/private';
 
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
-import { getFirestore } from 'firebase-admin/firestore';
+import { getFirestore, Timestamp } from 'firebase-admin/firestore';
 import { transform } from '$lib/server/markdown';
 
 if (!PUBLIC_FB_PROJECT_ID || !PRIVATE_FB_CLIENT_EMAIL || !PRIVATE_FB_PRIVATE_KEY) {
@@ -32,7 +32,10 @@ const firestore = getFirestore(app);
  * @returns {Promise<Content[]>}
  * */
 export const listContent = async (contentType) => {
-	const querySnapshot = await firestore.collection(contentType).orderBy('start', 'desc').get();
+	const querySnapshot = await firestore.collection(contentType)
+	.where('start', "<=", Timestamp.fromDate(new Date()))
+	.where('published', "==", 'published')
+	.orderBy('start', 'desc').get();
 	return querySnapshot.docs.map((doc) => {
 		return {
 			id: doc.id,
@@ -50,7 +53,12 @@ export const listContent = async (contentType) => {
  * @returns {Promise<Content | null>}
  * */
 export const getContentBySlug = async (contentType, slug) => {
-	const querySnapshot = await firestore.collection(contentType).where('slug', '==', slug).get();
+	const querySnapshot = await firestore.collection(contentType)
+	.where('slug', '==', slug)
+	.where('start', "<=", Timestamp.fromDate(new Date()))
+	.where('published', "==", 'published')
+	.orderBy('start', 'desc')
+	.get();
 	const doc = querySnapshot?.docs?.at(0);
 	if (!doc) {
 		return null;
