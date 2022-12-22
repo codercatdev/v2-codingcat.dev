@@ -1,10 +1,8 @@
 <script>
+	import Content from '$lib/components/Content.svelte';
+
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
 
-{#if data.content}
-	{@html data.content.content}
-{:else}
-	<p>No data found yet</p>
-{/if}
+<Content content={data.content} />

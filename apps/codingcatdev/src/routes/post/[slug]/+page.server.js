@@ -1,5 +1,6 @@
 import { getContentBySlug } from '$lib/server/content';
 import { ContentType } from '$lib/types';
+
 /**
  * @type {import('./$types').PageServerLoad}
  * */

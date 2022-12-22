@@ -53,6 +53,9 @@ export const listContent = async (contentType) => {
  * @returns {Promise<Content | null>}
  * */
 export const getContentBySlug = async (contentType, slug) => {
+
+	console.debug(`Searching for content type: ${contentType} slug: ${slug}`);
+
 	const querySnapshot = await firestore.collection(contentType)
 	.where('slug', '==', slug)
 	.where('start', "<=", Timestamp.fromDate(new Date()))
