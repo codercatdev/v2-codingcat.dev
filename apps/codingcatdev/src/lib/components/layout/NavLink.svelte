@@ -9,11 +9,5 @@
 <a href={`${href}`} class={`${navLinks} nav-links`}>
 	<span class="sr-only">{`${name}`}</span>
 	<svelte:component this={component} />
-	<p class="title">{`${name}`}</p>
+	{`${name}`}
 </a>
-
-<style>
-	.title {
-		color: hsl(var(--pc) / var(--tw-text-opacity));
-	}
-</style>
