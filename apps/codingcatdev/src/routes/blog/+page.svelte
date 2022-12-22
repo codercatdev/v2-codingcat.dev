@@ -1,10 +1,11 @@
 <script>
+	import { ContentType } from '$lib/types/index';
+	import ContentCards from '$lib/components/ContentCards.svelte';
+
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
 
-<ul>
-	{#each data.list as content}
-		<li><a href={`/blog/${content.slug}`}>{content.title}</a></li>
-	{/each}
-</ul>
+<div class="p-4 sm:p-10">
+	<ContentCards type={ContentType.post} list={data.list} />
+</div>

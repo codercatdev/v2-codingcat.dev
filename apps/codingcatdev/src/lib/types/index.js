@@ -12,6 +12,14 @@
  * @property {typeof import("firebase-admin/firestore").Timestamp | null } end
  * @property {string=} title
  * @property {string=} weight
+ * @property {Author[]=} authors
+ */
+
+/**
+ * @typedef {Object} Author
+ * @property {string} id
+ * @property {string=} displayName
+ * @property {string=} slug
  */
 
 /**
