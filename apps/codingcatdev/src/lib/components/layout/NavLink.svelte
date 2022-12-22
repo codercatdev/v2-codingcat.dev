@@ -1,0 +1,19 @@
+<script>
+	const navLinks = `grid place-items-center links-secondary`;
+	import Courses from '$lib/components/global/icons/nav/Courses.svelte';
+	export let href = '/courses';
+	export let name = 'Courses';
+	export let component = Courses;
+</script>
+
+<a href={`${href}`} class={`${navLinks} nav-links`}>
+	<span class="sr-only">{`${name}`}</span>
+	<svelte:component this={component} />
+	<p class="title">{`${name}`}</p>
+</a>
+
+<style>
+	.title {
+		color: hsl(var(--pc) / var(--tw-text-opacity));
+	}
+</style>
