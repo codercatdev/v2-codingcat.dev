@@ -1,23 +1,21 @@
-# Enterprise Databases that Scale
-
+---
 episode: 19
 recording_date: February 25, 2022 11:00 AM
 season: 2
 status: released
 podcast: CodingCat.dev
-calendarid: https://api.calendly.com/scheduled_events/04d395c5-b74e-4343-bb3a-a338114fb4c2
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1650457591/main-codingcatdev-photo/planetscale_enterprise_data_that_scales.jpg
 devto: https://dev.to/codingcatdev/219-enterprise-databases-that-scale-5036
 excerpt: James Q Quick teaches us about how Planetscale's ability to infinitely scale SQL horizontally at the push of a button.
 hashnode: https://hashnode.codingcat.dev/podcast-2-19-enterprise-databases-that-scale
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-19-enterprise-databases-that-scale&_id=17d319fbb0944d14820ddfe6e2a4df56
 slug: 2-19-enterprise-databases-that-scale
 spotify: https://open.spotify.com/episode/1NxZ13uIoifkIKCNSPEKiN?si=IX11vRQ1Tx6u3FYZxxatCg
 start: May 11, 2022
+title: Enterprise Databases that Scale
 youtube: https://www.youtube.com/watch?v=RTFMT9BKDIg
-
+---
 ## Questions
 
 1. Since the last time you were on you have moved from Auth0 to Planet Scale

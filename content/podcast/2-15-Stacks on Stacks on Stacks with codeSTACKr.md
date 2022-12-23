@@ -1,7 +1,6 @@
-# Stacks on Stacks on Stacks with codeSTACKr
-
+---
 episode: 15
-Guest: https://www.notion.so/Jesse-Hall-6630c6ed01694d1bb73711d2f4320418
+guest: https://www.notion.so/Jesse-Hall-6630c6ed01694d1bb73711d2f4320418
 recording_date: February 3, 2022 10:00 AM
 season: 2
 status: released
@@ -12,12 +11,12 @@ cover: https://media.codingcat.dev/image/upload/v1655827786/main-codingcatdev-ph
 devto: https://dev.to/codingcatdev/215-stacks-on-stacks-on-stacks-with-codestackr-3c58
 excerpt: We sit down with Jesse Hall of codeSTACKr to talk all about MongoDB, his YouTube channel, and how to make NFT cats.
 hashnode: https://hashnode.codingcat.dev/podcast-2-15-stacks-on-stacks-on-stacks-with-code-stac-kr
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-15-stacks-on-stacks-on-stacks-with-code-stac-kr&_id=5cad14891e7c42a3a2b40505fc010252
 slug: 2-15-stacks-on-stacks-on-stacks-with-code-stac-kr
 spotify: https://open.spotify.com/episode/1LOwZlDrtduyGGPlfgiYsr?si=VrMyd6rSQCKUGSxO6OZxNA
 start: April 13, 2022
+title: Stacks on Stacks on Stacks with codeSTACKr
 youtube: https://www.youtube.com/watch?v=lLpB955zogo
-
+---
 ## Questions
 
 1. Tell us about your background?

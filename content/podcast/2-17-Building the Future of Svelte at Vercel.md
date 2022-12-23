@@ -1,24 +1,22 @@
-# Building the Future of Svelte at Vercel
-
+---
 episode: 17
-Guest: https://www.notion.so/Rich-Harris-96ac05d7d56c4b98974cc0a6b20d6dea
+guest: Rich-Harris
 recording_date: February 9, 2022 10:00 AM
 season: 2
 status: released
 podcast: CodingCat.dev
-calendarid: https://api.calendly.com/scheduled_events/eac175f3-388b-4fa4-8f5d-6fe379342c65
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1655827618/main-codingcatdev-photo/Building_the_Future_of_Svelte_at_Vercel.jpg
 devto: https://dev.to/codingcatdev/217-building-the-future-of-svelte-at-vercel-53ok
 excerpt: We caught up with Rich Harris to see how he was settling into his new role with Vercel and what is next for Svelte.
 hashnode: https://hashnode.codingcat.dev/podcast-2-17-building-the-future-of-svelte-at-vercel
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-17-building-the-future-of-svelte-at-vercel&_id=9ed38480497d44f8a7063303f8f13872
 slug: 2-17-building-the-future-of-svelte-at-vercel
 spotify: https://open.spotify.com/episode/39D6IaSm092UAIq0YcQwVa?si=a0LWbNeuTVOh5_DL1BlNJQ
 start: April 27, 2022
+title: Building the Future of Svelte at Vercel
 youtube: https://www.youtube.com/watch?v=F1sSUDVoij4
-
+---
 ## Questions
 
 1. I don’t know if this man needs an introduction, but can you

@@ -1,24 +1,23 @@
-# Build faster websites with Astro
-
+---
 episode: 11
-Guest: https://www.notion.so/Fred-Schott-13e6674ddcaa428682fdfbeac470ad2e
+guest: 
+    - Fred-Schott
 recording_date: January 19, 2022 1:30 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/x56kjb38bb
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1647456845/main-codingcatdev-photo/buildfasterwebsiteswithastro.png
 devto: https://dev.to/codingcatdev/211-build-faster-websites-with-astro-k7f
 excerpt: Fred Schott chats with us all about Astro and how you can build static sites with any framework.
 hashnode: https://hashnode.codingcat.dev/podcast-2-11-build-faster-websites-with-astro
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-11-build-faster-websites-with-astro&_id=116c8caf130848b29c42b75ae8f8d5b1
 slug: 2-11-build-faster-websites-with-astro
 spotify: https://open.spotify.com/episode/5VxSkOY6uJkTuQ2yJticLU?si=AngcuGgaSX2wlHJVw7_iVA
 start: March 16, 2022
+title: Build faster websites with Astro
 youtube: https://www.youtube.com/watch?v=vw-c0FSse5o
-
+---
 ## Questions
 
 1. The Astro Technology Company - [https://astro.build/blog/the-astro-technology-company/](https://astro.build/blog/the-astro-technology-company/)

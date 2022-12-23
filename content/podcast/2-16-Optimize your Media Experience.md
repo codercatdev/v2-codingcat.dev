@@ -1,24 +1,21 @@
-# Optimize your Media Experience
-
+---
 episode: 16
 recording_date: February 15, 2022 1:00 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/usuvj8ezgf
-calendarid: https://api.calendly.com/scheduled_events/ebcbd760-59aa-4a01-9eeb-8cbb0c909ce5
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1655827697/main-codingcatdev-photo/Optimizing_your_Media_Experience.jpg
 devto: https://dev.to/codingcatdev/216-optimize-your-media-experience-41ib
 excerpt: Colby Fayock walks us through how to optimize your media experience with Cloudinary.
 hashnode: https://hashnode.codingcat.dev/podcast-2-16-optimize-your-media-experience
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-16-optimize-your-media-experience&_id=c25b36e770f14d07a3bf934543b67a76
 slug: 2-16-optimize-your-media-experience
 spotify: https://open.spotify.com/episode/5Ry9jd3GcpmQRCvzs7gwn1?si=D58PpolzQfexoPlIyCD9fA
 start: April 20, 2022
+title: Optimize your Media Experience
 youtube: https://www.youtube.com/watch?v=BTwPo4ho0OY
-
+---
 ## Questions
 
 1. Last time we had you on, you were working for Applitools, can you give us some background and how you ended up at Cloudinary?

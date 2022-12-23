@@ -1,25 +1,23 @@
-# Making the Web Easier to Build
-
+---
 episode: 18
-Guest: https://www.notion.so/Una-Kravets-5d9ffc504aed4dc5bf5f7d910fad7992
+guest: 
+    - Una-Kravets
 recording_date: February 18, 2022 11:00 AM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/b8q6eznx4h
-calendarid: https://api.calendly.com/scheduled_events/04fafa9d-40e6-4753-9722-e0f3c6e15e94
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1650419614/main-codingcatdev-photo/una_kravets_make_the_web_easier_to_build.jpg
 devto: https://dev.to/codingcatdev/218-making-the-web-easier-to-build-i3h
 excerpt: Una Kravets is a DevRel extraordinaire making CSS magic at Google.
 hashnode: https://hashnode.codingcat.dev/podcast-2-18-making-the-web-easier-to-build-with-una-kavets
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-18-making-the-web-easier-to-build-with-una-kavets&_id=45640cab4b5a42609ab50aabd238f865
 slug: 2-18-making-the-web-easier-to-build-with-una-kavets
 spotify: https://open.spotify.com/episode/6jCPgXnUuLVjjGEHcGVr0C?si=dwXY8ITrTviUNJkg-zFlTA
 start: May 4, 2022
+title: Making the Web Easier to Build
 youtube: https://www.youtube.com/watch?v=8wVPvZe5aZc
-
+---
 ## Questions
 
 1. Can you give us some background on how you got here?
