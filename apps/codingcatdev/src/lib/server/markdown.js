@@ -51,7 +51,7 @@ function highlight_spans(content, classname) {
 /** @type {Partial<import('marked').Renderer>} */
 const default_renderer = {
 	code: (source, language = '') => {
-		console.log('lang', language);
+		console.log('markdown:lang', language);
 		/** @type {Record<string, string>} */
 		const options = {};
 

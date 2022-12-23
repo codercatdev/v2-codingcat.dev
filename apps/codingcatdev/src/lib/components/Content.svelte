@@ -4,7 +4,7 @@
 </script>
 
 {#if content}
-	<section class="prose">
+	<section class="prose lg:prose-xl xl:prose-2xl">
 		{@html content.content}
 	</section>
 {:else}

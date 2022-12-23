@@ -29,9 +29,10 @@ const firestore = getFirestore(app);
 /**
  * List all content from specified content type.
  * @param {import('$lib/types').ContentType} contentType
+ * @param {number=} limit
  * @returns {Promise<Content[]>}
  * */
-export const listContent = async (contentType) => {
+export const listContent = async (contentType, limit) => {
 	console.log('List for type:', contentType);
 
 	const querySnapshot = await firestore
@@ -40,6 +41,7 @@ export const listContent = async (contentType) => {
 		.orderBy('start', 'desc')
 		.orderBy('title', 'asc')
 		.where('published', '==', 'published')
+		.limit(limit || 100)
 		.get();
 
 	return querySnapshot.docs.map((doc) => {

@@ -10,7 +10,7 @@
 	<input id="ccd-drawer" type="checkbox" class="drawer-toggle" />
 	<div class="flex flex-col drawer-content">
 		<TopNav />
-		<main class="flex-1">
+		<main class="flex justify-center">
 			<slot />
 		</main>
 		<Footer />
