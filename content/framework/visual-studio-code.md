@@ -1,4 +1,4 @@
 # Visual Studio Code
 
-cloudinary_convert: No
+cloudinary_convert: false
 slug: visual-studio-code

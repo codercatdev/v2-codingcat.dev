@@ -1,4 +1,4 @@
 # Svelte
 
-cloudinary_convert: No
+cloudinary_convert: false
 slug: svelte

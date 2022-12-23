@@ -37,7 +37,7 @@ export const ContentType = {
 	page: 'page',
 	podcast: 'podcast',
 	post: 'post',
-	tutorial: 'tutorial',
+	tutorial: 'tutorial'
 };
 
 /**
@@ -50,3 +50,19 @@ export const ContentPublished = {
 	draft: 'draft',
 	published: 'published'
 };
+
+/**
+ * @typedef {Object} BasePodcast
+ * @property {string} id
+ * @property {boolean} chapters_done
+ * @property {boolean} cloudinary_convert
+ * @property {number=} episode
+ * @property {string=} recording_date
+ * @property {('idea' | 'scheduled' | 'recorded' | 'failed')} status
+ * @property {('CodingCat.dev')} status
+ * @property {number=} season
+ */
+
+/**
+ * @typedef {Content & BasePodcast} Podcast
+ */

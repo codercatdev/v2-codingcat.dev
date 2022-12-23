@@ -1,3 +1,3 @@
 # WordPress
 
-cloudinary_convert: No
+cloudinary_convert: false

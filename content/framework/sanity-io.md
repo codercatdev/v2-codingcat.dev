@@ -1,5 +1,5 @@
 ---
-cloudinary_convert: No
+cloudinary_convert: false
 published: published
 slug: sanity-io
 title: Sanity.io
