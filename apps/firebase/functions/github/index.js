@@ -17,17 +17,24 @@ const repo = "v2-codingcat.dev";
 admin.initializeApp();
 
 /**
- * For Health Check of microservices
+ * Uncomment to test locally
  */
-exports.health = functions.https.onRequest(async (request, response) => {
-	response
-		.status(200)
-		.send(
-			`<div>Timestamp: ${JSON.stringify(
-				Timestamp.now()
-			)}</div><div>Date: ${Timestamp.now().toDate()}</div>`
-		);
-});
+// exports.test = functions
+// 	.runWith({ secrets: ["GH_TOKEN"] })
+// 	.https.onRequest(async (request, response) => {
+// 		if (!process.env.GH_TOKEN) {
+// 			throw new functions.https.HttpsError(
+// 				"failed-precondition",
+// 				"Missing GitHub Personal Token"
+// 			);
+// 		}
+// 		try {
+// 			await updateContentFromGitHub();
+// 		} catch (error) {
+// 			throw new functions.https.HttpsError("unknown");
+// 		}
+// 		response.status(200).send();
+// 	});
 
 /**
  * GitHub Webhook for push events
@@ -273,8 +280,9 @@ exports.addItemToFirestore = functions
 			functions.logger.error(`Missing Type for content update.`);
 		}
 
+		let ref;
 		if (lesson && lessonName) {
-			const ref = admin
+			ref = admin
 				.firestore()
 				.collection(type)
 				.doc(slugify(name))
@@ -282,10 +290,7 @@ exports.addItemToFirestore = functions
 				.doc(slugify(lessonName));
 			await updateDocumentFromGitHub(ref, payload);
 		} else {
-			const ref = admin
-				.firestore()
-				.collection(type)
-				.doc(createSlug(type, content));
+			ref = admin.firestore().collection(type).doc(createSlug(type, content));
 			await updateDocumentFromGitHub(ref, payload);
 		}
 		/**
