@@ -1,24 +1,23 @@
-# The Other Side of Tech: A Documentarian Perspective
-
+---
 episode: 4
-Guest: https://www.notion.so/Stefan-Kingham-c638bab2434240de8c67466f0150b1d0
+guest: 
+    - Stefan-Kingham
 recording_date: December 9, 2021 10:00 AM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/whs4hkinw5
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1643068740/main-codingcatdev-photo/TheOtherSideofTech.png
 devto: https://dev.to/codingcatdev/the-other-side-of-tech-a-documentarian-perspective-37p1
 excerpt: We sit down with Stefan Kingham, who helped create the Vue.js documentary and will soon be releasing a new Svelte documentary.
 hashnode: https://hashnode.codingcat.dev/podcast-2-4-the-other-side-of-tech-a-documentarian-perspective
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-4-the-other-side-of-tech-a-documentarian-perspective&_id=b02d735a1f274ff7b63251b64f7f760e
 slug: 2-4-the-other-side-of-tech-a-documentarian-perspective
 spotify: https://open.spotify.com/episode/58IX9cHlJzOaALZ47Lou1G?si=ZBrRct2YStuRNR60jaDNNg
 start: January 26, 2022
+title: The Other Side of Tech - A Documentarian Perspective
 youtube: https://www.youtube.com/watch?v=jypnsnmrBbg
-
+---
 ## Questions
 
 1. Tell us a little about how you got into making tech documentaries.

@@ -1,7 +1,7 @@
-# Building Design Systems with Backlight.dev
-
+---
 episode: 7
-Guest: https://www.notion.so/m4dz-77b7ca25f209497d9ff5f2bd097d4336
+guest: 
+    - m4dz
 recording_date: December 16, 2021 9:00 AM
 season: 2
 status: released
@@ -12,12 +12,12 @@ cover: https://media.codingcat.dev/image/upload/v1645562669/main-codingcatdev-ph
 devto: https://dev.to/codingcatdev/27-building-design-systems-with-backlightdev-nad
 excerpt: We sit down with m4dz, developer advocate from the <div>RIOTS team. We talk all about the Backlight.dev design system.
 hashnode: https://hashnode.codingcat.dev/podcast-2-7-building-design-systems-with-backlight-dev
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-7-building-design-systems-with-backlight-dev&_id=72476de2e7d84f0c8f5bc69960feb118
 slug: 2-7-building-design-systems-with-backlight-dev
 spotify: https://open.spotify.com/episode/6TVelLezeX0tPFFx9A7CqH?si=1gUY0rAgTrGgMvHolx1Xag
 start: February 16, 2022
+title: Building Design Systems with Backlight.dev
 youtube: https://www.youtube.com/watch?v=_90Ytn6E4Sk
-
+---
 ## Questions
 
 1. Can you explain what divRiots is and what you work on?

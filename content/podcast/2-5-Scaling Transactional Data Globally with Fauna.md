@@ -1,24 +1,23 @@
-# Scaling Transactional Data Globally with Fauna
-
+---
 episode: 5
-Guest: https://www.notion.so/Rob-Sutter-e52a522e3757484c9882a8f14cc0f7f7
+guest: 
+    - Rob-Sutter
 recording_date: December 10, 2021 1:30 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/2fmt55as33
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1643579081/main-codingcatdev-photo/fauna.png
 devto: https://dev.to/codercatdev/25-scaling-transactional-data-globally-with-fauna-dk3
 excerpt: We sit down with Rob Sutter to talk all about his history as a developer advocate and Fauna. Fauna is a flexible, developer-friendly, transactional database delivered as a secure and scalable cloud API with native GraphQL.
 hashnode: https://hashnode.codingcat.dev/podcast-2-5-scaling-transactional-data-globally-with-fauna
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-5-scaling-transactional-data-globally-with-fauna&_id=ae926d85f4444afaaeeaed70ebfdf6fa
 slug: 2-5-scaling-transactional-data-globally-with-fauna
 spotify: https://open.spotify.com/episode/3Op24f7z9NCD5ufjrshupB?si=Qvn-uUM2QhW7lDowvZWI5g
 start: February 2, 2022
+title: Scaling Transactional Data Globally with Fauna
 youtube: https://www.youtube.com/watch?v=-wjpyBmeYG4
-
+---
 ## Questions
 
 1. How did you get started as a Developer Advocate?

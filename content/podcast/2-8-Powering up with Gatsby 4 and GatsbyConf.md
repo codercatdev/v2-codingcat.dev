@@ -1,24 +1,23 @@
-# Powering up with Gatsby 4 and GatsbyConf
-
+---
 episode: 8
-Guest: https://www.notion.so/Grayson-Hicks-a5ed3626f6734d0ebf3791055cb668dd
+guest: 
+    - Grayson-Hicks
 recording_date: January 20, 2022 10:30 AM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/8hk73q8b6i
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1645563382/main-codingcatdev-photo/powering_up_with_gatsby_4_and_gatsby_conf.jpg
 devto: https://dev.to/codingcatdev/28-powering-up-with-gatsby-4-and-gatsbyconf-lob-temp-slug-6871734
 excerpt: Grayson Hicks joins us to talk all about Gatsby 4 and multiple methods of rendering.
 hashnode: https://hashnode.codingcat.dev/podcast-2-8-powering-up-with-gatsby-4-and-gatsbyconf
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-8-powering-up-with-gatsby-4-and-gatsbyconf&_id=674fdf56657340aa97b57bd1736d0586
 slug: 2-8-powering-up-with-gatsby-4-and-gatsbyconf
 spotify: https://open.spotify.com/episode/13LS987IGxdrpgpxi7Ixks?si=viuQAxCzT1S4CUpHHQwZOQ
 start: February 23, 2022
+title: Powering up with Gatsby 4 and GatsbyConf
 youtube: https://www.youtube.com/watch?v=uYP2GKOQvIs
-
+---
 ## Questions
 
 1. Tell us about yourself and how you found your way onto team Gatsby?
