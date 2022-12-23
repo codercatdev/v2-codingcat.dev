@@ -1,23 +1,22 @@
-# Creating Great Ecommerce with Jamstack
-
+---
 episode: 26
-Guest: https://www.notion.so/Flor-Antara-7e07f859b12f4a1da35f35f35c1188ac
+guest: 
+    - Flor-Antara
 recording_date: April 15, 2021 5:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/97n24jqi8w
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-26-creating-great-ecommerce-with-jamstack-af2
 excerpt: We sit down with Flor Antara and James Vidler to talk all about Ecommerce and the solutions for Jamstack.
 hashnode: https://hashnode.codingcat.dev/podcast-1-26-creating-great-ecommerce-with-jamstack
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-26-creating-great-ecommerce-with-jamstack&_id=ad7b74778026488390673111a9ff2424
 slug: 1-26-creating-great-ecommerce-with-jamstack
 spotify: https://open.spotify.com/episode/7nxSvs2ROmrsazmlVk3O1o?si=1xxzLXu8TgOeT4QlpGnxew
 start: June 16, 2021
+title: Creating Great Ecommerce with Jamstack
 youtube: https://www.youtube.com/watch?v=Wnnbi-GLgZc
-
+---
 ## Questions
 
 1. Some people may think the Jamstack can't do e-commerce because it's supposed to be static pages. How do we get that dynamic functionality that a shopping site needs?

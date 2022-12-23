@@ -1,23 +1,22 @@
-# Delivering a Content Mesh
-
+---
 episode: 16
-Guest: https://www.notion.so/Sam-Bhagwat-a1babefe66ce4992a272959ccce07be4
+guest: 
+    - Sam-Bhagwat
 recording_date: March 11, 2021 1:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/7ja7ce8ard
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/delivering-a-content-mesh-2hb9
 excerpt: On this podcast we talk with Sam Bhagwat, Cofounder & Chief Strategy Officer at Gatsby. We dive into Gatsby 3.0 and why Jamstack is allowing us
 hashnode: https://hashnode.codingcat.dev/podcast-1-16-delivering-a-content-mesh
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-16-delivering-a-content-mesh&_id=a54c4477e6b0444397050aff3c9defc0
 slug: 1-16-delivering-a-content-mesh
 spotify: https://open.spotify.com/episode/67rWNPqN3j8tpK1CKqjbSo?si=wH9kHvtgQiKW08xFBLD0oA
 start: April 14, 2021
+title: Delivering a Content Mesh
 youtube: https://www.youtube.com/watch?v=zaH8Za7dmhY
-
+---
 ## Questions
 
 1. So how was GatsbyConf?

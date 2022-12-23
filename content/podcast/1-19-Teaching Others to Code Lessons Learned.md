@@ -1,23 +1,22 @@
-# Teaching Others to Code Lessons Learned
-
+---
 episode: 19
-Guest: https://www.notion.so/Prince-Wilson-a0f43488670749fab92e5213164d7ad8
+guest: 
+    - Prince-Wilson
 recording_date: March 15, 2021 1:30 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/hfg7c47944
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-19-teaching-others-to-code-lessons-learned-k82
 excerpt: In this episode we sit down with Prince Wilson and talk about his experience teaching at an in person bootcamp.
 hashnode: https://hashnode.codingcat.dev/podcast-1-19-teaching-others-to-code-lessons-learned
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-19-teaching-others-to-code-lessons-learned&_id=20e3d34789784253968ff225f5130843
 slug: 1-19-teaching-others-to-code-lessons-learned
 spotify: https://open.spotify.com/episode/0CxntzJswy7uQd1k6rWL6I?si=LMDHjKe2QCiVagwa3rXqvQ
 start: May 5, 2021
+title: Teaching Others to Code Lessons Learned
 youtube: https://www.youtube.com/watch?v=ME9m_pnD2tE
-
+---
 ### Questions
 
 1. You started out by teaching others to code at an in person bootcamp. What would you say is the biggest reason or benefit of attending a bootcamp and what was that experience teaching like?

@@ -1,23 +1,22 @@
-# What's up with Svelte
-
+---
 episode: 15
-Guest: https://www.notion.so/Shawn-Wang-swyx-3960afb807854452ac925075482b43f4
+guest: 
+    - Shawn-Wang-swyx
 recording_date: March 9, 2021 2:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/awnsmisjgz
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/what-s-up-with-svelte-59a7
 excerpt: On this podcast we talk with Shawn Wang also known as swyx. We dive into what is happening with Svelte, the Svelte Society, and Svelte Radio.
 hashnode: https://hashnode.codingcat.dev/podcast-1-15-whats-up-with-svelte
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-15-whats-up-with-svelte&_id=a5a76a73d3e546f6a912fd2c9acfb2b5
 slug: 1-15-whats-up-with-svelte
 spotify: https://open.spotify.com/episode/7FdRpURFJO5ZutrfT1weYI?si=qBkv3gHyQZKTJIbu1Tq5Pw
 start: April 7, 2021
+title: What's up with Svelte
 youtube: https://www.youtube.com/watch?v=xLhuUShkYkM
-
+---
 ## Questions
 
 1. Where are you living these days?

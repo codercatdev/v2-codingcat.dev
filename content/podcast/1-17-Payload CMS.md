@@ -1,23 +1,22 @@
-# Payload CMS
-
+---
 episode: 17
-Guest: https://www.notion.so/Dan-Ribbens-9f435ea82d21485bb953ed0d5a953ae7
+guest: 
+    - Dan-Ribbens
 recording_date: March 5, 2021 3:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/q8xicti44u
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/payload-cms-f9j
 excerpt: We chat with Dan Ribbens about Payload CMS a self-hosted, headless JavaScript CMS.
 hashnode: https://hashnode.codingcat.dev/podcast-1-17-payload-cms
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-17-payload-cms&_id=502e42202e8643a693a2a0f12522fd94
 slug: 1-17-payload-cms
 spotify: https://open.spotify.com/episode/2cQczfuDct1Rk3pDGEOZiG?si=1wYf_VJBR3G0FJS2tnBuHw
 start: April 21, 2021
+title: Payload CMS
 youtube: https://www.youtube.com/watch?v=ZJiCMBiCKDY
-
+---
 ## Questions
 
 1. Payload **is a Headless CMS correct?**

@@ -1,23 +1,22 @@
-# Fostering Developer Education
-
+---
 episode: 18
-Guest: https://www.notion.so/Lauren-Lee-c625482ca62f4517aacaaacc326dfa86
+guest: 
+    - Lauren-Lee
 recording_date: March 18, 2021 2:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/pbiiru6z6h
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-18-fostering-developer-education-140i
 excerpt: We sit down with Lauren Lee (LoLoCoding) to talk about fostering developer education. We review how Lauren switched from being a teacher to become the Director of Community at Puppet
 hashnode: https://hashnode.codingcat.dev/podcast-1-18-fostering-developer-education
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-18-fostering-developer-education&_id=e362a86b01884a8392ba6e85cafce6cf
 slug: 1-18-fostering-developer-education
 spotify: https://open.spotify.com/episode/6XqoodfrFs0zhRkp38nJx3?si=0tScuRpISXWyei0hs0FU1Q
 start: April 28, 2021
+title: Fostering Developer Education
 youtube: https://www.youtube.com/watch?v=-WmDZM9kdHA
-
+---
 ## Questions
 
 1. What drew you into the bootcamp that really changed you career?

@@ -1,26 +1,24 @@
-# Producing Newsletters with Buttondown
-
+---
 episode: 27
 recording_date: April 20, 2021 3:30 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/b9jk77ziye
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-27-producing-newsletters-with-buttondown-554f
 excerpt: If you are looking for a simple yet powerful way to create a newsletter checkout Buttondown! We sit down with Justin Duke to talk about how he got started working on this project.
 hashnode: https://hashnode.codingcat.dev/podcast-1-27-producing-newsletters-with-buttondown
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-27-producing-newsletters-with-buttondown&_id=e45fc96257c7431cb70578f551d8dc3f
 slug: 1-27-producing-newsletters-with-buttondown
 spotify: https://open.spotify.com/episode/27SydrPSZEZW0HvYfqkp5Z?si=tZu0yJrERc2hcTBQUlSCJA
 start: June 23, 2021
+title: Producing Newsletters with Buttondown
 youtube: https://www.youtube.com/watch?v=zyyrwCV5oGg
-
+---
 ### Questions
 
 1. Why did you start working on Buttondown?
-2. What are the tools used for Buttondown? ([https://www.notion.so/Running-Costs-f29729ded5494272947f656440967cbf](https://www.notion.so/Running-Costs-f29729ded5494272947f656440967cbf))
+2. What are the tools used for Buttondown? ([Running-Costs-f29729ded5494272947f656440967cbf](Running-Costs-f29729ded5494272947f656440967cbf))
     1. Mailgun
     2. Heroku
     3. Stripe

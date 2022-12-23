@@ -1,23 +1,22 @@
-# Creating Macro Benefits from Micro Frontends
-
+---
 episode: 25
-Guest: https://www.notion.so/Alex-Gogan-378f20f53c5248f999cac29750c78c28
+guest: 
+    - Alex-Gogan
 recording_date: March 29, 2021 5:30 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/pa8irebeur
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-25-creating-macro-benefits-from-micro-frontends-2926
 excerpt: We sit down to chat with Alex Gogan about how Sherpa is leveraging Microfrontends.
 hashnode: https://hashnode.codingcat.dev/podcast-1-25-micro-frontends
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-25-micro-frontends&_id=1a5d4d8bc22a44d88a4f809c548867ca
 slug: 1-25-micro-frontends
 spotify: https://open.spotify.com/episode/5gkLrF5jX6ny5R1O8GSIBx?si=CXxsNmYjRkOzL1he-RZodQ
 start: June 9, 2021
+title: Creating Macro Benefits from Micro Frontends
 youtube: https://www.youtube.com/watch?v=rgHttPaek8A
-
+---
 ### Questions
 
 1. **What is a Micro Frontend?**

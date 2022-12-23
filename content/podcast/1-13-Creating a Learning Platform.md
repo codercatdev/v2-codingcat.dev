@@ -1,23 +1,22 @@
-# Creating a Learning Platform
-
+---
 episode: 13
-Guest: https://www.notion.so/Scott-Tolinski-cda472bf48494233974c6af48d60d7b1
+guest: 
+    - Scott-Tolinski
 recording_date: March 3, 2021 4:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/2wwd3a63qj
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/creating-a-learning-platform-oje
 excerpt: We talk with Scott Tolinkski of LevelUpTutorials all about his past and why he started his Learning Platform.
 hashnode: https://hashnode.codingcat.dev/podcast-1-13-creating-a-learning-platform
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-13-creating-a-learning-platform&_id=879383412cbf4cd0a8a1c571bf0b40f1
 slug: 1-13-creating-a-learning-platform
 spotify: https://open.spotify.com/episode/5vwsDNz3dYEJvH41OxBLkY?si=P3PhuSqcRWu-SN1raJ9nAg
 start: March 24, 2021
+title: Creating a Learning Platform
 youtube: https://www.youtube.com/watch?v=FMFJcYRXYtA
-
+---
 ## Questions
 
 1. **When did you first decide to create your own Learning Platform?**

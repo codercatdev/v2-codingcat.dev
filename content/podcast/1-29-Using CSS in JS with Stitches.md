@@ -1,21 +1,21 @@
-# Using CSS in JS with Stitches
-
+---
 episode: 29
-Guest: https://www.notion.so/Pedro-Duarte-5d6127845cdc45bbb2b9ce059c5d577d
+guest: 
+    - Pedro-Duarte
 recording_date: May 7, 2021 12:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/d6p94f88mc
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-29-using-css-in-js-with-stitches-3994
 excerpt: We sit down with Pedro Duarte to talk all about using CSS in JavaScript and why Modulz created Stitches.
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-29-using-css-in-js-with-stitches&_id=d9322c033d7a4d72b654c8b588f74c2d
 slug: 1-29-using-css-in-js-with-stitches
 spotify: https://open.spotify.com/episode/6BgooamhwjgQSCrsBofhyF?si=2OdvuAbUTJyS3qX0M93LSA
 start: July 14, 2021
-
+title: Using CSS in JS with Stitches
+youtube: https://youtu.be/GBKQcjX-1Lo
+---
 ## Questions
 
 1. What is CSS in JS?
