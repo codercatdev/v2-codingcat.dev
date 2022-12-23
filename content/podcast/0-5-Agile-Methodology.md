@@ -1,5 +1,4 @@
-# Agile Methodology
-
+---
 anchor: https://anchor.fm/purrfect-dev/episodes/0-5---Agile-Methodology-eanfb8
 episode: 5
 recording_date: January 5, 2020
@@ -11,8 +10,48 @@ cloudinary_convert: false
 devto: https://dev.to/codingcatdev/0-5-agile-methodology-2f7e
 excerpt: Alex Feldman discusses Agile and how it can be used in Project Management.
 hashnode: https://hashnode.codingcat.dev/podcast-0-5-agile-methodology
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=0-5-agile-methodology&_id=a777ce11f8324f0b8e54b18440936cae
 slug: 0-5-agile-methodology
 spotify: https://open.spotify.com/episode/0RVqxa8KhhNzcQxP9WPsWn?si=4Ydbhl60QKC6NXoT4d22jA
 start: February 8, 2020
+title: Agile Methodology
 youtube: https://www.youtube.com/watch?v=yVskgThfFbU
+---
+
+Agile 101
+Guest Details
+Alex Feldman - Agile Evangelist, Agile Coach
+https://www.linkedin.com/in/alexanderfeldman/
+
+Agile Related Questions
+Tell us a little bit about yourself?
+
+Why Agile?
+
+What are the biggest hurdles you see in organizations implementing an agile methodology?
+
+What is the most effective way for an organization to start working in Agile
+
+What are some resources you can give to developers and program managers to further their support in Project Management?
+
+Greg Larman
+
+Rando Question
+You have a lot of letters on the end of your LinkedIn Profile, what in your mind is most beneficial to your success and future career path.
+
+Purrfect Picks
+Alex Feldman
+
+Agile Product Ownership in a Nutshell https://youtu.be/502ILHjX9EE
+
+Nick R.
+
+Ray Dalio - Principles for Success - Mini Series. https://www.youtube.com/watch?v=B9XGUpQZY38
+
+https://images.app.goo.gl/n1t7RtvK3zAz2ujY6
+
+Useful resources
+Agile Product Ownership in a Nutshell https://youtu.be/502ILHjX9EE
+
+---
+
+Send in a voice message: https://anchor.fm/purrfect-dev/message

@@ -1,5 +1,4 @@
-# Tea CLI tea.xyz
-
+---
 recording_date: January 5, 2023 2:15 PM
 status: scheduled
 podcast: CodingCat.dev
@@ -9,7 +8,8 @@ cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1670526725/main-codingcatdev-photo/Tea-CLI.jpg
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=Tea-CLI&_id=39c649159741440498a1085a9ef6dd74
 slug: Tea-CLI
-
+title: Tea CLI tea.xyz
+---
 ## Questions
 
 1. Can you tell us more about yourself?
