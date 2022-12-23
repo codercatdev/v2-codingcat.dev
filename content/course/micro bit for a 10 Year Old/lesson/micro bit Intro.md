@@ -2,6 +2,10 @@
 cloudinary_convert: false
 cover: http://media.codingcat.dev/image/upload/v1620241182/main-codingcatdev-photo/gmjigd84bzqxklcbiljt.png
 excerpt: micro:bit Introduction
+framework: 
+    - makecode
+language:
+    - javascript
 published: published
 slug: micro-bit-intro
 start: June 1, 2022
