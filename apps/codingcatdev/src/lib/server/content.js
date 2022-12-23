@@ -3,7 +3,7 @@ import { PRIVATE_FB_PRIVATE_KEY, PRIVATE_FB_CLIENT_EMAIL } from '$env/static/pri
 
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
 import { getFirestore, Timestamp } from 'firebase-admin/firestore';
-import { transform } from '$lib/server/markdown';
+import { compile } from 'mdsvex';
 
 if (!PUBLIC_FB_PROJECT_ID || !PRIVATE_FB_CLIENT_EMAIL || !PRIVATE_FB_PRIVATE_KEY) {
 	throw new Error('Missing Firebase Admin Environment Varialbles');
@@ -74,10 +74,22 @@ export const getContentBySlug = async (contentType, slug) => {
 	if (!doc) {
 		return null;
 	}
+
+	const markdown = doc.data().content || '';
+	const compiled = await compile(markdown);
+
+	let content = '';
+	if (compiled) {
+		// https://github.com/pngwn/MDsveX/issues/392
+		content = compiled.code
+			.replace(/>{@html `<code class="language-/g, '><code class="language-')
+			.replace(/<\/code>`}<\/pre>/g, '</code></pre>');
+	}
+
 	return {
 		id: doc.id,
 		...doc.data(),
-		content: doc.data().content ? transform(doc.data().content, {}) : '',
+		content,
 		start: doc.data().start ? doc.data().start.toDate() : doc.data().start,
 		end: doc.data().end ? doc.data().end.toDate() : doc.data().end
 	};

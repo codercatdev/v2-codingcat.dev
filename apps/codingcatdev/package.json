@@ -41,7 +41,9 @@
 	"type": "module",
 	"dependencies": {
 		"firebase-admin": "^11.3.0",
+		"mdsvex": "^0.10.6",
 		"prism-svelte": "^0.5.0",
+		"prism-themes": "^1.9.0",
 		"prismjs": "^1.29.0",
 		"theme-change": "^2.2.0"
 	}

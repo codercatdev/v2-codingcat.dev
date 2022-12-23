@@ -1,6 +1,7 @@
 <script>
 	/** @type {import('$lib/types/index').Content | null} */
 	export let content;
+	import 'prism-themes/themes/prism-shades-of-purple.min.css';
 </script>
 
 {#if content}
