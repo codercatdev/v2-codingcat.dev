@@ -491,12 +491,10 @@ const updateDocumentFromGitHub = async (ref, payload) => {
 			content: mdObject.content,
 			...mdObject.data,
 			weight: mdObject?.data?.weight ? mdObject?.data?.weight : 0,
+			published: mdObject?.data?.published ? mdObject?.data?.published : 'draft',
 			start: mdObject?.data?.start
 				? Timestamp.fromDate(new Date(mdObject?.data?.start))
-				: null,
-			end: mdObject?.data?.end
-				? Timestamp.fromDate(new Date(mdObject?.data?.end))
-				: null,
+				: Timestamp.fromDate(new Date(-8640000000000000))
 		},
 		{ merge: true }
 	);

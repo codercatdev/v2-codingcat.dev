@@ -11,6 +11,10 @@
         {
           "fieldPath": "start",
           "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
         }
       ]
     },
@@ -43,6 +47,10 @@
         {
           "fieldPath": "start",
           "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
         }
       ]
     },
@@ -75,6 +83,10 @@
         {
           "fieldPath": "start",
           "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
         }
       ]
     },
@@ -107,6 +119,10 @@
         {
           "fieldPath": "start",
           "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
         }
       ]
     },
@@ -139,6 +155,10 @@
         {
           "fieldPath": "start",
           "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
         }
       ]
     },
@@ -171,6 +191,10 @@
         {
           "fieldPath": "start",
           "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
         }
       ]
     },

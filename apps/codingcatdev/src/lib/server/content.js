@@ -32,10 +32,16 @@ const firestore = getFirestore(app);
  * @returns {Promise<Content[]>}
  * */
 export const listContent = async (contentType) => {
-	const querySnapshot = await firestore.collection(contentType)
-	.where('start', "<=", Timestamp.fromDate(new Date()))
-	.where('published', "==", 'published')
-	.orderBy('start', 'desc').get();
+	console.log('List for type:', contentType);
+
+	const querySnapshot = await firestore
+		.collection(contentType)
+		.where('start', '<=', Timestamp.fromDate(new Date()))
+		.orderBy('start', 'desc')
+		.orderBy('title', 'asc')
+		.where('published', '==', 'published')
+		.get();
+
 	return querySnapshot.docs.map((doc) => {
 		return {
 			id: doc.id,
@@ -53,15 +59,15 @@ export const listContent = async (contentType) => {
  * @returns {Promise<Content | null>}
  * */
 export const getContentBySlug = async (contentType, slug) => {
-
 	console.debug(`Searching for content type: ${contentType} slug: ${slug}`);
 
-	const querySnapshot = await firestore.collection(contentType)
-	.where('slug', '==', slug)
-	.where('start', "<=", Timestamp.fromDate(new Date()))
-	.where('published', "==", 'published')
-	.orderBy('start', 'desc')
-	.get();
+	const querySnapshot = await firestore
+		.collection(contentType)
+		.where('slug', '==', slug)
+		.where('start', '<=', Timestamp.fromDate(new Date()))
+		.orderBy('start', 'desc')
+		.where('published', '==', 'published')
+		.get();
 	const doc = querySnapshot?.docs?.at(0);
 	if (!doc) {
 		return null;
