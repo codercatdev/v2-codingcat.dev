@@ -1,5 +1,4 @@
-# Crossover for Compressed.fm and Purrfect.dev
-
+---
 episode: 45
 season: 1
 status: released
@@ -9,13 +8,12 @@ cloudinary_convert: false
 devto: https://dev.to/codingcatdev/145-crossover-for-compressedfm-and-purrfectdev-2g13
 excerpt: We did a fun mashup with James Q Quick and Amy Dutton (selfteachme) from Compressed.fm. We touch a lot on our background and how to become a T shaped or broken comb skillset.
 hashnode: https://hashnode.codingcat.dev/podcast-1-45-crossover-for-compressed-fm-and-purrfect-dev
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-45-crossover-for-compressed-fm-and-purrfect-dev&_id=bec382e664764cb29609dad5466b39b3
-sanityid: a
 slug: 1-45-crossover-for-compressed-fm-and-purrfect-dev
 spotify: https://open.spotify.com/episode/4GUnEEekhSJlGgbIOcKVHX?si=ve5B41DERqyZAXo9no7KNw
 start: November 16, 2021
+title: Crossover for Compressed.fm and Purrfect.dev
 youtube: https://www.youtube.com/watch?v=vHxGW7DznYY
-
+---
 ### Questions
 
 1. The solutions Architect

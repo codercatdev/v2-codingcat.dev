@@ -1,6 +1,6 @@
 ---
 episode: 15
-guest: https://www.notion.so/Jesse-Hall-6630c6ed01694d1bb73711d2f4320418
+guest: Jesse-Hall-6630c6ed01694d1bb73711d2f4320418
 recording_date: February 3, 2022 10:00 AM
 season: 2
 status: released

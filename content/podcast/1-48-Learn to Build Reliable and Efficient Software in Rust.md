@@ -1,23 +1,22 @@
-# Learn to Build Reliable and Efficient Software in Rust
-
+---
 episode: 48
-Guest: https://www.notion.so/Chris-Biscardi-32bcfa3d56234033bd8a6e989e67dc01
+guest: 
+    - Chris-Biscardi
 recording_date: October 20, 2021 4:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/rw6wd3q8cn
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/148-learn-to-build-reliable-and-efficient-software-in-rust-3enn
 excerpt: We sit down and chat about Rust and Chris Biscardi's new Rust workshop, Rust Adventure.
 hashnode: https://hashnode.codingcat.dev/podcast-1-48-learn-to-build-reliable-and-efficient-software-in-rust
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-48-learn-to-build-reliable-and-efficient-software-in-rust&_id=15ad2a2e43624f818766d8d0c39618d7
 slug: 1-48-learn-to-build-reliable-and-efficient-software-in-rust
 spotify: https://open.spotify.com/episode/5XEVHjEJtmIPUDsGb6WpAA?si=eX_QkBMeRBSQSHhyi_zIHA
 start: December 1, 2021
+title: Learn to Build Reliable and Efficient Software in Rust
 youtube: https://www.youtube.com/watch?v=dubAsSUvY4k
-
+---
 ## Questions
 
 1. How would you describe Rust?

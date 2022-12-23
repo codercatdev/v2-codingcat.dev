@@ -1,23 +1,22 @@
-# Creating Code in Your Browser with StackBlitz
-
+---
 episode: 40
-Guest: https://www.notion.so/Tomek-Sulkowski-ca6fe645c88c455fb27f706594ee0e6d
+guest: 
+    - Tomek-Sulkowski
 recording_date: September 2, 2021 9:00 AM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/rzns7tf8ii
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/140-creating-code-in-your-browser-with-stackblitz-33pb
 excerpt: We sit down with Tomek Sulkowski to talk about how he started as an original engineer for StackBlitz. We also talk about Web Containers and how StackBlitz is leveraging them to program on the web.
 hashnode: https://hashnode.codingcat.dev/podcast-1-40-creating-code-in-your-browser-with-stackblitz
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-40-creating-code-in-your-browser-with-stackblitz&_id=58b355f482384fff881096dd7bf242b5
 slug: 1-40-creating-code-in-your-browser-with-stackblitz
 spotify: https://open.spotify.com/episode/2zY41N3heUI9086felbr9w?si=c9pH-CffT76a68uMg5jFLQ
 start: October 13, 2021
+title: Creating Code in Your Browser with StackBlitz
 youtube: https://www.youtube.com/watch?v=IpoFnTSR2-Y
-
+---
 ### Questions
 
 1. How did you get started working on StackBlitz?

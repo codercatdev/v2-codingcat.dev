@@ -1,23 +1,22 @@
-# Revealing all of Next.js 12's Features
-
+---
 episode: 46
-Guest: https://www.notion.so/Lee-Robinson-21b7ee1c165d4deeb8cdbc69ebc55cac
+guest: 
+    - Lee-Robinson
 recording_date: November 9, 2021 5:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/9f6t5y4kw3
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/146-revealing-all-of-nextjs-12s-features-11cf
 excerpt: We sit down with Lee Robinson, Head of Developer relations at Vercel, to talk all about Next.js 12.
 hashnode: https://hashnode.codingcat.dev/podcast-1-46-revealing-all-of-next-js-12-s-features
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-46-revealing-all-of-next-js-12-s-features&_id=b73411d6ec3944659b0827cc9333e772
 slug: 1-46-revealing-all-of-next-js-12-s-features
 spotify: https://open.spotify.com/episode/1PBe5x63tPw4lXnPLAFSfx?si=nPsDEJc8Qm26L4JrWwVI_g
 start: November 17, 2021
+title: Revealing all of Next.js 12's Features
 youtube: https://www.youtube.com/watch?v=_iGE7lVfeaI
-
+---
 ## Questions
 
 1. Can you tell us about your background and how you landed at Vercel?

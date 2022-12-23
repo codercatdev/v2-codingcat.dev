@@ -1,23 +1,22 @@
-# Qwik the HTML First Framework
-
+---
 episode: 49
-Guest: https://www.notion.so/Misko-Hevery-8da318295b0746908a5df019f78fa533
+guest: 
+    - Misko-Hevery
 recording_date: December 1, 2021
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/jv3rgcywzc
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/149-qwik-the-html-first-framework-1c2c
 excerpt: We sit down with Miško Hevery, Inventor of Angular, to talk about a new framework he is building called Qwik. We talk about Miško's past experience and then we deep dive into Qwik.
 hashnode: https://hashnode.codingcat.dev/podcast-1-49-qwik-the-html-first-framework
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-49-qwik-the-html-first-framework&_id=f357190030c64c36b6a4a9c08a315dff
 slug: 1-49-qwik-the-html-first-framework
 spotify: https://open.spotify.com/episode/4rPq0VRdDt5AoC2AuSyLfV?si=xkdXWhzVRKC3myXHzrt0gQ
 start: December 8, 2021
+title: Qwik the HTML First Framework
 youtube: https://www.youtube.com/watch?v=GdIZh42etYk
-
+---
 ### Questions
 
 1. How much fun did you have making AngularJS and Angular?

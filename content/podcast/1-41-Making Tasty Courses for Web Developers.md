@@ -1,23 +1,22 @@
-# Making Tasty Courses for Web Developers
-
+---
 episode: 41
-Guest: https://www.notion.so/Wes-Bos-cab4967c65e341b1afffdbfd9d6cd284
+guest: 
+    - Wes-Bos
 recording_date: September 14, 2021 10:30 AM-11:30 AM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/pkgg8e9q4i
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/141-making-tasty-courses-for-web-developers-4bn3
 excerpt: We sit down with Wes Bos from Syntax.fm to talk about how he got started in web development, how to create courses, and how to get paid for your hard work.
 hashnode: https://hashnode.codingcat.dev/podcast-1-41-making-tasty-courses-for-web-developers
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-41-making-tasty-courses-for-web-developers&_id=beead138b3844db7ab5e8c0fd8f1ce13
 slug: 1-41-making-tasty-courses-for-web-developers
 spotify: https://open.spotify.com/episode/3safF02gCSwJUR88YVsgjB?si=oi8cFvMlQdeet3S4G306Zg
 start: October 20, 2021
+title: Making Tasty Courses for Web Developers
 youtube: https://www.youtube.com/watch?v=k8qUYodgLf8
-
+---
 ## Questions
 
 1. What got you started in Web Development?

@@ -1,15 +1,15 @@
-# Holiday Funisode - Ask us Anything
-
+---
 episode: 52
+recording_date: December 31, 2021
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/53ynryj5dc
 chapters_done: true
 cloudinary_convert: false
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=&_id=a7f2c72665964581a49c210d7fe05095
 start: December 31, 2021
-
+title: Holiday Funisode - Ask us Anything
+youtube: https://www.youtube.com/watch?v=xeLTL9Q-2dY
+---
 ## What technology we see coming for 2022
 
 - Svelte will grow by 10,000%, Brittney says SvelteKit 1.0 will come out 😉

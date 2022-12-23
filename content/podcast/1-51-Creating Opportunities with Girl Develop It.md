@@ -1,23 +1,22 @@
-# Creating Opportunities with Girl Develop It
-
+---
 episode: 51
-Guest: https://www.notion.so/Katie-Franco-54a522601e534fae8e9a02444656445b
+guest: 
+    - Katie-Franco
 recording_date: December 17, 2021 10:30 AM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/h7bbrwgxxt
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/151-creating-opportunities-with-girl-develop-it-nff
 excerpt: We sit down with Katie Franco, Executive Director of Girl Develop It. We dive into how they support woman and non-binary people in the development space.
 hashnode: https://hashnode.codingcat.dev/podcast-1-51-creating-opportunities-with-girl-develop-it
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-51-creating-opportunities-with-girl-develop-it&_id=e9feb6470de4472db77e02f7e920f389
 slug: 1-51-creating-opportunities-with-girl-develop-it
 spotify: https://open.spotify.com/episode/14RH66CndHxPWtv2Og5Tha?si=LOR6ep4GRvaqE6Hos6gQEQ
 start: December 22, 2021
+title: Creating Opportunities with Girl Develop It
 youtube: https://www.youtube.com/watch?v=xy19oczTQuk
-
+---
 ## Questions
 
 1. What is Girl Develop It and how did you get involved? 
