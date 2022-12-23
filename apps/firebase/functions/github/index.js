@@ -1,13 +1,15 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
-
 const { Timestamp } = require("firebase-admin/firestore");
 const { Octokit } = require("octokit");
+const crypto = require("crypto");
 const { sendTopic } = require("../utils/pubsub");
 const slugify = require("slugify");
 const matter = require("gray-matter");
 
-const topic = "GitHubUpdateFirestore";
+const updatetopic = "GitHubUpdateFirestore";
+const webhookupdatetopic = "GitHubUpdateFirestoreFromWebhook";
+const webhookdeletetopic = "GitHubRemoveFirestoreFromWebhook";
 const owner = "codingcatdev";
 const repo = "v2-codingcat.dev";
 
@@ -26,6 +28,171 @@ exports.health = functions.https.onRequest(async (request, response) => {
 			)}</div><div>Date: ${Timestamp.now().toDate()}</div>`
 		);
 });
+
+/**
+ * GitHub Webhook for push events
+ */
+exports.webhook = functions
+	.runWith({ secrets: ["GH_WEBHOOK_SECRET"] })
+	.https.onRequest(async (request, response) => {
+		if (!process.env.GH_WEBHOOK_SECRET) {
+			response.status(401).send("Missing GitHub Webhook Secret");
+			return false;
+		}
+		const method = request.method;
+
+		if (method !== "POST") {
+			throw new functions.https.HttpsError("unimplemented", "Wrong method");
+		}
+
+		const payload = request.body;
+		const xHubSignature256 = request.get("X-Hub-Signature-256");
+
+		const sig = Buffer.from(xHubSignature256);
+		const hmac = crypto.createHmac("sha256", process.env.GH_WEBHOOK_SECRET);
+
+		const digest = Buffer.from(
+			"sha256=" + hmac.update(request.rawBody).digest("hex"),
+			"utf8"
+		);
+		if (sig.length !== digest.length || !crypto.timingSafeEqual(digest, sig)) {
+			throw new functions.https.HttpsError(
+				"permission-denied",
+				"Signature of digest did not match"
+			);
+		}
+
+		functions.logger.debug("gh:payload", payload);
+
+		const owner = payload.repository.owner.name;
+		const repo = payload.repository.name;
+
+		//TODO: maybe have more included in secrets array?
+		if (owner != "CodingCatDev" || repo != "v2-codingcat.dev") {
+			throw new functions.https.HttpsError(
+				"permission-denied",
+				"Incorrect Owner/Repo"
+			);
+		}
+
+		/**
+		 * Loop through changed files and collect from all commits
+		 */
+		let changed;
+		let removed;
+		for (const commit of payload.commits) {
+			changed = [...commit.added, ...commit.modified];
+			removed = [...commit.removed];
+		}
+		//Remove dups
+		changed = [...new Set(changed)];
+		removed = [...new Set(removed)];
+
+		/**
+		 * Send Topic to lookup each files data and update Firestore
+		 */
+		for (const path of changed) {
+			const splitPath = path.split("/");
+			const content = splitPath.at(0);
+			// Skip if this file is not in the content directory
+			if (content !== "content") {
+				continue;
+			}
+
+			await sendTopic(webhookupdatetopic, { path, owner, repo });
+		}
+		/**
+		 * Send Topic to lookup each files data and remove from Firestore
+		 */
+		for (const path of removed) {
+			const splitPath = path.split("/");
+			const content = splitPath.at(0);
+			// Skip if this file is not in the content directory
+			if (content !== "content") {
+				continue;
+			}
+
+			await sendTopic(webhookdeletetopic, { path });
+		}
+		response.status(200).send();
+	});
+
+/*
+ * Adds file data to firestore from GitHub content
+ */
+exports.addItemToFirestoreFromWebhook = functions
+	.runWith({ secrets: ["GH_TOKEN"] })
+	.pubsub.topic(webhookupdatetopic)
+	.onPublish(async (message, context) => {
+		if (!process.env.GH_TOKEN) {
+			response.status(401).send("Missing GitHub Personal Token");
+			return false;
+		}
+		/** @type {{type: string, content: Object}} payload */
+		const payload = JSON.parse(JSON.stringify(message.json));
+		functions.logger.debug("payload", payload);
+
+		const { path, owner, repo } = payload;
+
+		const splitPath = path.split("/");
+		const type = splitPath.at(1);
+
+		if (!path || !type || !owner || !repo) {
+			functions.logger.debug(`Missing Data in Payload`);
+			return null;
+		}
+
+		/**
+		 * Send Topic for single path object
+		 */
+		const octokit = createOctokit();
+		const { data, headers } = await octokit.rest.repos.getContent({
+			owner,
+			repo,
+			path,
+		});
+		functions.logger.debug(`Found ${data?.length} ${type} to check.`);
+		functions.logger.debug(headers["x-ratelimit-remaining"]);
+		await sendTopic(updatetopic, { type, content: data });
+	});
+
+/*
+ * Adds file data to firestore from GitHub content
+ */
+exports.removeItemFromFirestoreFromWebhook = functions
+	.runWith({ secrets: ["GH_TOKEN"] })
+	.pubsub.topic(webhookdeletetopic)
+	.onPublish(async (message, context) => {
+		if (!process.env.GH_TOKEN) {
+			response.status(401).send("Missing GitHub Personal Token");
+			return false;
+		}
+		/** @type {{type: string, content: Object}} payload */
+		const payload = JSON.parse(JSON.stringify(message.json));
+		functions.logger.debug("payload", payload);
+
+		const { path } = payload;
+		const splitPath = path.split("/");
+		const type = splitPath.at(1);
+		const name = splitPath.at(2);
+		const lesson = splitPath.at(3);
+		const lessonName = splitPath.at(4);
+
+		if (lesson && lessonName) {
+			const ref = admin
+				.firestore()
+				.collection(type)
+				.doc(slugify(name))
+				.collection(lesson)
+				.doc(slugify(lessonName));
+			await ref.delete();
+			functions.logger.debug(`removed: ${lessonName}`);
+		} else {
+			const ref = admin.firestore().collection(type).doc(slugify(name));
+			await ref.delete();
+			functions.logger.debug(`removed: ${name}`);
+		}
+	});
 
 /**
  * Allows for authenticated user to run update
@@ -58,7 +225,8 @@ exports.addContent = functions
 
 /**
  * Runs nightly update for GitHub content
- * TODO: Should this run more often?
+ * This checks all content so we might not want this after initial load.
+ * TODO: Should this run more/less often?
  */
 exports.addContentNightly = functions
 	.runWith({ secrets: ["GH_TOKEN"] })
@@ -83,7 +251,7 @@ exports.addContentNightly = functions
  */
 exports.addItemToFirestore = functions
 	.runWith({ secrets: ["GH_TOKEN"] })
-	.pubsub.topic(topic)
+	.pubsub.topic(updatetopic)
 	.onPublish(async (message, context) => {
 		if (!process.env.GH_TOKEN) {
 			response.status(401).send("Missing GitHub Personal Token");
@@ -93,27 +261,43 @@ exports.addItemToFirestore = functions
 		const payload = JSON.parse(JSON.stringify(message.json));
 		functions.logger.debug("payload", payload);
 
-		if (!payload?.type) {
+		const { content } = payload;
+		const { path } = content;
+
+		const splitPath = path.split("/");
+		const type = splitPath.at(1);
+		const name = splitPath.at(2);
+		const lesson = splitPath.at(3);
+		const lessonName = splitPath.at(4);
+		if (!type) {
 			functions.logger.error(`Missing Type for content update.`);
 		}
 
-		let fileSlug = slugify(payload.content.name);
-		if (payload.type === "course") {
-			// Get the Folder name of course for uniqueness
-			fileSlug = slugify(payload.content.path.split("/").at(-2));
+		if (lesson && lessonName) {
+			const ref = admin
+				.firestore()
+				.collection(type)
+				.doc(slugify(name))
+				.collection(lesson)
+				.doc(slugify(lessonName));
+			await updateDocumentFromGitHub(ref, payload);
+		} else {
+			const ref = admin
+				.firestore()
+				.collection(type)
+				.doc(createSlug(type, content));
+			await updateDocumentFromGitHub(ref, payload);
 		}
-		const ref = admin.firestore().collection(payload.type).doc(fileSlug);
-		await updateDocumentFromGitHub(ref, payload);
-
 		/**
 		 * If this is a course there should be lesson data as well.
+		 * Only should run when full run, not webhook
 		 * */
-		if (payload.type === "course" && payload.content.lesson) {
-			functions.logger.debug("payload:lesson", payload.content.lesson);
-			const lessonSlug = slugify(payload.content.lesson.name);
+		if (type === "course" && content.lesson) {
+			functions.logger.debug("lesson", content.lesson);
+			const lessonSlug = slugify(content.lesson.name);
 			const lessonRef = ref.collection("lesson").doc(lessonSlug);
 			await updateDocumentFromGitHub(lessonRef, {
-				content: payload.content.lesson,
+				content: content.lesson,
 			});
 		}
 	});
@@ -126,6 +310,21 @@ const createOctokit = () => {
 		auth: process.env.GH_TOKEN,
 	});
 };
+/**
+ * Set Octokit instance and return
+ * @param {string} type
+ * @param {object=} content
+ * @returns {string}
+ * */
+const createSlug = (type, content) => {
+	let fileSlug = slugify(content.name);
+	if (type === "course") {
+		// Get the Folder name of course for uniqueness
+		fileSlug = slugify(content.path.split("/").at(-2));
+	}
+	return fileSlug;
+};
+
 /**
  * Returns GitHub's version of content, including encoded file
  * @param {string} path */
@@ -182,7 +381,7 @@ const updateContentFromGitHub = async () => {
 		// trigger pubsub to scale this update all at once
 		// TODO: recursive for directories
 		for (const d of data) {
-			await sendTopic(topic, { type, content: d });
+			await sendTopic(updatetopic, { type, content: d });
 		}
 	}
 
@@ -229,7 +428,7 @@ const updateContentFromGitHub = async () => {
 
 		for (const lesson of lessonFiles) {
 			// Send the details for course with each lesson
-			await sendTopic(topic, {
+			await sendTopic(updatetopic, {
 				type: "course",
 				content: {
 					...indexFile,

@@ -16,6 +16,7 @@
   "main": "index.js",
   "dependencies": {
     "@google-cloud/pubsub": "^3.2.1",
+    "crypto": "^1.0.1",
     "firebase-admin": "^11.3.0",
     "firebase-functions": "^4.1.1",
     "gray-matter": "^4.0.3",
