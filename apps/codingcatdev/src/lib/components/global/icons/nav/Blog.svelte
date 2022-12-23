@@ -69,10 +69,7 @@
 
 <style>
 	.main {
-		fill: hsl(var(--p) / var(--tw-bg-opacity));
-	}
-	.main:hover {
-		fill: hsl(var(--pf, var(--p)) / var(--tw-bg-opacity));
+		fill: hsl(var(--p));
 	}
 	.line {
 		stroke: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));

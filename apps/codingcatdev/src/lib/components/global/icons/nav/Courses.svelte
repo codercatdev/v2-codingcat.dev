@@ -22,9 +22,6 @@
 
 <style>
 	.main {
-		fill: hsl(var(--p) / var(--tw-bg-opacity));
-	}
-	.main:hover {
-		fill: hsl(var(--pf, var(--p)) / var(--tw-bg-opacity));
+		fill: hsl(var(--p));
 	}
 </style>

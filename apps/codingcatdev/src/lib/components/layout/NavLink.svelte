@@ -6,7 +6,7 @@
 	export let component = Courses;
 </script>
 
-<a href={`${href}`} class={`${navLinks} nav-links`}>
+<a href={`${href}`} class={`${navLinks} nav-links btn btn-ghost`}>
 	<span class="sr-only">{`${name}`}</span>
 	<svelte:component this={component} />
 	{`${name}`}
