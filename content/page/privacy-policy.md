@@ -1,7 +1,7 @@
 ---
 cloudinary_convert: false
 published: published
-slug: /privacy-policy
+slug: privacy-policy
 start: June 20, 2022
 title: Privacy Policy
 ---

@@ -1,7 +1,7 @@
 ---
 cloudinary_convert: false
 published: published
-slug: /terms-of-use
+slug: terms-of-use
 start: June 20, 2022
 title: Terms of Use
 ---

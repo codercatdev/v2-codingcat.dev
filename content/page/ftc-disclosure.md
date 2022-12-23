@@ -1,7 +1,7 @@
 ---
 cloudinary_convert: false
 published: published
-slug: /ftc-disclosure
+slug: ftc-disclosure
 start: June 20, 2022
 title: FTC Disclosure
 ---

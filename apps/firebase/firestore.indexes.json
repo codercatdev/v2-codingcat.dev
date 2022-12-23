@@ -33,6 +33,102 @@
       ]
     },
     {
+      "collectionGroup": "framework",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "framework",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "slug",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "language",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "language",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "slug",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "page",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "page",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "slug",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
       "collectionGroup": "post",
       "queryScope": "COLLECTION",
       "fields": [
