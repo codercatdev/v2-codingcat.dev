@@ -170,7 +170,7 @@ const updateContentFromGitHub = async () => {
 	const octokit = createOctokit();
 
 	// Find all the content to send to firestore
-	for (const type of ["page", "post", "tutorial"]) {
+	for (const type of ["framework", "language", "page", "post", "tutorial"]) {
 		const { data, headers } = await octokit.rest.repos.getContent({
 			owner,
 			repo,

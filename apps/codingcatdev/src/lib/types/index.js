@@ -28,14 +28,16 @@
  * @enum {string}
  */
 export const ContentType = {
-	post: 'post',
-	tutorial: 'tutorial',
-	podcast: 'podcast',
 	course: 'course',
+	framework: 'framework',
+	forum: 'forum',
+	group: 'group',
+	language: 'language',
 	lesson: 'lesson',
 	page: 'page',
-	group: 'group',
-	forum: 'forum'
+	podcast: 'podcast',
+	post: 'post',
+	tutorial: 'tutorial',
 };
 
 /**
