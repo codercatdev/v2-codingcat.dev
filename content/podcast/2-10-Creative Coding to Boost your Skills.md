@@ -17,7 +17,7 @@ spotify: https://open.spotify.com/episode/43c5DEVQcuMfYVZTPis7lq?si=Iiu9rwtAR0-t
 start: March 9, 2022
 title: Creative Coding to Boost your Skills
 youtube: https://www.youtube.com/watch?v=FM8fIqsD3eo
-
+---
 ## Questions
 
 1. Can you go more into what a polyglot is and what tools you work with?
