@@ -1,23 +1,22 @@
-# Delivering Digital Content with GraphCMS
-
+---
 episode: 31
-Guest: https://www.notion.so/Scott-Spence-d464e35698734e6892c786462c989b95
+guest: 
+    - Scott-Spence
 recording_date: June 1, 2021 9:00 AM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/mqjj6ybvim
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-31-delivering-digital-content-with-graphcms-31c2
 excerpt: We sit down with Scott Spence to talk about all things GraphCMS related. Why the decision was to go with a GraphQL only backend as a service.
 hashnode: https://hashnode.codingcat.dev/podcast-1-31-delivering-digital-content-with-graphcms
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-31-delivering-digital-content-with-graphcms&_id=728baf6d067c45bf922d586870d49ba2
 slug: 1-31-delivering-digital-content-with-graphcms
 spotify: https://open.spotify.com/episode/404wafUKZho8inHT6iYcdi?si=RISdrE90Qf-EXOk4znmkHQ
 start: July 28, 2021
+title: Delivering Digital Content with GraphCMS
 youtube: https://www.youtube.com/watch?v=FXigkX0uI0M
-
+---
 ## Questions
 
 1. What is GraphCMS?

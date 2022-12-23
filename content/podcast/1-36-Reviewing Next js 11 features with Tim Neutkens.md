@@ -1,24 +1,23 @@
-# Reviewing Next.js 11 features with Tim Neutkens
-
+---
 episode: 36
-Guest: https://www.notion.so/Tim-Neutkens-2d3bcb5648ca4bfa94205191cc7dc518
+guest: 
+    - Tim-Neutkens
 recording_date: August 25, 2021 9:00 AM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/b4fkzdxbm3
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1632186883/main-codingcatdev-photo/x8ncnxweooiat7vzpwke.png
 devto: https://dev.to/codingcatdev/1-36-reviewing-next-js-11-features-with-tim-neutkens-3hoi
 excerpt: We sit down with Tim to talk about how he got started with Next.js and what things are upcoming in Next.js 11.
 hashnode: https://hashnode.codingcat.dev/podcast-1-36-reviewing-nextjs-features-with-tim-neutkens
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-36-reviewing-nextjs-features-with-tim-neutkens&_id=411c1a639ac54bef98af15439c2be94b
 slug: 1-36-reviewing-nextjs-features-with-tim-neutkens
 spotify: https://open.spotify.com/episode/5f7NgscE9NfrDusvHGhhG3?si=YadoDC8YQwO49XWpmlhbkA
 start: September 15, 2021
+title: Reviewing Next.js 11 features with Tim Neutkens
 youtube: https://www.youtube.com/watch?v=S3NokxTVs7Y
-
+---
 ### Questions
 
 1. How did you get started on Next.js**?**

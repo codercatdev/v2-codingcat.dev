@@ -1,23 +1,24 @@
-# Making Flutter Games with Flame Engine
-
+---
 episode: 34
-Guest: https://www.notion.so/Lukas-spydon-e1cac43718e848fdabd6e5079aca0c8b, https://www.notion.so/Jochum-wolfen-393d44af530341ad82786968ad64e077, https://www.notion.so/Renan-e1a7f62d3365442e91a7da256a39e5cb
+guest: 
+    - Lukas-spydon
+    - Jochum-wolfen
+    - Renan
 recording_date: July 7, 2021 3:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/4t39383a9c
 chapters_done: false
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-34-making-flutter-games-with-flame-engine-d6g
 excerpt: If you love gaming and Flutter, you need to checkout Flame Engine! We sit down with Lukas, Jochum and Renan to chat about how this library works.
 hashnode: https://hashnode.codingcat.dev/podcast-1-34-making-flutter-games-with-flame-engine
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-34-making-flutter-games-with-flame-engine&_id=e89f646f69534e448d1876c912ee81f2
 slug: 1-34-making-flutter-games-with-flame-engine
 spotify: https://open.spotify.com/episode/1LcFMt9R8kW0tQAaf4wTf7?si=GCuE6NQSTl6MtP4R1IsVYg
 start: September 1, 2021
+title: Making Flutter Games with Flame Engine
 youtube: https://www.youtube.com/watch?v=8-aj-FxRs1k
-
+---
 ## Questions
 
 1. What is [Flutter](https://flutter.dev/)?

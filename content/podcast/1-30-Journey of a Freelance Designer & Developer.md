@@ -1,23 +1,22 @@
-# Journey of a Freelance Designer & Developer
-
+---
 episode: 30
-Guest: https://www.notion.so/Amy-Dutton-e850a9ac81b14f3d925d8320bc940fd4
+guest: 
+    - Amy-Dutton
 recording_date: May 11, 2021 12:00 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/u5x7yvubpr
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-30-journey-of-a-freelance-designer-developer-3a4p
 excerpt: In this episode we sit down with Amy Dutton and to talk about freelancing and what it takes to be a designer and developer. We also talk about working for Zeal and making her awesome channel Self Teach Me.
 hashnode: https://hashnode.codingcat.dev/podcast-1-30-journey-of-a-freelance-designer-developer
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-30-journey-of-a-freelance-designer-developer&_id=7123d7c0837a40d5a846d7df99a37a86
 slug: 1-30-journey-of-a-freelance-designer-developer
 spotify: https://open.spotify.com/episode/6NkckhsW8DdxUNTNfyGY8T?si=tumVwEApThKlYEZhn8WwCg
 start: July 21, 2021
+title: Journey of a Freelance Designer & Developer
 youtube: https://www.youtube.com/watch?v=T7VQ_x4zZMI
-
+---
 ## Questions
 
 1. What is ZEAL and what do you do there?

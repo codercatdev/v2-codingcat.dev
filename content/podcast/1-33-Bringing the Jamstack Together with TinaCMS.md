@@ -1,22 +1,20 @@
-# Bringing the Jamstack Together with TinaCMS
-
+---
 episode: 33
 recording_date: June 9, 2021 1:30 PM
 season: 1
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/xur55krjhg
 chapters_done: true
 cloudinary_convert: false
 devto: https://dev.to/codingcatdev/1-33-bringing-the-jamstack-together-with-tinacms-2m20
 excerpt: We sit down with James Perkins to talk about how he became a developer advocate. Then we talk about how TinaCMS is changing the way we think about editing in the Jamstack.
 hashnode: https://hashnode.codingcat.dev/podcast-1-33-bringing-the-jamstack-together-with-tinacms
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=1-33-bringing-the-jamstack-together-with-tinacms&_id=c37736240c5e475f81dbbafe84eed16c
 slug: 1-33-bringing-the-jamstack-together-with-tinacms
 spotify: https://open.spotify.com/episode/5fmSi07Y9OWAT1afHQaK3R?si=JmVzJ9htRAmydW-7lNGERQ
 start: August 11, 2021
+title: Bringing the Jamstack Together with TinaCMS
 youtube: https://www.youtube.com/watch?v=5m3kbQh9yYU
-
+---
 ## Questions
 
 1. What is your background James?
