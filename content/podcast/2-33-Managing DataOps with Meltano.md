@@ -1,25 +1,23 @@
-# Managing DataOps with Meltano
-
+---
 episode: 33
-Guest: https://www.notion.so/Douwe-Maan-81550967275348ada18de159695ccadb
+guest: 
+    - Douwe-Maan
 recording_date: June 23, 2022 2:15 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/mycraf43sz
-calendarid: https://api.calendly.com/scheduled_events/6b7d43b4-294c-4e78-98e6-435e0cbcf881
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1655745847/main-codingcatdev-photo/Managing-DataOps-with-Meltano.jpg
 devto: https://dev.to/codingcatdev/233-managing-dataops-with-meltano-2p48
 excerpt: You have heard of DevOps, but what about DataOps? Douwe explains what this is all about and how Meltano solves hard to create data solutions for your infrastructure.
 hashnode: https://hashnode.codingcat.dev/podcast-2-33-Managing-DataOps-with-Meltano
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-33-Managing-DataOps-with-Meltano&_id=efbb953af5e040a3a99a8c1840fbe178
 slug: 2-33-Managing-DataOps-with-Meltano
 spotify: https://open.spotify.com/episode/1z2UFvnziNghBYy3WgBxDT?si=L_v4p9bFTNCLiq8UPIo9vA
 start: July 27, 2022
+title: Managing DataOps with Meltano
 youtube: https://www.youtube.com/watch?v=SQ79YAM4Hxc
-
+---
 ## Questions
 
 1. Douwe can you tell us more about your background?

@@ -1,5 +1,4 @@
-# Plasmic with Ekene Eze (Kenny)
-
+---
 episode: 39
 recording_date: August 11, 2022 2:15 PM
 season: 2
@@ -12,12 +11,12 @@ cover: https://media.codingcat.dev/image/upload/v1663010452/main-codingcatdev-ph
 devto: https://dev.to/codingcatdev/239-plasmic-with-ekene-eze-kenny-2pn
 excerpt: Kenny tells us all about the amazing no-code tool Plasmic. Plasmic is the visual builder for your tech stack.
 hashnode: https://hashnode.codingcat.dev/podcast-Plasmic-with-Ekene-Eze-Kenny
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=Plasmic-with-Ekene-Eze-Kenny&_id=d51e2767e3b04d6ebdd8775a0c494a24
 slug: Plasmic-with-Ekene-Eze-Kenny
 spotify: https://open.spotify.com/episode/1kXO4pEgN0SMmAxU6Hkr92?si=ZMjGFjrtTZec5T6hzl3sCg
 start: September 14, 2022 12:00 PM
+title: Plasmic with Ekene Eze (Kenny)
 youtube: https://youtu.be/2tLp-Be7cVM
-
+---
 ## Questions
 
 1. Can you tell us more about yourself?

@@ -1,24 +1,23 @@
-# Ionic 6
-
+---
 episode: 32
-Guest: https://www.notion.so/Mike-Hartington-9072f6c0e7ed46eaa160917df09a7ed3
+guest: 
+    - Mike-Hartington
 recording_date: June 16, 2022 2:15 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/2tbrb3iyf9
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1655831789/main-codingcatdev-photo/Ionic_6.jpg
 devto: https://dev.to/codingcatdev/232-ionic-6-2pe9
 excerpt: Mike tells us all about himself and starting at Ionic. Mike gives us a full demo of Ionic 6 and the new components.
 hashnode: https://hashnode.codingcat.dev/podcast-2-32-ionic-6
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-32-ionic-6&_id=205c7318d45e414ea233639e731099ad
 slug: 2-32-ionic-6
 spotify: https://open.spotify.com/episode/7yFp386XGq03g3lbFFXq89?si=9Ag6cwkfRx233N_tG8d80A
 start: July 20, 2022
+title: Ionic 6
 youtube: https://www.youtube.com/watch?v=z21vYzGCN_g
-
+---
 ## Questions
 
 1. Can you tell us more about yourself?

@@ -1,24 +1,23 @@
-# Podcasters Unite
-
+---
 episode: 35
-Guest: https://www.notion.so/Anthony-Campolo-9e62c8a9abf14e928cff926c22d9b778
+guest: 
+    - Anthony-Campolo
 recording_date: July 19, 2022 4:00 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/xhjck2429k
 chapters_done: false
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1658238637/main-codingcatdev-photo/Podcasters-Unite.png
 devto: https://dev.to/codingcatdev/235-podcasters-unite-3ad6
 excerpt: We got together the best in the podcast business to find out all their secrets to success.
 hashnode: https://hashnode.codingcat.dev/podcast-2-35-podcasters-unite
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-35-podcasters-unite&_id=b202776c079347bc9b9b616859472cbe
 slug: 2-35-podcasters-unite
 spotify: https://open.spotify.com/episode/1gJlWfJFegXNWvW7PAY89w?si=M5R7RoolT6qzZlbUhDuenA
 start: August 10, 2022
+title: Podcasters Unite
 youtube: https://youtu.be/gGGzOIDvRnU
-
+---
 ### Links
 
 [Angular Air](https://angularair.com/)

@@ -1,25 +1,23 @@
-# Creating a Standardized Design System for the Web
-
+---
 episode: 31
-Guest: https://www.notion.so/Greg-Whitworth-3a4a4e2559c54abc9793ac2be15d0204
+guest: 
+    - Greg-Whitworth
 recording_date: June 9, 2022 2:15 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-streamyard: https://streamyard.com/ctzaudppt9
-calendarid: https://api.calendly.com/scheduled_events/0ab8180a-1575-48a8-86ff-f216935ea7b4
 chapters_done: true
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1657713352/main-codingcatdev-photo/Standardized-design-system.jpg
 devto: https://dev.to/codingcatdev/231-creating-a-standardized-design-system-for-the-web-2b57
 excerpt: Greg talks with us about running the OpenUI working group. We talk in detail and give demos on standardizing components across the major browser vendors.
 hashnode: https://hashnode.codingcat.dev/podcast-creating-a-standardized-design-system-for-the-web
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=creating-a-standardized-design-system-for-the-web&_id=62ab2d9316654ecc9c254e6ddfe831d9
 slug: creating-a-standardized-design-system-for-the-web
 spotify: https://open.spotify.com/episode/43WexCiAnnjZlcSyFvqzxW?si=5ux-aAWdQ_i85SRCbCIb6Q
 start: July 13, 2022
+title: Creating a Standardized Design System for the Web
 youtube: https://www.youtube.com/watch?v=yfV2jkQgwUI
-
+---
 ## Questions
 
 1. Can you tell us about your background?
