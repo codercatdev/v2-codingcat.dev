@@ -1,8 +1,9 @@
-# Storyblok and achieving better Accessibility from Developer Experience
-
+---
 anchor: https://anchor.fm/purrfect-dev/episodes/2-44---Svelte--Accessibility--DX-with-Josefine-Schaefer-e1pj1ll
 episode: 44
-Guest: https://www.notion.so/Josefine-Schaefer-96a23d161c344b62a832fb486140a8d3, https://www.notion.so/Alex-Jover-Morales-6192757c93224ed29021e8f0983e7b65
+guest: 
+    - Josefine-Schaefer
+    - Alex-Jover-Morales
 recording_date: October 13, 2022 2:15 PM
 season: 2
 status: released
@@ -18,6 +19,7 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 slug: Storyblok-and-achieving-better-Accessibility-from-Developer-Experience
 spotify: https://open.spotify.com/episode/7HghjPmPWz34g48L6quVkX?si=RisJUtzYTl-zPMUpdosm9g
 start: October 19, 2022 12:00 PM
+title: Storyblok and achieving better Accessibility from Developer Experience
 youtube: https://youtu.be/QBCUuaD2d7g
 
 ## Questions

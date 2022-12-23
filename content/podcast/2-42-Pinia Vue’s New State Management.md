@@ -1,22 +1,21 @@
-# Pinia Vue’s New State Management
-
+---
 episode: 42
 recording_date: September 29, 2022 2:15 PM
 season: 2
 status: released
 podcast: CodingCat.dev
-calendarid: 39a42b72-171f-43dc-9697-2f1a52b7fcd1
 chapters_done: false
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1661198707/main-codingcatdev-photo/Pinia-Vue%27s-New-State-Management.jpg
 devto: https://dev.to/codingcatdev/242-pinia-vues-new-state-management-2a6g
 excerpt: We sat down with Eduardo San Martin Morote to chat all about how he helped to create Pinia, Vue’s New State Management system.
 hashnode: https://hashnode.codingcat.dev/podcast-2-42-Pinia-Vue's-New-State-Management
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-42-Pinia-Vue's-New-State-Management&_id=6e61b4b260a44606ae923da21e07df37
 slug: 2-42-Pinia-Vue's-New-State-Management
 spotify: https://open.spotify.com/episode/3D3qGwlpKEXf8FDaz2lALw?si=Naubm7BYTV6i_umVJfJhnQ
 start: October 5, 2022 12:00 PM
+title: Pinia Vue’s New State Management
 youtube: https://youtu.be/c9HzsWFjTfM
+---
 
 ## Questions
 

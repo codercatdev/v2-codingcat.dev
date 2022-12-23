@@ -1,7 +1,7 @@
-# RedwoodJS
-
+---
 episode: 40
-Guest: https://www.notion.so/Tom-Preston-Werner-e3d7ff8c6b684fbc8417f4bb14e049fd
+guest: 
+    - Tom-Preston-Werner
 recording_date: August 18, 2022 2:15 PM
 season: 2
 status: released
@@ -13,12 +13,12 @@ cover: https://media.codingcat.dev/image/upload/v1663010557/main-codingcatdev-ph
 devto: https://dev.to/codingcatdev/240-redwoodjs-3aal
 excerpt: Tom chats with us all about Founding GitHub, running Preston Werner Ventures and building RedwoodJS.
 hashnode: https://hashnode.codingcat.dev/podcast-2-40-RedwoodJS
-preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=podcast&selectionSlug=2-40-RedwoodJS&_id=a9a77dc9a49e47a29409a62610e9261a
 slug: 2-40-RedwoodJS
 spotify: https://open.spotify.com/episode/58lGzcpwFVlNaGZQiIDaX5?si=sMQIflhIQAODrpvbKRiPmw
 start: September 21, 2022 12:00 PM
+title: RedwoodJS
 youtube: https://youtu.be/YpBmxKxzWco
-
+---
 ### Links
 
 [https://community.redwoodjs.com/t/1m-redwoodjs-funding/2960](https://community.redwoodjs.com/t/1m-redwoodjs-funding/2960)

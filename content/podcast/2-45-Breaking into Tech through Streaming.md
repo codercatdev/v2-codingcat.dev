@@ -1,7 +1,7 @@
-# Breaking into Tech through Streaming
-
+---
 episode: 45
-Guest: https://www.notion.so/Jenn-Junod-32fe029eb42f4f4b9c02f31cbb58ec19
+guest: 
+    - Jenn-Junod
 recording_date: October 14, 2022 2:00 PM
 season: 2
 status: released
@@ -18,8 +18,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 slug: 2-45-Breaking-into-Tech-through-Streaming
 spotify: https://open.spotify.com/episode/5sDONt6D5AZ7gifrZOcTJ4?si=eES0eYffSbG5aTMBMKwveg
 start: October 26, 2022 12:00 PM
+title: Breaking into Tech through Streaming
 youtube: https://youtu.be/Tw9sqX4t1oA
-
+---
 ## Questions
 
 1. Can you tell us more about yourself?
