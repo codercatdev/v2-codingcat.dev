@@ -149,16 +149,12 @@
       "queryScope": "COLLECTION",
       "fields": [
         {
-          "fieldPath": "published",
+          "fieldPath": "status",
           "order": "ASCENDING"
         },
         {
           "fieldPath": "start",
           "order": "DESCENDING"
-        },
-        {
-          "fieldPath": "title",
-          "order": "ASCENDING"
         }
       ]
     },
@@ -171,7 +167,7 @@
           "order": "ASCENDING"
         },
         {
-          "fieldPath": "published",
+          "fieldPath": "status",
           "order": "ASCENDING"
         },
         {

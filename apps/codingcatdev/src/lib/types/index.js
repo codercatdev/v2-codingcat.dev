@@ -2,7 +2,7 @@
  * @typedef {Object} Content
  * @property {string} id
  * @property {Author[]=} authors
- * @property {boolean} cloudinary_convert
+ * @property {boolean=} cloudinary_convert
  * @property {string=} content
  * @property {string=} cover
  * @property {string=} devto
@@ -13,7 +13,6 @@
  * @property {string=} section
  * @property {string=} slug
  * @property {typeof import("firebase-admin/firestore").Timestamp | null } start
- * @property {typeof import("firebase-admin/firestore").Timestamp | null } end
  * @property {string=} title
  * @property {number=} weight
  * @property {string=} youtube

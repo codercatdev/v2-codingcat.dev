@@ -4,6 +4,7 @@ import { PRIVATE_FB_PRIVATE_KEY, PRIVATE_FB_CLIENT_EMAIL } from '$env/static/pri
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
 import { getFirestore, Timestamp } from 'firebase-admin/firestore';
 import { compile } from 'mdsvex';
+import { ContentType } from '$lib/types';
 
 if (!PUBLIC_FB_PROJECT_ID || !PRIVATE_FB_CLIENT_EMAIL || !PRIVATE_FB_PRIVATE_KEY) {
 	throw new Error('Missing Firebase Admin Environment Varialbles');
@@ -35,7 +36,7 @@ const firestore = getFirestore(app);
 export const listContent = async (contentType, limit) => {
 	console.log('List for type:', contentType);
 
-	const querySnapshot = await firestore
+	let querySnapshot = await firestore
 		.collection(contentType)
 		.where('start', '<=', Timestamp.fromDate(new Date()))
 		.orderBy('start', 'desc')
@@ -44,12 +45,21 @@ export const listContent = async (contentType, limit) => {
 		.limit(limit || 100)
 		.get();
 
+	if (contentType === ContentType.podcast) {
+		querySnapshot = await firestore
+			.collection(contentType)
+			.where('start', '<=', Timestamp.fromDate(new Date()))
+			.orderBy('start', 'desc')
+			.where('status', '==', 'released')
+			.limit(limit || 100)
+			.get();
+	}
+
 	return querySnapshot.docs.map((doc) => {
 		return {
 			id: doc.id,
 			...doc.data(),
-			start: doc.data().start ? doc.data().start.toDate() : doc.data().start,
-			end: doc.data().end ? doc.data().end.toDate() : doc.data().end
+			start: doc.data().start ? doc.data().start.toDate() : doc.data().start
 		};
 	});
 };
@@ -90,7 +100,6 @@ export const getContentBySlug = async (contentType, slug) => {
 		id: doc.id,
 		...doc.data(),
 		content,
-		start: doc.data().start ? doc.data().start.toDate() : doc.data().start,
-		end: doc.data().end ? doc.data().end.toDate() : doc.data().end
+		start: doc.data().start ? doc.data().start.toDate() : doc.data().start
 	};
 };
