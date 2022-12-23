@@ -35,27 +35,27 @@
 							</div>
 						</div>
 					{/if}
-				</a>
 
-				<section class="grid h-full grid-cols-1 gap-2 p-4">
-					<div class="space-y-2">
-						<h3 class="font-sans text-lg tracking-wide text-bold">
-							<a href={`/${type}/${content.slug}`}>{content.title}</a>
-						</h3>
-						{#if content.excerpt}
-							<p class="text-sm font-hairline ">{content.excerpt}</p>
-						{/if}
-						{#if content.authors}
-							<div class="flex flex-col">
-								{#each content.authors as author}
-									<a href={`/authors/${author.slug}`} class="font-sans text-lg">
-										{author.displayName}
-									</a>
-								{/each}
-							</div>
-						{/if}
-					</div>
-				</section>
+					<section class="grid h-full grid-cols-1 gap-2 p-4">
+						<div class="space-y-2">
+							<h3 class="font-sans text-lg tracking-wide text-bold">
+								<a href={`/${type}/${content.slug}`}>{content.title}</a>
+							</h3>
+							{#if content.excerpt}
+								<p class="text-sm font-hairline ">{content.excerpt}</p>
+							{/if}
+							{#if content.authors}
+								<div class="flex flex-col">
+									{#each content.authors as author}
+										<a href={`/authors/${author.slug}`} class="font-sans text-lg">
+											{author.displayName}
+										</a>
+									{/each}
+								</div>
+							{/if}
+						</div>
+					</section>
+				</a>
 			</div>
 		{/each}
 	</section>
