@@ -158,7 +158,6 @@ exports.addItemToFirestoreFromWebhook = functions
 			repo,
 			path,
 		});
-		functions.logger.debug(`Found ${data?.length} ${type} to check.`);
 		functions.logger.debug(headers["x-ratelimit-remaining"]);
 		await sendTopic(updatetopic, { type, content: data });
 	});
@@ -494,7 +493,7 @@ const updateDocumentFromGitHub = async (ref, payload) => {
 			published: mdObject?.data?.published ? mdObject?.data?.published : 'draft',
 			start: mdObject?.data?.start
 				? Timestamp.fromDate(new Date(mdObject?.data?.start))
-				: Timestamp.fromDate(new Date(-8640000000000000))
+				: Timestamp.fromDate(new Date('Jan 01, 1900'))
 		},
 		{ merge: true }
 	);

@@ -1,9 +1,13 @@
 /**
  * @typedef {Object} Content
  * @property {string} id
+ * @property {Author[]=} authors
+ * @property {boolean} cloudinary_convert
  * @property {string=} content
  * @property {string=} cover
+ * @property {string=} devto
  * @property {string=} excerpt
+ * @property {string=} hashnode
  * @property {string=} preview
  * @property {typeof ContentPublished= } published
  * @property {string=} section
@@ -11,8 +15,8 @@
  * @property {typeof import("firebase-admin/firestore").Timestamp | null } start
  * @property {typeof import("firebase-admin/firestore").Timestamp | null } end
  * @property {string=} title
- * @property {string=} weight
- * @property {Author[]=} authors
+ * @property {number=} weight
+ * @property {string=} youtube
  */
 
 /**
@@ -53,14 +57,13 @@ export const ContentPublished = {
 
 /**
  * @typedef {Object} BasePodcast
- * @property {string} id
  * @property {boolean} chapters_done
- * @property {boolean} cloudinary_convert
  * @property {number=} episode
  * @property {string=} recording_date
  * @property {('idea' | 'scheduled' | 'recorded' | 'failed')} status
- * @property {('CodingCat.dev')} status
+ * @property {('CodingCat.dev')} podcast
  * @property {number=} season
+ * @property {string=} spotify
  */
 
 /**

@@ -1,5 +1,4 @@
-# Build Healthy OSS Communities with OpenSauced
-
+---
 episode: 47
 recording_date: October 27, 2022 2:15 PM
 season: 2
@@ -17,7 +16,9 @@ preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selection
 slug: 2-47-Build-Healthy-OSS-Communities-with-OpenSauced
 spotify: https://open.spotify.com/episode/7pAOLK1hYYeC7CroRNKbHi?si=yKrHIyYFR3aHgv1s0lVAJA
 start: December 14, 2022
+title: Build Healthy OSS Communities with OpenSauced
 youtube: https://youtu.be/g1X1fo57LR8
+---
 
 ## Questions
 
