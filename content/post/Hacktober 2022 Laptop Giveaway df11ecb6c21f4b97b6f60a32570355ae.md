@@ -2,7 +2,6 @@
 cloudinary_convert: false
 cover: https://media.codingcat.dev/image/upload/v1665516793/main-codingcatdev-photo/Hacktober_2022_Laptop_Giveaway_1.jpg
 devto: https://dev.to/codingcatdev/hacktober-2022-laptop-giveaway-39ki
-end: November 20, 2022
 excerpt: Win a Samsung Pro Chromebook - When you become a member during October.
 hashnode: https://hashnode.codingcat.dev/post-hacktober-2022-contest
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=post&selectionSlug=hacktober-2022-contest&_id=df11ecb6c21f4b97b6f60a32570355ae
