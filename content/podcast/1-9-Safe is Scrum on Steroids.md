@@ -1,5 +1,4 @@
-# Safe is Scrum on Steroids
-
+---
 episode: 9
 recording_date: January 1, 2021
 season: 1
@@ -15,3 +14,4 @@ slug: 1-9-safe-is-scrum-on-steriods
 spotify: https://open.spotify.com/episode/7xiZb9fM2JeZyC6HsjskIL?si=QXVo-V5JRnKSKDry9UcBhg
 start: January 1, 2021
 youtube: https://www.youtube.com/watch?v=gw9CbtwZbSk
+---
