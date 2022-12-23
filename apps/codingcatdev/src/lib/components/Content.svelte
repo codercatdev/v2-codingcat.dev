@@ -5,7 +5,7 @@
 </script>
 
 {#if content}
-	<section class="prose lg:prose-xl xl:prose-2xl">
+	<section class="prose w-full flex-grow lg:prose-xl xl:prose-2xl">
 		{@html content.content}
 	</section>
 {:else}

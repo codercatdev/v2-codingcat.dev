@@ -6,7 +6,9 @@
 	export let data;
 </script>
 
-<section class="content-single flex justify-center gap-4">
-	<div class=" "><slot /></div>
-	<RecentPostsList contentType={ContentType.post} list={data.post} />
+<section class="content-single p-1 xl:p-8 sm:flex justify-center">
+	<div><slot /></div>
+	<div class="hidden xl:block">
+		<RecentPostsList contentType={ContentType.post} list={data.post} />
+	</div>
 </section>
