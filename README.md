@@ -30,8 +30,8 @@ This will run Vite (which is what SvelteKit uses) on `http://localhost:5173`.
 
 You can update necessary environment variables by using [Vite's Env Variables and Modes](https://vitejs.dev/guide/env-and-mode.html)
 
-**Example .env.local:**
-
+You can pull the `.env` file from vercel if you have access, using command `vercel env pull`. If you have not linked the command line use `vercel link`.
+**Example .env.local**
 ```
 // Firebase
 PUBLIC_FB_API_KEY=AIzaSyAH4WJbO4q6weGVfTOEpXIORLM2luvkO6g
