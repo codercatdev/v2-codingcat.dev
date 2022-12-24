@@ -2,7 +2,6 @@
 	import '../app.postcss';
 	import TopNav from '$lib/components/layout/TopNav.svelte';
 	import Footer from '$lib/components/layout/Footer.svelte';
-	import { PUBLIC_NAME } from '$env/static/public';
 	import DrawerNav from '$lib/components/layout/DrawerNav.svelte';
 </script>
 

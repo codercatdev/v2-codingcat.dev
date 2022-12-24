@@ -6,6 +6,8 @@ import { getFirestore, Timestamp } from 'firebase-admin/firestore';
 import { compile } from 'mdsvex';
 import { ContentType } from '$lib/types';
 
+const LIMIT = 20;
+
 if (!PUBLIC_FB_PROJECT_ID || !PRIVATE_FB_CLIENT_EMAIL || !PRIVATE_FB_PRIVATE_KEY) {
 	throw new Error('Missing Firebase Admin Environment Varialbles');
 }
@@ -36,25 +38,23 @@ const firestore = getFirestore(app);
 export const listContent = async (contentType, limit) => {
 	console.log('List for type:', contentType);
 
-	let querySnapshot = await firestore
+	let query = firestore
 		.collection(contentType)
 		.where('start', '<=', Timestamp.fromDate(new Date()))
 		.orderBy('start', 'desc')
 		.orderBy('title', 'asc')
 		.where('published', '==', 'published')
-		.limit(limit || 100)
-		.get();
+		.limit(limit || LIMIT);
 
 	if (contentType === ContentType.podcast) {
-		querySnapshot = await firestore
+		query = firestore
 			.collection(contentType)
 			.where('start', '<=', Timestamp.fromDate(new Date()))
 			.orderBy('start', 'desc')
 			.where('status', '==', 'released')
-			.limit(limit || 100)
-			.get();
+			.limit(limit || LIMIT);
 	}
-
+	const querySnapshot = await query.get();
 	return querySnapshot.docs.map((doc) => {
 		return {
 			id: doc.id,
@@ -73,13 +73,25 @@ export const listContent = async (contentType, limit) => {
 export const getContentBySlug = async (contentType, slug) => {
 	console.debug(`Searching for content type: ${contentType} slug: ${slug}`);
 
-	const querySnapshot = await firestore
+	let query = firestore
 		.collection(contentType)
 		.where('slug', '==', slug)
 		.where('start', '<=', Timestamp.fromDate(new Date()))
 		.orderBy('start', 'desc')
 		.where('published', '==', 'published')
-		.get();
+		.limit(1);
+
+	if (contentType === ContentType.podcast) {
+		query = firestore
+			.collection(contentType)
+			.where('slug', '==', slug)
+			.where('start', '<=', Timestamp.fromDate(new Date()))
+			.orderBy('start', 'desc')
+			.where('status', '==', 'released')
+			.limit(1);
+	}
+	const querySnapshot = await query.get();
+
 	const doc = querySnapshot?.docs?.at(0);
 	if (!doc) {
 		return null;
