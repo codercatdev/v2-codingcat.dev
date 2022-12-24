@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/QuickNode_Builds_Infrastructure_for_the_Future.jpg
 devto: https://dev.to/codingcatdev/230-quicknode-builds-infrastructure-for-the-future-4e7k
 excerpt: We sit down with Anthony Campolo (ajcwebdev) to talk about Web3 and working with QuickNode.
 hashnode: https://hashnode.codingcat.dev/podcast-quicknode-builds-infrastructure-for-the-future

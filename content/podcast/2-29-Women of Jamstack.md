@@ -11,6 +11,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Women_of_Jamstack.jpg
 devto: https://dev.to/codingcatdev/229-women-of-jamstack-foj
 excerpt: We had the opportunity to chat with four amazing Women of Jamstack. We talked about things from Redwoodjs to equal pay.
 hashnode: https://hashnode.codingcat.dev/podcast-2-29-women-of-jamstack
