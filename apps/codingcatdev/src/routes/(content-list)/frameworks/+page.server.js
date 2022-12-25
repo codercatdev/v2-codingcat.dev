@@ -5,6 +5,6 @@ import { ContentType } from '$lib/types';
  * */
 export async function load() {
 	return {
-		list: await listContent(ContentType.framework)
+		...(await listContent({ contentType: ContentType.framework }))
 	};
 }

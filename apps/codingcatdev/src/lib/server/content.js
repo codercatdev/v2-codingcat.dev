@@ -30,13 +30,16 @@ const firestore = getFirestore(app);
  * */
 
 /**
- * List all content from specified content type.
- * @param {import('$lib/types').ContentType} contentType
- * @param {number=} limit
- * @returns {Promise<Content[]>}
+ * List all content from specified content type
+ * allows for optionally sending after object
+ * @typedef {import('$lib/types').ContentType} contentType
+ * @param {{contentType: contentType, after?: {start: Date, season: number, episode: number}, limit?: number}} params
+ * @returns {Promise<{
+ * next: any,
+ * content: import('$lib/types').Content[] | import('$lib/types').Podcast[]}>}
  * */
-export const listContent = async (contentType, limit) => {
-	console.log('List for type:', contentType);
+export const listContent = async ({ contentType, after, limit }) => {
+	console.log(`List for type: ${contentType}`);
 
 	let query = firestore
 		.collection(contentType)
@@ -49,19 +52,44 @@ export const listContent = async (contentType, limit) => {
 	if (contentType === ContentType.podcast) {
 		query = firestore
 			.collection(contentType)
+			.where('status', '==', 'released')
 			.where('start', '<=', Timestamp.fromDate(new Date()))
 			.orderBy('start', 'desc')
-			.where('status', '==', 'released')
+			.orderBy('season', 'desc')
+			.orderBy('episode', 'desc')
 			.limit(limit || LIMIT);
+		if (after) {
+			console.log(`after: ${JSON.stringify(after)}`);
+			query = query.startAfter(new Date(after.start), after.season, after.episode);
+		}
 	}
 	const querySnapshot = await query.get();
-	return querySnapshot.docs.map((doc) => {
-		return {
-			id: doc.id,
-			...doc.data(),
-			start: doc.data().start ? doc.data().start.toDate() : doc.data().start
-		};
-	});
+
+	let next = {};
+	if (!querySnapshot.empty) {
+		const last = await querySnapshot.docs[querySnapshot.docs.length - 1].data();
+
+		contentType === ContentType.podcast
+			? (next = {
+					start: last.start.toDate(),
+					season: last.season,
+					episode: last.episode
+			  })
+			: (next = {
+					start: last.start.toDate(),
+					title: last.title
+			  });
+	}
+	return {
+		next,
+		content: querySnapshot.docs.map((doc) => {
+			return {
+				id: doc.id,
+				...doc.data(),
+				start: doc.data().start ? doc.data().start.toDate() : doc.data().start
+			};
+		})
+	};
 };
 
 /**

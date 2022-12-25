@@ -5,9 +5,9 @@ import { ContentType } from '$lib/types';
  * */
 export async function load() {
 	return {
-		course: await listContent(ContentType.post, 3),
-		tutorial: await listContent(ContentType.tutorial, 3),
-		// podcast: await listContent(ContentType.podcast, 3),
-		post: await listContent(ContentType.post, 3)
+		course: await (await listContent({ contentType: ContentType.course, limit: 3 })).content,
+		tutorial: await (await listContent({ contentType: ContentType.tutorial, limit: 3 })).content,
+		podcast: await (await listContent({ contentType: ContentType.podcast, limit: 3 })).content,
+		post: await (await listContent({ contentType: ContentType.post, limit: 3 })).content
 	};
 }

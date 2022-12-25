@@ -36,7 +36,19 @@ service cloud.firestore {
       }
 
       //Data Level
+      match /course/{id} {
+        allow read: if true;
+      }
+      match /framework/{id} {
+        allow read: if true;
+      }
+      match /language/{id} {
+        allow read: if true;
+      }
       match /page/{id} {
+        allow read: if true;
+      }
+      match /podcast/{id} {
         allow read: if true;
       }
       match /post/{id} {

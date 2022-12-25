@@ -12,7 +12,7 @@
  * @property {typeof ContentPublished= } published
  * @property {string=} section
  * @property {string=} slug
- * @property {typeof import("firebase-admin/firestore").Timestamp | null } start
+ * @property {Date} start
  * @property {string=} title
  * @property {number=} weight
  * @property {string=} youtube

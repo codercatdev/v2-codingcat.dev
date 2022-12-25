@@ -5,6 +5,6 @@ import { ContentType } from '$lib/types';
  * */
 export async function load() {
 	return {
-		list: await listContent(ContentType.language)
+		...(await listContent({ contentType: ContentType.language }))
 	};
 }

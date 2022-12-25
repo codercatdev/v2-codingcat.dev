@@ -7,5 +7,5 @@
 </script>
 
 <div class="p-4 sm:p-10">
-	<ContentCards type={ContentType.language} list={data.list} />
+	<ContentCards type={ContentType.language} list={data.content} />
 </div>

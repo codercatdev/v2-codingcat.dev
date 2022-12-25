@@ -40,6 +40,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"firebase": "^9.15.0",
 		"firebase-admin": "^11.3.0",
 		"mdsvex": "^0.10.6",
 		"prism-svelte": "^0.5.0",

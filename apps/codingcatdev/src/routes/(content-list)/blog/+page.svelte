@@ -7,5 +7,5 @@
 </script>
 
 <div class="p-4 sm:p-10">
-	<ContentCards type={ContentType.post} list={data.list} />
+	<ContentCards type={ContentType.post} list={data.content} />
 </div>
