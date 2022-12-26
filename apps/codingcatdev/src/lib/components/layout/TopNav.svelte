@@ -11,7 +11,7 @@
 	>
 		<nav class="navbar bg-base-300">
 			<div class="navbar-start">
-				<a href="/">
+				<a href="/" aria-label="Navigate to Homepage">
 					<div class="flex items-center content-center h-full shrink-0">
 						<AJAlt />
 						<h2 class="hidden text-2xl text-basics-50 lg:block">CodingCat.dev</h2>

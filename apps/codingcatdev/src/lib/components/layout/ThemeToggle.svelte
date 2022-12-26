@@ -9,7 +9,7 @@
 </script>
 
 <div title="Change Theme" class="dropdown dropdown-end ">
-	<button tabindex="0" class="btn gap-1 normal-case btn-ghost">
+	<button tabindex="0" class="btn gap-1 normal-case btn-ghost" aria-label="Theme Toggle">
 		<svg
 			width="20"
 			height="20"
