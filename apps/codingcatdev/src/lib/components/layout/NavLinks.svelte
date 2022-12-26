@@ -8,7 +8,7 @@
 </script>
 
 <nav class="flex mx-auto">
-	<div class="hidden md:flex md:gap-4 md:place-items-center">
+	<div class="hidden md:flex gap-2 lg:gap-4 md:place-items-center">
 		<NavLink href="/courses" name="Courses" component={Courses} />
 		<NavLink href="/tutorials" name="Tutorials" component={Tutorials} />
 		<NavLink href="/podcasts" name="Podcasts" component={Podcasts} />
