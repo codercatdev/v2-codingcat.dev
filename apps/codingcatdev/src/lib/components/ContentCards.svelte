@@ -6,7 +6,7 @@
 
 	/** @typedef {import('$lib/types/index').Content} Content */
 
-	/** @type {{content: Content[], next: any}} */
+	/** @type {{content: Content[], next?: any}} */
 	export let data;
 
 	let next = data.next;
@@ -44,8 +44,6 @@
 								<img
 									src={content.cover}
 									alt={content.title}
-									width="480"
-									height="270"
 									class="rounded-md rounded-b-none cursor-pointer"
 								/>
 							{:else}
@@ -81,7 +79,7 @@
 					</div>
 				{/each}
 			</section>
-			{#if Object.keys(next).length}
+			{#if next && Object.keys(next).length}
 				<div class="flex justify-center m-8">
 					<button class="btn btn-lg btn-primary text-2xl" on:click={() => more()}> More </button>
 				</div>
