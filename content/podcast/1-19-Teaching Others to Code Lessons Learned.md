@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/ecqrelydm7ykl8xup5xg.png
 devto: https://dev.to/codingcatdev/1-19-teaching-others-to-code-lessons-learned-k82
 excerpt: In this episode we sit down with Prince Wilson and talk about his experience teaching at an in person bootcamp.
 hashnode: https://hashnode.codingcat.dev/podcast-1-19-teaching-others-to-code-lessons-learned

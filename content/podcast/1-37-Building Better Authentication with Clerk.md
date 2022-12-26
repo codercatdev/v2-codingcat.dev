@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/zbahldu0x4ihuimeczfq.png
 devto: https://dev.to/codingcatdev/1-37-building-better-authentication-with-clerk-3fkh
 excerpt: In this episode we sit down with Braden Sidoti Co-Founder of Clerk. Clerk is the next-gen authentication and user management platform for developers.
 hashnode: https://hashnode.codingcat.dev/podcast-1-37-building-better-authentication-with-clerk

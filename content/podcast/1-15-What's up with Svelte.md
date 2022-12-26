@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/cpg2clvczhzzvetwruul.png
 devto: https://dev.to/codingcatdev/what-s-up-with-svelte-59a7
 excerpt: On this podcast we talk with Shawn Wang also known as swyx. We dive into what is happening with Svelte, the Svelte Society, and Svelte Radio.
 hashnode: https://hashnode.codingcat.dev/podcast-1-15-whats-up-with-svelte

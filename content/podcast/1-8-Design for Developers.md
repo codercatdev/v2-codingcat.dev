@@ -6,6 +6,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/pfjxk1aiesrme14tbrcr.png
 devto: https://dev.to/codingcatdev/1-8-design-for-developers-4hck
 excerpt: Are you struggling to become a designer for web development? You don''t need formal web development training to be successful. Learn from the design group at OST how each of them found a path into design, coming from several different backgrounds.
 hashnode: https://hashnode.codingcat.dev/podcast-1-8-design-for-developers

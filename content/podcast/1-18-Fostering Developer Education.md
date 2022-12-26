@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/pjkucvrzkdfkjyqa1nwu.png
 devto: https://dev.to/codingcatdev/1-18-fostering-developer-education-140i
 excerpt: We sit down with Lauren Lee (LoLoCoding) to talk about fostering developer education. We review how Lauren switched from being a teacher to become the Director of Community at Puppet
 hashnode: https://hashnode.codingcat.dev/podcast-1-18-fostering-developer-education

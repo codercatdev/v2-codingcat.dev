@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/hn8dumtsubllbz9xyqh6.png
 devto: https://dev.to/codingcatdev/delivering-a-content-mesh-2hb9
 excerpt: On this podcast we talk with Sam Bhagwat, Cofounder & Chief Strategy Officer at Gatsby. We dive into Gatsby 3.0 and why Jamstack is allowing us
 hashnode: https://hashnode.codingcat.dev/podcast-1-16-delivering-a-content-mesh

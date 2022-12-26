@@ -6,6 +6,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/inhxfdhdrfjmnvcfzwyi.png
 devto: https://dev.to/codingcatdev/1-22-hosting-next-js-on-netlify-2clh
 excerpt: We sat down with Cassidy Williams to talk about her background as a developer. Then we talked about the cool new Next.js on Netlify hosting feature.
 hashnode: https://hashnode.codingcat.dev/podcast-1-22-hosting-nextjs-on-netlify

@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/skkbgf5bix76a04zhzqp.png
 devto: https://dev.to/codingcatdev/1-20-100daysofcloud-2ffd
 excerpt: We sat down with Antonio Lo Fiego to talk about #100DaysOfCloud, how it started and what is coming next.
 hashnode: https://hashnode.codingcat.dev/podcast-1-20-100daysofcloud

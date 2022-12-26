@@ -8,7 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
-cover: https://codingcat.dev/podcast/2-24-making-progress-with-kendo-ui
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Creating_and_Using_Kendo_UI.jpg
 devto: https://dev.to/codingcatdev/224-creating-and-using-kendo-ui-52la
 excerpt: We have Alyssa Nicoll and Kathryn Grayson from Progress teach us all about KendoUI and how they maintain this frontend library.
 hashnode: https://hashnode.codingcat.dev/podcast-2-24-making-progress-with-kendo-ui

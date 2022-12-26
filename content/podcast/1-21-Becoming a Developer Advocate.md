@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/vwb6zojoyln2d6oxudz8.png
 devto: https://dev.to/codingcatdev/1-21-becoming-a-developer-advocate-1o5c
 excerpt: Learn from Tim Benniks about how he changed from being a director of Web Development into his new role as a Developer advocate
 hashnode: https://hashnode.codingcat.dev/podcast-1-21-becoming-a-developer-advocate

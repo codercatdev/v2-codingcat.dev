@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/b2ryikx5b9x5dq27anok.png
 devto: https://dev.to/codingcatdev/creating-a-learning-platform-oje
 excerpt: We talk with Scott Tolinkski of LevelUpTutorials all about his past and why he started his Learning Platform.
 hashnode: https://hashnode.codingcat.dev/podcast-1-13-creating-a-learning-platform

@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/wveq4jasspmsywiqnglu.png
 devto: https://dev.to/codingcatdev/payload-cms-f9j
 excerpt: We chat with Dan Ribbens about Payload CMS a self-hosted, headless JavaScript CMS.
 hashnode: https://hashnode.codingcat.dev/podcast-1-17-payload-cms

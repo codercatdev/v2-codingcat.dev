@@ -6,6 +6,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/ogluu84watt3zu63gbf8.png
 devto: https://dev.to/codingcatdev/aws-amplify-admin-ui-2m65
 excerpt: Talking with René Brandel about AWS Amplify Admin UI. How you can get started with AWS Amplify without ever writing a line of code.
 hashnode: https://hashnode.codingcat.dev/podcast-1-3-aws-amplify-admin-ui-with-rene-brandel
@@ -16,73 +17,84 @@ start: January 1, 2021
 title: AWS Amplify Admin UI with René Brandel
 youtube: https://www.youtube.com/watch?v=QnNJdK2_4VM
 ---
+**Welcome back Purrfect Peeps!**
 
-René Brandel
-René is a Senior Product Manager with Amazon Web Services (AWS). He is currently on the AWS Amplify project.
+Today we are going to talk with René Brandel about AWS Amplify Admin UI.
 
-Links
-René Huangtian Brandel – Senior Product Manager – Technical – Amazon Web Services (AWS)
+**The Amplify Admin UI is a visual interface for frontend web and mobile developers to develop app backends and manage app content outside the AWS Management Console. Teams can use the Admin UI to create and manage enterprise-ready, scalable, and secure cloud backends for their apps.**
 
+### **René Brandel**
 
-AWS Amplify Admin UI
-The blog:
+**René is a Senior Product Manager with Amazon Web Services (AWS). He is currently on the AWS Amplify project.**
 
-New AWS Amplify Admin UI Helps You Develop App Backends, No Cloud Experience Required | Amazon Web Services
+#### **Links** [**René Huangtian Brandel – Senior Product Manager – Technical – Amazon Web Services (AWS)**](https://web.archive.org/web/20210625104115/https://www.linkedin.com/in/renebrandel/)
 
-The actual UI:
+### **AWS Amplify Admin UI**
 
-Admin UI basics – Introduction – Amplify Docs
+**The blog:** [**New AWS Amplify Admin UI Helps You Develop App Backends, No Cloud Experience Required | Amazon Web Services**](https://web.archive.org/web/20210625104115/https://aws.amazon.com/blogs/aws/aws-amplify-admin-ui-helps-you-develop-app-backends-no-cloud-experience-required/)
 
-René’s Background
-Amplify and René
+**The actual UI:** [**Admin UI basics – Introduction – Amplify Docs**](https://web.archive.org/web/20210625104115/https://docs.amplify.aws/console/adminui/intro)
 
+**\* \* Content May Contain** [**Affiliate Links**](https://web.archive.org/web/20210625104115/https://codingcat.dev/ftc-disclosure/)
 
-What got you started with Amplify?
+## **René’s Background**
 
-Helping frontend developers
-Personally, always inspired on how to write less code for more
+## **Amplify and René**
 
+**What got you started with Amplify?**
 
-What would you recommend for a person to get started with Amplify?
+*   Helping frontend developers
+*   Personally, always inspired on how to write less code for more
 
-If you’re a frontend web or mobile developer on AWS, then Amplify is the best way to get started
-Helps developers add cloud-based features to frontend apps
-Scale out their application as their users grow
-Focus on the experience instead of worrying about infrastructure setup
+**What would you recommend for a person to get started with Amplify?**
 
+*   If you’re a frontend web or mobile developer on AWS, then Amplify is the best way to get started
+*   Helps developers add cloud-based features to frontend apps
+*   Scale out their application as their users grow
+*   Focus on the experience instead of worrying about infrastructure setup
 
 Amplify Admin UI
 
+**What’s the Amplify Admin UI? Is this something new?**
 
-What’s the Amplify Admin UI? Is this something new?
+**Do you need an AWS account to get started?**
 
-Do you need an AWS account to get started?
+**What’s so special about the new visual data modeler?**
 
-What’s so special about the new visual data modeler?
+**GSI’s are always difficult, does this help? (In relation to the data modeler)**
 
-GSI’s are always difficult, does this help? (In relation to the data modeler)
+**What are some other major features you can have with the Admin UI? (we can talk about auth)**
 
-What are some other major features you can have with the Admin UI? (we can talk about auth)
-
-Access outside the AWS Management Console
+**Access outside the AWS Management Console**
 
 This is amazing but could we talk a little bit about how it works? Is it running on Java somehow, like Firebase emulator?
 
-Non-technical users – how do they use it?
+**Non-technical users – how do they use it?**
 
-How does this new Amplify Admin UI work with existing customers?
+**How does this new Amplify Admin UI work with existing customers?**
 
-How do they turn it on?
-CLI users
+*   How do they turn it on?
+*   CLI users
 
+## Purrfect Picks
 
-Purrfect Picks
 (These are fun picks for the week)
 
-René
+### René
+
 Re:invent Sessions:
 
-https://aws.amazon.com/blogs/mobile/the-aws-reinvent-2020-guide-to-front-end-web-and-mobile/
+[**https://aws.amazon.com/blogs/mobile/the-aws-reinvent-2020-guide-to-front-end-web-and-mobile/**](https://web.archive.org/web/20210625104115/https://aws.amazon.com/blogs/mobile/the-aws-reinvent-2020-guide-to-front-end-web-and-mobile/)
 
-Alex
-https://www.twitch.tv/videos/824360476 – Feature Launch on Twitch
+### Alex
+
+[https://www.twitch.tv/videos/824360476](https://web.archive.org/web/20210625104115/https://www.twitch.tv/videos/824360476) – Feature Launch on Twitch
+
+—
+
+This episode is sponsored by
+· Anchor: The easiest way to make a podcast. [https://anchor.fm/app](https://web.archive.org/web/20210625104115/https://anchor.fm/app)
+
+—
+
+Send in a voice message: [https://anchor.fm/purrfect-dev/message](https://web.archive.org/web/20210625104115/https://anchor.fm/purrfect-dev/message)

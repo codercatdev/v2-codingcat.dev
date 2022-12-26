@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/eeyfwyuldrn87o1i59ji.png
 devto: https://dev.to/codingcatdev/1-23-creating-a-better-vue-with-nuxt-4817
 excerpt: We chat with Daniel Roe about how he became a member of the Nuxt team and how Nuxt fits into the Vue.js ecosystem.
 hashnode: https://hashnode.codingcat.dev/podcast-1-23-creating-a-better-vue-with-nuxt
