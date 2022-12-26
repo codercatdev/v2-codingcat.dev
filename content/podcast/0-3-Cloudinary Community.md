@@ -7,6 +7,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/mpet4yeyvpfmuaopdbeh.png
 devto: https://dev.to/codingcatdev/0-3-cloudinary-community-4jae
 excerpt: Talking about how to build communities to enrich web development.
 hashnode: https://hashnode.codingcat.dev/podcast-0-3-cloudinary-community
@@ -16,63 +17,69 @@ start: February 8, 2020
 title: Cloudinary Community
 youtube: https://www.youtube.com/watch?v=X7Nv1EWCoEM
 ---
-Guest Details
-Maya Shavin
-Senior Frontend Developer @cloudinary and core maintainer of @StorefrontUI. Founder & Organizer of @VueJSIsrael Meetups. Vietnamese but live in Israel. Speaker. Blogger. Bookworm and hardcore Sailormoon fan.
+## **Guest Details**
 
-https://www.github.com/mayashavin
+### **Maya Shavin**
 
-https://www.twitter.com/MayaShavin
+**Senior Frontend Developer @cloudinary and core maintainer of @StorefrontUI. Founder & Organizer of @VueJSIsrael Meetups. Vietnamese but live in Israel. Speaker. Blogger. Bookworm and hardcore Sailormoon fan.**
 
-https://www.linkedin.com/in/mayashavin/https://www.mayashavin.com/
+[**https://www.github.com/mayashavin**](https://web.archive.org/web/20220523092500mp_/https://www.github.com/mayashavin)
 
-https://medium.com/@mayashavin
+[**https://www.twitter.com/MayaShavin**](https://web.archive.org/web/20220523092500mp_/https://www.twitter.com/MayaShavin)
 
-Tim Benniks
-Director of web development at Valtech Paris. Born in Amsterdam. Speaker. Writer. Organizing front-end meetups in paris.
+[**https://www.linkedin.com/in/mayashavin/**](https://web.archive.org/web/20220523092500mp_/https://www.linkedin.com/in/mayashavin/)[**https://www.mayashavin.com/**](https://web.archive.org/web/20220523092500mp_/https://www.mayashavin.com/)
 
-https://www.linkedin.com/in/timbenniks/
+[**https://medium.com/@mayashavin**](https://web.archive.org/web/20220523092500mp_/https://medium.com/@mayashavin)
 
-https://timbenniks.nl/https://github.com/timbennikshttps://twitter.com/timbenniks
+### **Tim Benniks**
 
-https://valtech.com/
+**Director of web development at Valtech Paris. Born in Amsterdam. Speaker. Writer. Organizing front-end meetups in paris.**
 
-Shodipo Ayomide
+[**https://www.linkedin.com/in/timbenniks/**](https://web.archive.org/web/20220523092500mp_/https://www.linkedin.com/in/timbenniks/)
 
-Senior Developer Advocate ???? & Software Engineer • Media Developer Expert @cloudinary • Lead: @unstack_, @react_summit, @oscafrica, @naijahacks.
+[**https://timbenniks.nl/**](https://web.archive.org/web/20220523092500mp_/https://timbenniks.nl/)[**https://github.com/timbenniks**](https://web.archive.org/web/20220523092500mp_/https://github.com/timbenniks)[**https://twitter.com/timbenniks**](https://web.archive.org/web/20220523092500mp_/https://twitter.com/timbenniks)
 
-https://linkedin.com/in/shodipo-ayomide
+[**https://valtech.com/**](https://web.archive.org/web/20220523092500mp_/https://valtech.com/)
 
-https://twitter.com/developerayo
+**Shodipo Ayomide**
 
-https://github.com/developerayo
+**Senior Developer Advocate ???? & Software Engineer • Media Developer Expert @cloudinary • Lead: @unstack\_, @react\_summit, @oscafrica, @naijahacks.**
 
-https://shodipoayomide.com
+[**https://linkedin.com/in/shodipo-ayomide**](https://web.archive.org/web/20220523092500mp_/https://linkedin.com/in/shodipo-ayomide)
 
-MDE Questions
-What is a Media Developer Expert (MDE)?
+[**https://twitter.com/developerayo**](https://web.archive.org/web/20220523092500mp_/https://twitter.com/developerayo)
 
-https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program
+[**https://github.com/developerayo**](https://web.archive.org/web/20220523092500mp_/https://github.com/developerayo)
 
-How did you get started as an MDE (or select potential MDE - mainly for Maya :))?
+[**https://shodipoayomide.com**](https://web.archive.org/web/20220523092500mp_/https://shodipoayomide.com/)
 
-Producing content and tutorials take a long time, why are you passionate about it?
+## **MDE Questions**
 
-What areas do you focus on the most concerning Cloudinary?
+**What is a Media Developer Expert (MDE)?**
 
-**Client-Side
-**
-**Server Side
-**
-**Mobile
-**
-What are the inspiration and motivation for you to start contributing to the community despite your busy schedule? (like organizing a meetup, contributing to open source, etc)
+[**https://cloudinary.com/blog/announcing\_cloudinary\_s\_media\_developer\_experts\_program**](https://web.archive.org/web/20220523092500mp_/https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program)
 
-How do you get local community involvement?
+**How did you get started as an MDE (or select potential MDE - mainly for Maya :))?**
 
-Random
-Can we put an overlay using Cloudinary to swap StreamYard for AJ?
+**Producing content and tutorials take a long time, why are you passionate about it?**
 
----
+**What areas do you focus on the most concerning Cloudinary?**
 
-Send in a voice message: https://anchor.fm/purrfect-dev/message
+*   \*\*Client-Side
+*   \*\*
+*   \*\*Server Side
+*   \*\*
+*   \*\*Mobile
+*   \*\*
+
+**What are the inspiration and motivation for you to start contributing to the community despite your busy schedule? (like organizing a meetup, contributing to open source, etc)**
+
+**How do you get local community involvement?**
+
+## **Random**
+
+**Can we put an overlay using Cloudinary to swap StreamYard for AJ?**
+
+\---
+
+Send in a voice message: [https://anchor.fm/purrfect-dev/message](https://web.archive.org/web/20220523092500mp_/https://anchor.fm/purrfect-dev/message)
