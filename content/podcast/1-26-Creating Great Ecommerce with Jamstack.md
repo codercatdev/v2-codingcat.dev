@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/csxroq0lxevn4zbqdqks.png
 devto: https://dev.to/codingcatdev/1-26-creating-great-ecommerce-with-jamstack-af2
 excerpt: We sit down with Flor Antara and James Vidler to talk all about Ecommerce and the solutions for Jamstack.
 hashnode: https://hashnode.codingcat.dev/podcast-1-26-creating-great-ecommerce-with-jamstack

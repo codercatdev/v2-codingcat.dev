@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Creating_Opportunities_with_Girl_Develop_It.png
 devto: https://dev.to/codingcatdev/151-creating-opportunities-with-girl-develop-it-nff
 excerpt: We sit down with Katie Franco, Executive Director of Girl Develop It. We dive into how they support woman and non-binary people in the development space.
 hashnode: https://hashnode.codingcat.dev/podcast-1-51-creating-opportunities-with-girl-develop-it

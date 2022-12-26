@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/vbex1zxomeoo0wjzyhhr.png
 devto: https://dev.to/codingcatdev/1-30-journey-of-a-freelance-designer-developer-3a4p
 excerpt: In this episode we sit down with Amy Dutton and to talk about freelancing and what it takes to be a designer and developer. We also talk about working for Zeal and making her awesome channel Self Teach Me.
 hashnode: https://hashnode.codingcat.dev/podcast-1-30-journey-of-a-freelance-designer-developer

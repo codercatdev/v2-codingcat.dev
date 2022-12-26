@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/zrgetssjgnguqj4yclfp.png
 devto: https://dev.to/codingcatdev/1-32-side-project-hustle-4jb8
 excerpt: We sit down with Brad Garropy to talk about how he got started in web development. We also discuss how creating and maintaining side projects can help you get a full time job.
 hashnode: https://hashnode.codingcat.dev/podcast-1-32-side-project-hustle

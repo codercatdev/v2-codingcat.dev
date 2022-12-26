@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Making_State_Management_Domain_Agnostic_with_derxjs.png
 devto: https://dev.to/codingcatdev/150-making-state-management-domain-agnostic-with-derxjs-1dh2
 excerpt: We sit down with Zack DeRose to talk all about @derxjs. We also break down RxJS and its ability to elegantly compose domain-agnostic state management code.
 hashnode: https://hashnode.codingcat.dev/podcast-1-50-making-state-management-domain-agnostic-with-derxjs

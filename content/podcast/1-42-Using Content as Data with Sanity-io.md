@@ -9,6 +9,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/k11r8kqg0nyadw0k9rjp.png
 devto: https://dev.to/codingcatdev/142-using-content-as-data-with-sanityio-506n
 excerpt: We sit down with Kap and Knut from Sanity.io to talk about using content as data.
 hashnode: https://hashnode.codingcat.dev/podcast-1-42-using-content-as-data-with-sanity-io

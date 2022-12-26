@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/ni4t43qfcdab90gojuve.png
 devto: https://dev.to/codingcatdev/1-35-the-coding-interview-and-transitioning-in-tech-3h3m
 excerpt: Laurie Barth joins us to talk about her transition from working on docs with Gatsby to becoming a Software Engineer at Netflix and the coding interviews along the way.
 hashnode: https://hashnode.codingcat.dev/podcast-1-35-the-coding-interview-and-transitioning-in-tech

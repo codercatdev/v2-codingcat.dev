@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Unlocking_DXP_with_Uniform.png
 devto: https://dev.to/codingcatdev/147-unlocking-dxp-with-uniform-2k1
 excerpt: We sit down with Tim Benniks Dev Advocate for Uniform.
 hashnode: https://hashnode.codingcat.dev/podcast-1-47-unlocking-dxp-with-uniform

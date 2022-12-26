@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Learn_to_Build_Reliable_and_Efficient_Software_in_Rust.png
 devto: https://dev.to/codingcatdev/148-learn-to-build-reliable-and-efficient-software-in-rust-3enn
 excerpt: We sit down and chat about Rust and Chris Biscardi's new Rust workshop, Rust Adventure.
 hashnode: https://hashnode.codingcat.dev/podcast-1-48-learn-to-build-reliable-and-efficient-software-in-rust

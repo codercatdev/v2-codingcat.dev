@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/umsfgzlbginsrt9q6kez.png
 devto: https://dev.to/codingcatdev/144-composing-modern-applications-with-bit-abk
 excerpt: Alex and Brittney sit down with Debbie O'Brien to talk about bit (bit.dev). We dive deep into how you can use bit to compose your application one bit at a time.
 hashnode: https://hashnode.codingcat.dev/podcast-1-44-composing-modern-applications-with-bit

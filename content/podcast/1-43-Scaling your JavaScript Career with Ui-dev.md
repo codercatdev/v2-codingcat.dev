@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/vyoru8lhjdriajgq9dni.png
 devto: https://dev.to/codingcatdev/143-scaling-your-javascript-career-with-uidev-3jd2
 excerpt: Alex sits down with Tyler McGinnis from Ui.dev and talks through scaling your JavaScript career. Tyler talks all about how you can use Ui.dev to learn in a successful fashion.
 hashnode: https://hashnode.codingcat.dev/podcast-1-43-scaling-your-javascript-career-with-ui-dev

@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/tvksoc43u6exibz6fmzv.png
 devto: https://dev.to/codingcatdev/1-28-unlocking-the-jamstack-with-auth0-17hf
 excerpt: James Q Quick is an expert on all things Jamstack and authentication, we were able to sit down and chat about Auth0 and his past experiences.
 hashnode: https://hashnode.codingcat.dev/podcast-1-28-unlocking-the-jamstack-with-auth0

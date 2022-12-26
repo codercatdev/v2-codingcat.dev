@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/dz2owgunrjb8wa7vzzbu.png
 devto: https://dev.to/codingcatdev/1-38-creating-fake-data-with-tonic-4kg1
 excerpt: We sit down with the VP of Marketing at Tonic.ai to talk about how you can use Tonic to create fake data.
 hashnode: https://hashnode.codingcat.dev/podcast-1-38-creating-fake-data-with-tonic

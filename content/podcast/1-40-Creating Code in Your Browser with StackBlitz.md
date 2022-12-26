@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/ome6ihlaksocf2rtzfhe.png
 devto: https://dev.to/codingcatdev/140-creating-code-in-your-browser-with-stackblitz-33pb
 excerpt: We sit down with Tomek Sulkowski to talk about how he started as an original engineer for StackBlitz. We also talk about Web Containers and how StackBlitz is leveraging them to program on the web.
 hashnode: https://hashnode.codingcat.dev/podcast-1-40-creating-code-in-your-browser-with-stackblitz

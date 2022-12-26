@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/pvjydzcbs39pwocebmsd.png
 devto: https://dev.to/codingcatdev/1-25-creating-macro-benefits-from-micro-frontends-2926
 excerpt: We sit down to chat with Alex Gogan about how Sherpa is leveraging Microfrontends.
 hashnode: https://hashnode.codingcat.dev/podcast-1-25-micro-frontends

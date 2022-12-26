@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Qwik_the_HTML_First_Framework.png
 devto: https://dev.to/codingcatdev/149-qwik-the-html-first-framework-1c2c
 excerpt: We sit down with Miško Hevery, Inventor of Angular, to talk about a new framework he is building called Qwik. We talk about Miško's past experience and then we deep dive into Qwik.
 hashnode: https://hashnode.codingcat.dev/podcast-1-49-qwik-the-html-first-framework

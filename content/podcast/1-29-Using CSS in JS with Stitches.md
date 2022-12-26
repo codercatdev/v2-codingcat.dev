@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/vz7ramuqpbyhcu3azajy.png
 devto: https://dev.to/codingcatdev/1-29-using-css-in-js-with-stitches-3994
 excerpt: We sit down with Pedro Duarte to talk all about using CSS in JavaScript and why Modulz created Stitches.
 slug: 1-29-using-css-in-js-with-stitches

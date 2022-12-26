@@ -10,6 +10,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: false
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/veso6actvfkxmpkcid8f.png
 devto: https://dev.to/codingcatdev/1-34-making-flutter-games-with-flame-engine-d6g
 excerpt: If you love gaming and Flutter, you need to checkout Flame Engine! We sit down with Lukas, Jochum and Renan to chat about how this library works.
 hashnode: https://hashnode.codingcat.dev/podcast-1-34-making-flutter-games-with-flame-engine

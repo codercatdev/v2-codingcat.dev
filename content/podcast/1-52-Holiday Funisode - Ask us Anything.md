@@ -6,6 +6,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/snow_event.jpg
 start: December 31, 2021
 title: Holiday Funisode - Ask us Anything
 youtube: https://www.youtube.com/watch?v=xeLTL9Q-2dY

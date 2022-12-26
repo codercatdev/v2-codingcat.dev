@@ -6,6 +6,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/inv64frx9p0i8jm5awzp.png
 devto: https://dev.to/codingcatdev/1-33-bringing-the-jamstack-together-with-tinacms-2m20
 excerpt: We sit down with James Perkins to talk about how he became a developer advocate. Then we talk about how TinaCMS is changing the way we think about editing in the Jamstack.
 hashnode: https://hashnode.codingcat.dev/podcast-1-33-bringing-the-jamstack-together-with-tinacms

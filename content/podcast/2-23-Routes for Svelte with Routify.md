@@ -6,6 +6,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/routify.jpg
 devto: https://dev.to/codingcatdev/223-routes-for-svelte-with-routify-4dcg
 excerpt: Jake Rosenberg and Willow join us to talk about Routes for Svelte with Routify.
 hashnode: https://hashnode.codingcat.dev/podcast-2-23-routes-for-svelte-with-routify

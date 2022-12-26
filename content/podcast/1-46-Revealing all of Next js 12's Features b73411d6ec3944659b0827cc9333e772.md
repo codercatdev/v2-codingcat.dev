@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/Revealing_all_of_Next.js_12_s_Features.png
 devto: https://dev.to/codingcatdev/146-revealing-all-of-nextjs-12s-features-11cf
 excerpt: We sit down with Lee Robinson, Head of Developer relations at Vercel, to talk all about Next.js 12.
 hashnode: https://hashnode.codingcat.dev/podcast-1-46-revealing-all-of-next-js-12-s-features

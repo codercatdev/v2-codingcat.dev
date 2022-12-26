@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/ggdj4h0vqdxogm3nczy5.png
 devto: https://dev.to/codingcatdev/141-making-tasty-courses-for-web-developers-4bn3
 excerpt: We sit down with Wes Bos from Syntax.fm to talk about how he got started in web development, how to create courses, and how to get paid for your hard work.
 hashnode: https://hashnode.codingcat.dev/podcast-1-41-making-tasty-courses-for-web-developers

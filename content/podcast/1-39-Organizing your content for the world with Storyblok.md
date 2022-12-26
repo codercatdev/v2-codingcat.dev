@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/q2eng4nciqybq8clwg6k.png
 devto: https://dev.to/codingcatdev/1-39-organizing-your-content-for-the-world-with-storyblok-4co1
 excerpt: We sit down with Facundo Giuliani to talk all about Storyblok and how it differs form other Content Management System.
 hashnode: https://hashnode.codingcat.dev/podcast-1-39-organizing-your-content-for-the-world-with-storyblok

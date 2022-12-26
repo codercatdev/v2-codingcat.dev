@@ -8,6 +8,7 @@ status: released
 podcast: CodingCat.dev
 chapters_done: true
 cloudinary_convert: false
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/u8at848k5o9mdgnpxv5k.png
 devto: https://dev.to/codingcatdev/1-31-delivering-digital-content-with-graphcms-31c2
 excerpt: We sit down with Scott Spence to talk about all things GraphCMS related. Why the decision was to go with a GraphQL only backend as a service.
 hashnode: https://hashnode.codingcat.dev/podcast-1-31-delivering-digital-content-with-graphcms
