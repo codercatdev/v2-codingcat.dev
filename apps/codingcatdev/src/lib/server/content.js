@@ -33,34 +33,36 @@ const firestore = getFirestore(app);
  * List all content from specified content type
  * allows for optionally sending after object
  * @typedef {import('$lib/types').ContentType} contentType
- * @param {{contentType: contentType, after?: {start: Date, season: number, episode: number}, limit?: number}} params
+ * @param {{contentType: contentType, after?: {start: Date, season?: number, episode?: number, title?: string}, limit?: number}} params
  * @returns {Promise<{
  * next: any,
  * content: import('$lib/types').Content[] | import('$lib/types').Podcast[]}>}
  * */
 export const listContent = async ({ contentType, after, limit }) => {
-	console.log(`List for type: ${contentType}`);
+	const theLimit = limit || LIMIT;
+	console.log(`List for type: ${contentType}, limit of ${theLimit}`);
 
+	// All query need a start date
 	let query = firestore
 		.collection(contentType)
 		.where('start', '<=', Timestamp.fromDate(new Date()))
-		.orderBy('start', 'desc')
-		.orderBy('title', 'asc')
-		.where('published', '==', 'published')
-		.limit(limit || LIMIT);
+		.orderBy('start', 'desc');
 
 	if (contentType === ContentType.podcast) {
-		query = firestore
-			.collection(contentType)
+		query = query
 			.where('status', '==', 'released')
-			.where('start', '<=', Timestamp.fromDate(new Date()))
-			.orderBy('start', 'desc')
 			.orderBy('season', 'desc')
 			.orderBy('episode', 'desc')
-			.limit(limit || LIMIT);
+			.limit(theLimit);
 		if (after) {
 			console.log(`after: ${JSON.stringify(after)}`);
 			query = query.startAfter(new Date(after.start), after.season, after.episode);
+		}
+	} else {
+		query = query.orderBy('title', 'asc').where('published', '==', 'published').limit(theLimit);
+		if (after) {
+			console.log(`after: ${JSON.stringify(after)}`);
+			query = query.startAfter(new Date(after.start), after.title);
 		}
 	}
 	const querySnapshot = await query.get();
@@ -69,16 +71,20 @@ export const listContent = async ({ contentType, after, limit }) => {
 	if (!querySnapshot.empty) {
 		const last = await querySnapshot.docs[querySnapshot.docs.length - 1].data();
 
-		contentType === ContentType.podcast
-			? (next = {
-					start: last.start.toDate(),
-					season: last.season,
-					episode: last.episode
-			  })
-			: (next = {
-					start: last.start.toDate(),
-					title: last.title
-			  });
+		if (querySnapshot.docs.length < theLimit) {
+			next = {};
+		} else {
+			contentType === ContentType.podcast
+				? (next = {
+						start: last.start.toDate(),
+						season: last.season,
+						episode: last.episode
+				  })
+				: (next = {
+						start: last.start.toDate(),
+						title: last.title
+				  });
+		}
 	}
 	return {
 		next,

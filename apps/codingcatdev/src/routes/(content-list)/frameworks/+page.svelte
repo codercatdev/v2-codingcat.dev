@@ -1,11 +1,9 @@
 <script>
-	import { ContentType } from '$lib/types/index';
 	import ContentCards from '$lib/components/ContentCards.svelte';
+	import { ContentType } from '$lib/types/index';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
 
-<div class="p-4 sm:p-10">
-	<ContentCards type={ContentType.framework} list={data.content} />
-</div>
+<ContentCards type={ContentType.framework} {data} />
