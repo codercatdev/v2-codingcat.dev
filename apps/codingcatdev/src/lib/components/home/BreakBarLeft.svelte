@@ -17,4 +17,8 @@
 		border-right: -1.5rem;
 		margin-bottom: -1.5rem;
 	}
+	.vertical-clip {
+		background-color: hsl(var(--ac));
+		background: radial-gradient(46.71% 197.88% at 50% 43.5%, hsl(var(--p)) 0%, hsl(var(--s)) 100%);
+	}
 </style>

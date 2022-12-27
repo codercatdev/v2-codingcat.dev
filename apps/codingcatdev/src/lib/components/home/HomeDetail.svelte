@@ -36,7 +36,7 @@
 	<BreakBarRight>
 		<AJLogoLeft cls="w-16 sm:w-16 md:w-20" />
 		<h3
-			class="absolute w-1/2 text-2xl text-center sm:left-0 sm:w-full left-1/4 text-basics-50 sm:text-4xl lg:text-4xl"
+			class="text-primary-content absolute w-1/2 text-2xl text-center sm:left-0 sm:w-full left-1/4 text-basics-50 sm:text-4xl lg:text-4xl"
 		>
 			Learn with AJ and KC
 		</h3>
@@ -54,7 +54,7 @@
 		<div class="relative flex items-center w-full">
 			<AJHeartAlt cls="w-16 sm:w-16 md:w-20" />
 			<h3
-				class="absolute w-3/4 ml-4 text-2xl text-center sm:left-0 sm:w-full left-16 text-basics-50 sm:text-4xl md:text-2xl lg:text-4xl"
+				class="text-primary-content absolute w-3/4 ml-4 text-2xl text-center sm:left-0 sm:w-full left-16 text-basics-50 sm:text-4xl md:text-2xl lg:text-4xl"
 			>
 				Read what&#39;s going on in web dev
 			</h3>
@@ -71,7 +71,7 @@
 	<BreakBarRight>
 		<div class="relative flex items-center justify-end w-full">
 			<h3
-				class="absolute left-0 w-3/4 ml-4 text-2xl text-center sm:w-full text-basics-50 sm:text-3xl md:text-3xl lg:text-4xl"
+				class="text-primary-content absolute left-0 w-3/4 ml-4 text-2xl text-center sm:w-full text-basics-50 sm:text-3xl md:text-3xl lg:text-4xl"
 			>
 				Listen to the latest tech news
 			</h3>
