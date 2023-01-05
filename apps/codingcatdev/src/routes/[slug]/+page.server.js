@@ -11,5 +11,7 @@ export async function load({ params }) {
 			message: 'Not found'
 		});
 	}
-	return content;
+	return {
+		content
+	};
 }
