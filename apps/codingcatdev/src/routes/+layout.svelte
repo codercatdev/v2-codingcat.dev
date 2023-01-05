@@ -11,7 +11,6 @@
 	let content;
 
 	afterNavigate(() => {
-		console.log('navigating');
 		setTimeout(() => {
 			content.scrollTo(0, 0);
 		}, 0);

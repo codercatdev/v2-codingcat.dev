@@ -7,27 +7,27 @@
 	import HtmlLogo from '$lib/components/global/icons/vendor/HtmlLogo.svelte';
 </script>
 
-<a href="/languages/html">
+<a href="/language/html">
 	<span class="sr-only">HTML</span>
 	<HtmlLogo props={{ class: 'h-16 md:h-20' }} />
 </a>
-<a href="/frameworks/angular">
+<a href="/framework/angular">
 	<span class="sr-only">Angular</span>
 	<AngularLogo props={{ class: 'h-14 md:h-16' }} />
 </a>
-<a href="/frameworks/vue">
+<a href="/framework/vue">
 	<span class="sr-only">Vue</span>
 	<VueLogo props={{ class: 'h-14 md:h-16' }} />
 </a>
-<a href="/frameworks/react">
+<a href="/framework/react">
 	<span class="sr-only">React</span>
 	<ReactLogo props={{ class: 'h-14 md:h-16' }} />
 </a>
-<a href="/frameworks/svelte">
+<a href="/framework/svelte">
 	<span class="sr-only">Svelte</span>
 	<SvelteLogo props={{ class: 'h-16 md:h-20' }} />
 </a>
-<a href="/languages/css">
+<a href="/language/css">
 	<span class="sr-only">CSS</span>
 	<CssLogo props={{ class: 'h-16 md:h-20' }} />
 </a>
