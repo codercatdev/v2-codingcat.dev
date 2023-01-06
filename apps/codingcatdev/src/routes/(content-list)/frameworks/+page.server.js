@@ -1,10 +1,14 @@
 import { listContent } from '$lib/server/content';
 import { ContentType } from '$lib/types';
+
+const contentType = ContentType.post;
+
 /**
  * @type {import('./$types').PageServerLoad}
  * */
 export async function load() {
 	return {
-		...(await listContent({ contentType: ContentType.framework }))
+		contentType,
+		...(await listContent({ contentType }))
 	};
 }

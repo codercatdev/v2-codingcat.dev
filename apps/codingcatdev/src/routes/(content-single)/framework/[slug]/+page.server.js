@@ -1,11 +1,14 @@
 import { getContentBySlug } from '$lib/server/content';
 import { ContentType } from '$lib/types';
 
+const contentType = ContentType.framework;
+
 /**
  * @type {import('./$types').PageServerLoad}
  * */
 export async function load({ params }) {
 	return {
-		content: await getContentBySlug(ContentType.framework, params.slug)
+		contentType,
+		content: await getContentBySlug(contentType, params.slug)
 	};
 }

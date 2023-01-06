@@ -44,6 +44,36 @@ export const ContentType = {
 };
 
 /**
+ * Array of ContentTypes
+ * @readonly
+ * @return {string[]}
+ */
+export const getContentTypes = () => {
+	return Object.keys(ContentType);
+};
+
+/**
+ * Array of ContentTypes Plural
+ * @readonly
+ * @return {Map<string,string>}
+ */
+export const getContentTypePlurals = () => {
+	const map = new Map();
+	Object.keys(ContentType).map((t) => map.set(t, t === ContentType.post ? 'blog' : t + 's'));
+	return map;
+};
+
+/**
+ * Array of ContentTypes Plural
+ * @readonly
+ * @param {string} contentType
+ * @return {string | undefined}
+ */
+export const getContentTypePlural = (contentType) => {
+	return getContentTypePlurals().get(contentType);
+};
+
+/**
  * Enum for Content Types.
  * @readonly
  * @enum {string}
