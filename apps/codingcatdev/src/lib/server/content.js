@@ -6,12 +6,14 @@ import { getFirestore, Timestamp } from 'firebase-admin/firestore';
 import { compile } from 'mdsvex';
 import { ContentType } from '$lib/types';
 
+import prism from 'prismjs';
 import 'prismjs/components/prism-bash.js';
 import 'prismjs/components/prism-dart.js';
 import 'prismjs/components/prism-diff.js';
 import 'prismjs/components/prism-typescript.js';
 import 'prismjs/components/prism-jsx';
 import 'prism-svelte';
+console.debug('Available Prism Languages: ', prism.languages);
 
 const LIMIT = 20;
 
@@ -137,7 +139,6 @@ export const getContentBySlug = async (contentType, slug) => {
 	if (!doc) {
 		return null;
 	}
-
 	const markdown = doc.data().content || '';
 	const compiled = await compile(markdown);
 
