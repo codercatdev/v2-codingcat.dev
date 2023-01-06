@@ -22,7 +22,6 @@
 
 	/** @type {import('$lib/types/index').Content} */
 	const content = $page?.data?.content;
-	console.log(content);
 	/** @type {import('$lib/types/index').ContentType} */
 	const contentType = $page?.data?.contentType;
 	const contentTypePlural = getContentTypePlural(contentType);
