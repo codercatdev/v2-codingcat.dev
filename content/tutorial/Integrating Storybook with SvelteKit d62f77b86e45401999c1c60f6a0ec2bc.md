@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/f_auto,q_auto/main-codingcatdev-photo/Storybook.jpg
+cover: https://media.codingcat.dev/image/upload/f_auto,q_auto/main-codingcatdev-photo/Storybook.jpg
 excerpt: Brittney walks through how to get Storybook working in a new SvelteKit project.
 hashnode: https://hashnode.codingcat.dev/tutorial-integrating-storybook-with-sveltekit
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=tutorial&selectionSlug=integrating-storybook-with-sveltekit&_id=d62f77b86e45401999c1c60f6a0ec2bc
