@@ -6,6 +6,13 @@ import { getFirestore, Timestamp } from 'firebase-admin/firestore';
 import { compile } from 'mdsvex';
 import { ContentType } from '$lib/types';
 
+import 'prismjs/components/prism-bash.js';
+import 'prismjs/components/prism-dart.js';
+import 'prismjs/components/prism-diff.js';
+import 'prismjs/components/prism-typescript.js';
+import 'prismjs/components/prism-jsx';
+import 'prism-svelte';
+
 const LIMIT = 20;
 
 if (!PUBLIC_FB_PROJECT_ID || !PRIVATE_FB_CLIENT_EMAIL || !PRIVATE_FB_PRIVATE_KEY) {
