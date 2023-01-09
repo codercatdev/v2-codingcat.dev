@@ -1,6 +1,7 @@
 <script>
 	import 'prism-themes/themes/prism-shades-of-purple.min.css';
 	import RecentPostsList from '$lib/components/content/RecentPostsList.svelte';
+	import LessonList from '$lib/components/content/LessonList.svelte';
 	import { ContentType } from '$lib/types/index';
 	import Media from '$lib/components/content/Media.svelte';
 	/** @typedef {import('$lib/types/index').Content} Content */
@@ -28,12 +29,21 @@
 					{@html data.content.content}
 				</section>
 			</div>
-			<div class="hidden xl:block">
-				<RecentPostsList contentType={ContentType.course} list={data.course} />
-				<RecentPostsList contentType={ContentType.tutorial} list={data.tutorial} />
-				<RecentPostsList contentType={ContentType.podcast} list={data.podcast} />
-				<RecentPostsList contentType={ContentType.post} list={data.post} />
-			</div>
+			{#if data?.content?.lesson && data?.content?.lesson.length > 0 && data?.content?.slug}
+				<div class="hidden xl:block">
+					<LessonList
+						courseSlug={data?.content?.courseSlug || data?.content?.slug}
+						lesson={data.content.lesson}
+					/>
+				</div>
+			{:else}
+				<div class="hidden xl:block">
+					<RecentPostsList contentType={ContentType.course} list={data.course} />
+					<RecentPostsList contentType={ContentType.tutorial} list={data.tutorial} />
+					<RecentPostsList contentType={ContentType.podcast} list={data.podcast} />
+					<RecentPostsList contentType={ContentType.post} list={data.post} />
+				</div>
+			{/if}
 		</section>
 	</div>
 {:else}
