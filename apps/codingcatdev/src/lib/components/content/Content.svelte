@@ -1,0 +1,41 @@
+<script>
+	import 'prism-themes/themes/prism-shades-of-purple.min.css';
+	import RecentPostsList from '$lib/components/content/RecentPostsList.svelte';
+	import { ContentType } from '$lib/types/index';
+	import Media from '$lib/components/content/Media.svelte';
+	/** @typedef {import('$lib/types/index').Content} Content */
+	/** @typedef {import('$lib/types/index').ContentList} ContentList */
+
+	/**@type {{contentType: string, content: Content | null, course: ContentList, tutorial: ContentList, podcast: ContentList, post: ContentList}}*/
+	export let data;
+</script>
+
+{#if data?.content}
+	<div class="flex justify-center">
+		<section class="justify-center p-1 content-single xl:p-8 sm:flex">
+			<div class="p-1">
+				{#if data?.content?.youtube}
+					<Media
+						sources={[
+							{
+								src: data.content.youtube,
+								type: 'video/youtube'
+							}
+						]}
+					/>
+				{/if}
+				<section class="flex-grow w-full prose lg:prose-xl xl:prose-2xl">
+					{@html data.content.content}
+				</section>
+			</div>
+			<div class="hidden xl:block">
+				<RecentPostsList contentType={ContentType.course} list={data.course} />
+				<RecentPostsList contentType={ContentType.tutorial} list={data.tutorial} />
+				<RecentPostsList contentType={ContentType.podcast} list={data.podcast} />
+				<RecentPostsList contentType={ContentType.post} list={data.post} />
+			</div>
+		</section>
+	</div>
+{:else}
+	<p>No data found yet</p>
+{/if}
