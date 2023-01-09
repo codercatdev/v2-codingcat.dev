@@ -14,14 +14,16 @@
 	<div class="flex justify-center">
 		<section class="justify-center p-1 content-single xl:p-8 sm:flex">
 			<div class="p-1">
-				<Media
-					sources={[
-						{
-							src: 'https://youtu.be/y_0ouvhP8V4',
-							type: 'video/youtube'
-						}
-					]}
-				/>
+				{#if data?.content?.youtube}
+					<Media
+						sources={[
+							{
+								src: data.content.youtube,
+								type: 'video/youtube'
+							}
+						]}
+					/>
+				{/if}
 				<section class="flex-grow w-full prose lg:prose-xl xl:prose-2xl">
 					{@html data.content.content}
 				</section>
