@@ -9,9 +9,15 @@
 				controls: true,
 				autoplay: false,
 				preload: 'auto',
-				fluid: true
-				// techOrder: ['html5', 'youtube']
-				// sources:
+				fluid: true,
+				plugins: {},
+				// techOrder: ['html5', 'youtube'],
+				sources: [
+					{
+						src: 'https://vjs.zencdn.net/v/oceans.mp4',
+						type: 'video/mp4'
+					}
+				]
 			},
 			undefined
 		);
@@ -34,8 +40,6 @@
 <!-- svelte-ignore a11y-media-has-caption -->
 <!-- <video bind:this={vid} /> -->
 <video id="video-player" class="video-js">
-	<source src="//vjs.zencdn.net/v/oceans.mp4" />
-
 	<p class="vjs-no-js">
 		To view this video please enable JavaScript, and consider upgrading to a web browser that
 		<a href="https://videojs.com/html5-video-support/" target="_blank" rel="noreferrer"
