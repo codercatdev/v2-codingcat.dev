@@ -1,6 +1,5 @@
 <script>
 	import AJPrimary from '$lib/components/global/icons/AJPrimary.svelte';
-	import { ContentType } from '$lib/types/index';
 
 	/** @type {import('$lib/types/index').ContentType} */
 	export let type;
@@ -82,7 +81,7 @@
 			</section>
 			{#if next && Object.keys(next).length}
 				<div class="flex justify-center m-8">
-					<button class="btn btn-lg btn-primary text-2xl" on:click={() => more()}> More </button>
+					<button class="text-2xl btn btn-lg btn-primary" on:click={() => more()}> More </button>
 				</div>
 			{/if}
 		</div>

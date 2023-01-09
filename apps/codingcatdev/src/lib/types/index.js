@@ -19,6 +19,10 @@
  */
 
 /**
+ * @typedef {Content[]} ContentList
+ */
+
+/**
  * @typedef {Object} Author
  * @property {string} id
  * @property {string=} displayName
