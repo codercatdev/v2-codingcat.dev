@@ -2,7 +2,7 @@
 	import '../../../../node_modules/video.js/dist/video-js.min.css';
 	import videojs from 'video.js';
 	import 'videojs-youtube';
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount, onDestroy, afterUpdate, beforeUpdate } from 'svelte';
 
 	/**
 	 * See https://videojs.com/guides/options/#sources
@@ -12,27 +12,39 @@
 	 * }]}*/
 	export let sources;
 
-	onMount(() => {
-		videojs(
+	/** TODO: fix Player definition
+	 * @type any */
+	let player;
+
+	const setPlayer = () => {
+		player = videojs(
 			'video-player',
 			{
 				controls: true,
 				autoplay: false,
 				preload: 'auto',
 				fluid: true,
-				// plugins: {
-				// 	Youtube: {}
-				// },
+				restoreEl: true,
 				techOrder: ['youtube'],
 				sources
 			},
 			undefined
 		);
+	};
+
+	onMount(() => {
+		setPlayer();
 	});
 	onDestroy(() => {
-		for (const player of videojs.getAllPlayers()) {
+		for (const p of videojs.getAllPlayers()) {
+			p.dispose();
+		}
+	});
+	afterUpdate(() => {
+		if (player && !player.isDisposed()) {
 			player.dispose();
 		}
+		setPlayer();
 	});
 </script>
 
