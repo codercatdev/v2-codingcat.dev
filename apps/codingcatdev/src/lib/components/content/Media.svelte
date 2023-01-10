@@ -1,4 +1,5 @@
 <script>
+	import '../../../../node_modules/video.js/dist/video-js.min.css';
 	import videojs from 'video.js';
 	import 'videojs-youtube';
 	import { onMount, onDestroy } from 'svelte';
@@ -36,11 +37,11 @@
 </script>
 
 <svelte:head>
-	<link
+	<!-- <link
 		type="text/css"
 		rel="stylesheet"
 		href="../../../../node_modules/video.js/dist/video-js.min.css"
-	/>
+	/> -->
 	<script>
 		//This is a fake script tag because YT API needs one to append after.
 		//https:\/\/www.youtube.com\/s\/player\/e5f6cbd5\/www-widgetapi.vflset\/www-widgetapi.js
