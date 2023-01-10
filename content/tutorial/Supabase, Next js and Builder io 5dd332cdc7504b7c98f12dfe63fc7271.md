@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: https://media.codingcat.dev/image/upload/q_auto,f_auto/main-codingcatdev-photo/0.0.png
+cover: https://media.codingcat.dev/image/upload/main-codingcatdev-photo/0.0.png
 excerpt: We will walk through how to get up and running on Next.js with Supabase. Then we will build UI using http://builder.io/.
 hashnode: https://hashnode.codingcat.dev/tutorial-supabase-nextjs-and-builderio
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=tutorial&selectionSlug=supabase-nextjs-and-builderio&_id=5dd332cdc7504b7c98f12dfe63fc7271

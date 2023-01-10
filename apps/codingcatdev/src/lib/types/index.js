@@ -4,10 +4,12 @@
  * @property {Author[]=} authors
  * @property {boolean=} cloudinary_convert
  * @property {string=} content
+ * @property {string=} courseSlug
  * @property {string=} cover
  * @property {string=} devto
  * @property {string=} excerpt
  * @property {string=} hashnode
+ * @property {Content[]=} lesson
  * @property {string=} preview
  * @property {typeof ContentPublished= } published
  * @property {string=} section
