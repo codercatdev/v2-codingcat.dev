@@ -1,5 +1,6 @@
 <script>
 	import AJPrimary from '$lib/components/global/icons/AJPrimary.svelte';
+	import Image from '$lib/components/content/Image.svelte';
 
 	/** @type {import('$lib/types/index').ContentType} */
 	export let type;
@@ -41,10 +42,10 @@
 					>
 						<a class="self-start" href={`/${type}/${content.slug}`}>
 							{#if content?.cover}
-								<img
+								<Image
 									src={content.cover}
-									alt={content.title}
-									class="rounded-md rounded-b-none cursor-pointer"
+									alt={content.title || 'Missing Alt Sorry'}
+									classes="rounded-md rounded-b-none cursor-pointer"
 								/>
 							{:else}
 								<div class="relative" style="paddingBottom: '56.25%'">

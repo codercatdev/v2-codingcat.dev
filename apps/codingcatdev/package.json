@@ -41,6 +41,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@cloudinary/html": "^1.8.1",
+		"@cloudinary/url-gen": "^1.8.7",
 		"@codingcatdev/videojs-codingcatdev-youtube": "workspace:^0.0.2",
 		"firebase": "^9.15.0",
 		"firebase-admin": "^11.3.0",
