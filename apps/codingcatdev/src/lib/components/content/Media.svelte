@@ -1,7 +1,8 @@
 <script>
 	import '../../../../node_modules/video.js/dist/video-js.min.css';
 	import videojs from 'video.js';
-	import 'videojs-youtube';
+	// import 'videojs-youtube';
+	import '@codingcatdev/videojs-codingcatdev-youtube';
 	import { onMount, onDestroy, afterUpdate, beforeUpdate } from 'svelte';
 
 	/**
@@ -25,35 +26,46 @@
 				preload: 'auto',
 				fluid: true,
 				restoreEl: true,
+				plugins: {
+					codingcatdevYoutube: {}
+				},
 				techOrder: ['youtube'],
 				sources
 			},
 			undefined
 		);
+		player.codingcatdevYoutube();
+		player.ready(() => {
+			console.debug('videojs:player:ready');
+		});
 	};
 
 	onMount(() => {
+		console.debug('onMount');
 		setPlayer();
+		console.debug('onMount:videojs:player', player);
 	});
 	onDestroy(() => {
+		console.debug('onDestroy');
+
 		for (const p of videojs.getAllPlayers()) {
 			p.dispose();
 		}
 	});
+	beforeUpdate(() => {
+		console.debug('beforeUpdate');
+	});
 	afterUpdate(() => {
+		console.debug('afterUpdate');
 		if (player && !player.isDisposed()) {
 			player.dispose();
 		}
 		setPlayer();
+		console.debug('afterUpdate:videojs:player', player);
 	});
 </script>
 
 <svelte:head>
-	<!-- <link
-		type="text/css"
-		rel="stylesheet"
-		href="../../../../node_modules/video.js/dist/video-js.min.css"
-	/> -->
 	<script>
 		//This is a fake script tag because YT API needs one to append after.
 		//https:\/\/www.youtube.com\/s\/player\/e5f6cbd5\/www-widgetapi.vflset\/www-widgetapi.js
