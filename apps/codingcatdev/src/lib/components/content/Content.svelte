@@ -3,7 +3,7 @@
 	import RecentPostsList from '$lib/components/content/RecentPostsList.svelte';
 	import LessonList from '$lib/components/content/LessonList.svelte';
 	import { ContentType } from '$lib/types/index';
-	import Media from '$lib/components/content/Media.svelte';
+	import Video from '$lib/components/content/Video.svelte';
 	/** @typedef {import('$lib/types/index').Content} Content */
 	/** @typedef {import('$lib/types/index').ContentList} ContentList */
 
@@ -16,7 +16,7 @@
 		<section class="justify-center p-1 content-single xl:p-8 sm:flex">
 			<div class="p-1">
 				{#if data?.content?.youtube}
-					<Media
+					<Video
 						sources={[
 							{
 								src: data.content.youtube,
