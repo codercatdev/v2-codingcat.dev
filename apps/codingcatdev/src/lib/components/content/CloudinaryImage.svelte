@@ -16,7 +16,6 @@
 
 	/** @type {HTMLImageElement| null}*/
 	let bindImage = null;
-	console.log(src);
 	onMount(() => {
 		const newImage = new CloudinaryImage(
 			src.match(/upload\/(?:v\d+\/)?(.+?)\.[^\.]+$/)?.at(1),

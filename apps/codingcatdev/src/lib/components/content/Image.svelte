@@ -3,7 +3,7 @@
 	import CloudinaryImage from '$lib/components/content/CloudinaryImage.svelte';
 
 	/** @type {function=} */
-	export let loader;
+	export let loader = undefined;
 
 	/** @type {string} */
 	export let src;
