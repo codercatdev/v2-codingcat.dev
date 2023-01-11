@@ -12,7 +12,7 @@ importers:
     specifiers:
       '@cloudinary/html': ^1.8.1
       '@cloudinary/url-gen': ^1.8.7
-      '@codingcatdev/videojs-codingcatdev-youtube': workspace:^0.0.2
+      '@codingcatdev/videojs-codingcatdev-youtube': ^0.0.2
       '@firebase/app-types': 0.x
       '@playwright/test': ^1.28.1
       '@sveltejs/adapter-auto': ^1.0.0
