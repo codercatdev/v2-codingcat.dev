@@ -1,5 +1,8 @@
 <script>
-	import { ContentType, getContentTypePlural } from '$lib/types/index';
+	import { afterUpdate, onMount } from 'svelte';
+	import { afterNavigate } from '$app/navigation';
+
+	import { getContentTypePlural } from '$lib/types/index';
 	import { MetaTags } from 'svelte-meta-tags';
 	import { PUBLIC_FACEBOOK_APP_ID } from '$env/static/public';
 	import { page } from '$app/stores';
@@ -9,34 +12,25 @@
 	import Footer from '$lib/components/layout/Footer.svelte';
 	import DrawerNav from '$lib/components/layout/DrawerNav.svelte';
 
-	// TODO: https://github.com/sveltejs/kit/issues/2733
-	import { afterNavigate, beforeNavigate } from '$app/navigation';
-
-	/** @type {HTMLElement} */
-	let contentElem;
-	afterNavigate(() => {
-		setTimeout(() => {
-			contentElem.scrollTo(0, 0);
-		}, 0);
-	});
+	import { firebaseAnalytics } from '$lib/client/firebase/firebase-analytics';
 
 	/** @type {import('$lib/types/index').Content} */
-	const content = $page?.data?.content;
+	let content = $page?.data?.content;
 	/** @type {import('$lib/types/index').ContentType} */
-	const contentType = $page?.data?.contentType;
-	const contentTypePlural = getContentTypePlural(contentType);
-	const title =
+	let contentType = $page?.data?.contentType;
+	let contentTypePlural = getContentTypePlural(contentType);
+	let title =
 		content?.title ||
 		(contentTypePlural
 			? `${contentTypePlural.charAt(0)?.toUpperCase() + contentTypePlural.slice(1)} | `
 			: '') + `CodingCat.dev`;
-	const description =
+	let description =
 		content?.excerpt ||
 		'Codingcat.dev is where you can find all the Purrfect Web Tutorials that you will ever need!';
-	const url = `https://codingcat.dev/${
+	let url = `https://codingcat.dev/${
 		content?.slug ? `${contentType}/${content.slug}` : getContentTypePlural(contentType) || ''
 	}`;
-	const images = content?.cover
+	let images = content?.cover
 		? [
 				{
 					url: content?.cover?.replace(
@@ -52,6 +46,55 @@
 					alt: 'AJ Logo Black Cat Face with CodingCat.dev Domain'
 				}
 		  ];
+	onMount(() => {
+		firebaseAnalytics();
+	});
+	afterUpdate(() => {
+		setMeta();
+	});
+
+	const setMeta = () => {
+		content = $page?.data?.content;
+		contentType = $page?.data?.contentType;
+		contentTypePlural = getContentTypePlural(contentType);
+		title =
+			content?.title ||
+			(contentTypePlural
+				? `${contentTypePlural.charAt(0)?.toUpperCase() + contentTypePlural.slice(1)} | `
+				: '') + `CodingCat.dev`;
+		description =
+			content?.excerpt ||
+			'Codingcat.dev is where you can find all the Purrfect Web Tutorials that you will ever need!';
+		url = `https://codingcat.dev/${
+			content?.slug ? `${contentType}/${content.slug}` : getContentTypePlural(contentType) || ''
+		}`;
+		images = content?.cover
+			? [
+					{
+						url: content?.cover?.replace(
+							'https://media.codingcat.dev/image/upload/',
+							'https://media.codingcat.dev/image/upload/f_jpg/'
+						),
+						alt: content?.title || 'Cover Image'
+					}
+			  ]
+			: [
+					{
+						url: 'https://media.codingcat.dev/image/upload/f_jpg/dev-codingcatdev-photo/v60h88eohd7ufghkspgo',
+						alt: 'AJ Logo Black Cat Face with CodingCat.dev Domain'
+					}
+			  ];
+		console.debug('metadata:set', document.querySelector('meta[property="og:title"]'));
+	};
+
+	// TODO: https://github.com/sveltejs/kit/issues/2733
+	/** @type {HTMLElement} */
+	let contentElem;
+	afterNavigate(() => {
+		setTimeout(() => {
+			contentElem.scrollTo(0, 0);
+		}, 0);
+	});
 </script>
 
 <MetaTags
