@@ -75,7 +75,13 @@
 	}}
 />
 <div class="drawer drawer-end">
-	<input id="ccd-drawer" type="checkbox" class="drawer-toggle" />
+	<input
+		id="ccd-drawer"
+		name="ccd-drawer"
+		type="checkbox"
+		class="drawer-toggle"
+		aria-label="Click to Open Drawer"
+	/>
 	<div
 		bind:this={contentElem}
 		class="flex flex-col drawer-content"
