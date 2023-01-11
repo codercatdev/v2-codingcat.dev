@@ -1,6 +1,9 @@
 import { getContentBySlug } from '$lib/server/content';
 import { ContentType } from '$lib/types';
 import { error } from '@sveltejs/kit';
+
+const contentType = ContentType.tutorial;
+
 /**
  * @type {import('./$types').PageServerLoad}
  * */
@@ -12,6 +15,7 @@ export async function load({ params }) {
 		});
 	}
 	return {
+		contentType,
 		content
 	};
 }

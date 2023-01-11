@@ -5,4 +5,4 @@
 	export let data;
 </script>
 
-<Content content={data.content} />
+<Content {data} />
