@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1616540053/main-codingcatdev-photo/krny5cr60ahjh7qo9sow.png
+cover: htts://media.codingcat.dev/image/upload/v1616540053/main-codingcatdev-photo/krny5cr60ahjh7qo9sow.png
 excerpt: If you use Google Cloud Build and find yourself in Discord all day, it might be handy to receive a messge about your builds. Or just any webhook message in Discord.
 hashnode: https://hashnode.codingcat.dev/tutorial-send-gcp-build-status-to-discord
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=tutorial&selectionSlug=send-gcp-build-status-to-discord&_id=1d8af205c40e414fb80fe5017391bb77

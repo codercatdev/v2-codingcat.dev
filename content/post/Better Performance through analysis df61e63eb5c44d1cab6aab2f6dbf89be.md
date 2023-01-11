@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1633601534/main-codingcatdev-photo/sknntx1srr4tpzvhwr6a.png
+cover: htts://media.codingcat.dev/image/upload/v1633601534/main-codingcatdev-photo/sknntx1srr4tpzvhwr6a.png
 devto: https://dev.to/codingcatdev/better-performance-through-analysis-35b8
 excerpt: Example of how to use Web.dev to maintain a timeline of performance, while running firebase performance for constant monitoring.
 hashnode: https://hashnode.codingcat.dev/post-better-performance-through-analysis

@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1649933071/main-codingcatdev-photo/lb.jpg
+cover: htts://media.codingcat.dev/image/upload/v1649933071/main-codingcatdev-photo/lb.jpg
 devto: https://dev.to/codingcatdev/learning-builderio-from-a-developers-perspective-c69
 excerpt: I sat down with Tim Benniks who is a developer advocate, for his first time ever checking out Builder.io.
 hashnode: https://hashnode.codingcat.dev/post-learning-builder-io-from-a-developers-perspective
@@ -150,7 +150,7 @@ Below is an example of what that JSON looks like (again available directly withi
         "created_by": {
           "id": "dbfd615dfc7e1b5d5a6d1427802862",
           "type": "user"        },
-        "url": "http://media.codingcat.dev/image/upload/v1649885350/main-codingcatdev-photo/Learning_Builder.io_from_a_Developers_Perspective.jpg",
+        "url": "htts://media.codingcat.dev/image/upload/v1649885350/main-codingcatdev-photo/Learning_Builder.io_from_a_Developers_Perspective.jpg",
         "uploaded_by": {
           "id": "dbfd615dfc7e1b5d5a6d1427802862",
           "type": "user"        },
@@ -207,7 +207,7 @@ The "blocks" item is where ever single item that is in our layers panel will be 
         "type": "upload",
         "format": "png",
         "version": 1649896683,
-        "url": "http://media.codingcat.dev/image/upload/v1649896683/main-codingcatdev-photo/BuilderComponent.png",
+        "url": "htts://media.codingcat.dev/image/upload/v1649896683/main-codingcatdev-photo/BuilderComponent.png",
         "secure_url": "https://media.codingcat.dev/image/upload/v1649896683/main-codingcatdev-photo/BuilderComponent.png",
         "width": 1920,
         "height": 1080,

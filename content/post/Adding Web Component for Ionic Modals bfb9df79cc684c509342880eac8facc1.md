@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1633601665/main-codingcatdev-photo/dy9rc4i1i6klybu27tmm.png
+cover: htts://media.codingcat.dev/image/upload/v1633601665/main-codingcatdev-photo/dy9rc4i1i6klybu27tmm.png
 devto: https://dev.to/codingcatdev/adding-web-component-for-ionic-modals-33jh
 excerpt: Utilizing Web Components within Hugo Static Site Generator (or any static site). Adding a Custom Element for an Ionic Modal pop-up.
 hashnode: https://hashnode.codingcat.dev/post-adding-web-component-for-ionic-modals

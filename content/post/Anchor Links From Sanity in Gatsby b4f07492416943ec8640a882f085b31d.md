@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1633601188/main-codingcatdev-photo/lxr4hrhmfxa3rb4bilsf.png
+cover: htts://media.codingcat.dev/image/upload/v1633601188/main-codingcatdev-photo/lxr4hrhmfxa3rb4bilsf.png
 devto: https://dev.to/codingcatdev/anchor-links-from-sanity-in-gatsby-320n
 excerpt: Have you ever hunted around for days trying to find that simple package for adding anchor links to your Gatsby blog? It is easier than you might think, and you don't need a package!
 hashnode: https://hashnode.codingcat.dev/post-anchor-links-from-sanity-in-gatsby

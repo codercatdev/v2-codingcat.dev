@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1618944778/main-codingcatdev-photo/qo6tuotjevkv0dpzzw39.png
+cover: htts://media.codingcat.dev/image/upload/v1618944778/main-codingcatdev-photo/qo6tuotjevkv0dpzzw39.png
 devto: https://dev.to/codingcatdev/gatsby-cloud-with-sanity-cms-2b5e
 excerpt: Start building your static site with Gatsby cloud and get live previews when you utilize Sanity as your CMS!
 hashnode: https://hashnode.codingcat.dev/post-gatsby-cloud-with-sanity-cms

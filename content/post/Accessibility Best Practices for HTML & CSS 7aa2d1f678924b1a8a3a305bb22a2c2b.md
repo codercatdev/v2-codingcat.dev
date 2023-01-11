@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1629384711/main-codingcatdev-photo/n299y699xo7tjwlctlav.png
+cover: htts://media.codingcat.dev/image/upload/v1629384711/main-codingcatdev-photo/n299y699xo7tjwlctlav.png
 devto: https://dev.to/brittneypostma/accessibility-best-practices-for-html-css-d51
 excerpt: Accessibility is an ongoing, ever-evolving process that is an extremely important aspect for inclusion and usability. These are some of the best practices you can follow in HTML and CSS to improve the user's experience on your site.
 hashnode: https://hashnode.codingcat.dev/post-accessibility-best-practices-for-html-and-css

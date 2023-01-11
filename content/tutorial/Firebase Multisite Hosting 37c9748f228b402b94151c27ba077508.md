@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1623783708/main-codingcatdev-photo/dhoffzsdzo9fld1xxpgj.jpg
+cover: htts://media.codingcat.dev/image/upload/v1623783708/main-codingcatdev-photo/dhoffzsdzo9fld1xxpgj.jpg
 devto: https://dev.to/codingcatdev/firebase-multisite-hosting-37d
 excerpt: Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app).
 hashnode: https://hashnode.codingcat.dev/tutorial-firebase-multisite-hosting

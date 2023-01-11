@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1644851521/main-codingcatdev-photo/Divvy.jpg
+cover: htts://media.codingcat.dev/image/upload/v1644851521/main-codingcatdev-photo/Divvy.jpg
 devto: https://dev.to/codingcatdev/how-to-achieve-169-resolution-while-using-divvy-on-a-mac-1iog
 excerpt: Perfecting screen capture for HD videos on a Mac, using Divvy. Download your own template.
 hashnode: https://hashnode.codingcat.dev/post-how-to-achieve-16-9-resolution-while-using-divvy-on-a-mac

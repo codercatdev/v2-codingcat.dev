@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1633604046/main-codingcatdev-photo/rbjubpuetc0xhsiburfk.png
+cover: htts://media.codingcat.dev/image/upload/v1633604046/main-codingcatdev-photo/rbjubpuetc0xhsiburfk.png
 devto: https://dev.to/codingcatdev/slack-workspace-theme-customization-24o
 hashnode: https://hashnode.codingcat.dev/post-slack-workspace-theme-customization
 preview: https://codingcat.dev/api/preview?secret=7tjQhb1qQlS3FtyV3b0I&selectionType=post&selectionSlug=slack-workspace-theme-customization&_id=f7598d7d2825459496a3e15c15f398ae

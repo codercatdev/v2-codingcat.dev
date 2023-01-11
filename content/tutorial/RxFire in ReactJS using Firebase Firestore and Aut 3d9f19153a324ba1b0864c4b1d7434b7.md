@@ -1,6 +1,6 @@
 ---
 cloudinary_convert: false
-cover: http://media.codingcat.dev/image/upload/v1616429614/main-codingcatdev-photo/q6a6amtmdfsobeguruak.png
+cover: htts://media.codingcat.dev/image/upload/v1616429614/main-codingcatdev-photo/q6a6amtmdfsobeguruak.png
 devto: https://dev.to/codingcatdev/rxfire-in-reactjs-using-firebase-firestore-and-authentication-3ao
 excerpt: Introduction to Create React App, Firebase, and RxFire. RxFire provides a set of observable creation methods. You simply call a function with some parameters to receive an RxJS observable. With that observable in hand you can use any operators provided by RxJS to transform the stream as you like.
 hashnode: https://hashnode.codingcat.dev/tutorial-rxfire-in-reactjs-using-firebase-firestore-and-authentication
