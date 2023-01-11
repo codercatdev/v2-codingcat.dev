@@ -1,6 +1,6 @@
 {
   "name": "@codingcatdev/videojs-codingcatdev-youtube",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Video.js Wrapper for YouTube",
   "main": "cjs/plugin.js",
   "module": "es/plugin.js",

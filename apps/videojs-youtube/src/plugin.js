@@ -9,6 +9,8 @@ const defaults = {};
 
 //TODO: Change this to pass multiple instances?
 let YOUTUBEINSTANCE;
+const ISONMOBILE =
+  videojs?.browser?.IS_IOS || videojs?.browser?.IS_NATIVE_ANDROID;
 
 /**
  * An advanced Video.js plugin. For more information on the API
@@ -48,7 +50,6 @@ class CodingcatdevYoutube extends Plugin {
  * @extends Tech
  */
 class YouTube extends Tech {
-  _isOnMobile = videojs?.browser?.IS_IOS || videojs?.browser?.IS_NATIVE_ANDROID;
   /**
    * Create an instance of this Tech.
    *
@@ -80,7 +81,7 @@ class YouTube extends Tech {
       if (YOUTUBEINSTANCE.el_) {
         YOUTUBEINSTANCE.el_.parentNode.className += " vjs-youtube";
 
-        if (this._isOnMobile) {
+        if (ISONMOBILE) {
           YOUTUBEINSTANCE.el_.parentNode.className += " vjs-youtube-mobile";
         }
       }
@@ -101,7 +102,7 @@ class YouTube extends Tech {
     var divWrapper = document.createElement("div");
     divWrapper.appendChild(div);
 
-    if (!this._isOnMobile && !this.options_.ytControls) {
+    if (!ISONMOBILE && !this.options_.ytControls) {
       var divBlocker = document.createElement("div");
       divBlocker.setAttribute("class", "vjs-iframe-blocker");
       divBlocker.setAttribute(
@@ -432,7 +433,7 @@ class YouTube extends Tech {
   poster() {
     // You can't start programmaticlly a video with a mobile
     // through the iframe so we hide the poster and the play button (with CSS)
-    if (this._isOnMobile) {
+    if (ISONMOBILE) {
       return null;
     }
 
@@ -464,7 +465,7 @@ class YouTube extends Tech {
       }
     }
 
-    if (this.options_.autoplay && !this._isOnMobile) {
+    if (this.options_.autoplay && !ISONMOBILE) {
       if (this.isReady_) {
         this.play();
       } else {

@@ -10,8 +10,7 @@ importers:
 
   apps/codingcatdev:
     specifiers:
-      '@codingcatdev/videojs-codingcatdev-youtube': ^0.0.0
-      '@codingcatdev/videojs-youtube': ^0.0.0
+      '@codingcatdev/videojs-codingcatdev-youtube': workspace:^0.0.2
       '@firebase/app-types': 0.x
       '@playwright/test': ^1.28.1
       '@sveltejs/adapter-auto': ^1.0.0
@@ -46,8 +45,7 @@ importers:
       vite: ^4.0.0
       vitest: ^0.25.3
     dependencies:
-      '@codingcatdev/videojs-codingcatdev-youtube': 0.0.0
-      '@codingcatdev/videojs-youtube': 0.0.0
+      '@codingcatdev/videojs-codingcatdev-youtube': link:../videojs-youtube
       firebase: 9.15.0
       firebase-admin: 11.3.0_@firebase+app-types@0.9.0
       mdsvex: 0.10.6_svelte@3.55.0
@@ -1411,22 +1409,6 @@ packages:
   /@bcoe/v8-coverage/0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
-
-  /@codingcatdev/videojs-codingcatdev-youtube/0.0.0:
-    resolution: {integrity: sha512-R/Lni8h8eDEJTGhu9miafrBbDpChAiC3K+YWrgHusUs+RNE/UrtGE4jS9AEdBxjnNIINrKg85DnDOmkr5DgJLQ==}
-    engines: {node: '>=14', npm: '>=6'}
-    dependencies:
-      global: 4.4.0
-      video.js: 7.20.3
-    dev: false
-
-  /@codingcatdev/videojs-youtube/0.0.0:
-    resolution: {integrity: sha512-AGS4va6LgU63N6RUUSw6sB5CZu5+MbEH8gSr2X6+EjYwds6mT66LKuVpD0VDI0Pbyy08dPgKvvk+pRaZuTljQQ==}
-    engines: {node: '>=14', npm: '>=6'}
-    dependencies:
-      global: 4.4.0
-      video.js: 7.20.3
-    dev: false
 
   /@colors/colors/1.5.0:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}

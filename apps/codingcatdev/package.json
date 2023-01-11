@@ -41,8 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@codingcatdev/videojs-codingcatdev-youtube": "^0.0.0",
-		"@codingcatdev/videojs-youtube": "^0.0.0",
+		"@codingcatdev/videojs-codingcatdev-youtube": "workspace:^0.0.2",
 		"firebase": "^9.15.0",
 		"firebase-admin": "^11.3.0",
 		"mdsvex": "^0.10.6",
