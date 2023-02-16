@@ -8,7 +8,7 @@
 	/** @type {string=} */
 	export let classes;
 
-	import { lazyload, HtmlImageLayer, responsive } from '@cloudinary/html';
+	import { lazyload, HtmlImageLayer } from '@cloudinary/html';
 	import { CloudinaryImage } from '@cloudinary/url-gen';
 	import { format, quality } from '@cloudinary/url-gen/actions/delivery';
 	import { auto } from '@cloudinary/url-gen/qualifiers/format';
@@ -34,4 +34,4 @@
 	});
 </script>
 
-<img bind:this={bindImage} {alt} class={classes} />
+<img bind:this={bindImage} {alt} class={classes} loading="lazy" decoding="async" />
